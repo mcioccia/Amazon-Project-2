@@ -44,3 +44,11 @@ After the pre-run commit is visible on GitHub, add its permanent commit link bel
 | Did the portfolio verdict or committee decision change? | |
 | Why it matched, failed or stayed unchanged | |
 | Post-run commit URL | |
+
+### Recorded 25 bp practice result
+
+GitHub contained the [pre-run prediction](https://github.com/mcioccia/Amazon-Project-2/commit/337b7ff05b30530c148bfa30aba5245db50669b2) before execution. The commit timestamp was 2026-11-16T20:23:31Z. The practice run began at 2026-11-16T20:28:51.569937+00:00. Only switching cost changed, from 10 to 25 basis points per dollar switched. [Saved output](../outputs/switching-cost-25bp-practice.json).
+
+The lowest-risk feasible portfolio moved from a first-year net estimate of 7.498034% to 7.505646% (+0.761 bp). The actual result differed from the predicted decline. Gross return changed from 7.54637% to 7.63481%, while modeled trading cost changed from 0.04833% to 0.12917%. The difference between those changes explains the observed net direction after reoptimization.
+
+New weights: QQQ 15%, ONEQ 20%, VUG 0%, BIL 65%, IEF 0%, LQD 0%. The portfolio verdict is **PASS**. The practice result supports keeping the existing paper-pilot decision. This scenario is AI-assisted. The separate AI-off record remains pending.
