@@ -13,7 +13,7 @@ Local build prepared November 16, 2026. Replace each local reference with its pe
 | Locked record evidence | Pre-run prediction commit and separate post-run results commit | Pending |
 | Video 1 · Process and AI verification | ≤3:00. [Recording dashboard](../Video-1-Dashboard.html) · [Timed script and screen cues](video-1-recording-guide.md). | YouTube URL, actual duration, timestamp index, corrected transcript link pending |
 | Video 2 · Code walkthrough | ≤5:00. [Code walkthrough dashboard](../Video-2-Dashboard.html) · [Timed narration and recording checklist](video-2-recording-guide.md). | YouTube URL, actual duration, timestamp index, corrected transcript link pending |
-| Video 3 · Committee presentation | ≤5:00. Start with the disclosures, show the running app immediately, compare all three portfolios, change a control, show a pause, and defend the range. | YouTube URL, actual duration, timestamp index, corrected transcript link pending |
+| Video 3 · Committee presentation | ≤5:00. [Live-app click guide and timed script](video-3-recording-guide.md). | YouTube URL, actual duration, timestamp index, corrected transcript link pending |
 | Deployment | Local Streamlit app from the README | Hosted link optional |
 
 ### Matt’s remaining work
