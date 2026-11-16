@@ -1,6 +1,6 @@
 # Validation and AI use
 
-AI-use disclosure: OpenAI Codex assisted with software, analysis and writing. Educational purposes only. Not financial or investment advice.
+AI-use disclosure: OpenAI Codex assisted with software, analysis and writing. Matt chose the 10-to-25 bp switching-cost change. Codex wrote its prediction and reasoning. The course's AI-off prediction remains pending. Educational purposes only. Not financial or investment advice.
 
 **Evidence date.** Built November 16, 2026 using the October 30 historical decision snapshot. See [data card](data-card.md) for sources, units and both vintage dates. The baseline and stressed numbers are estimates from archived inputs. No live client account, realized performance or genuinely untouched holdout is claimed. A forward paper record must begin after the committee freezes the process.
 
@@ -29,10 +29,10 @@ Close AI, choose **one new input change whose output you have never seen**, and 
 
 | Before run · fill with AI closed | Your entry |
 |---|---|
-| Base decision and all held-fixed settings | |
-| One input, old and new values, units | |
-| Predicted direction for a named output and decision effect | |
-| Economic reasoning | |
+| Base decision and all held-fixed settings | My starting decision is to pilot the portfolio on paper. The base settings are a 7.49% annual net return target, a 3% minimum in BIL (10% after the CPI rule), 59 monthly returns, a switching cost of 10 basis points, a 0-point shift in the QQQ return estimate, and 0 extra days of signal delay. I’ll keep everything at base except the one input I list below. |
+| One input, old and new values, units | I'm raising the switching cost from 10 to 25 basis points per dollar switched. |
+| Predicted direction for a named output and decision effect | I expect the selected portfolio's estimated net return to fall slightly from 7.498% and stay close to the 7.49% target. I'd still pilot it on paper. |
+| Economic reasoning | Switching costs take a bigger bite out of the return on the current mix. The app can choose different weights to cover some of that extra cost, so I expect a small change. |
 
 After the pre-run commit is visible on GitHub, add its permanent commit link below. Run exactly that scenario in the app or with `python analysis.py --help` to see the command options. Save the actual result, commit it separately and retain both commits.
 
