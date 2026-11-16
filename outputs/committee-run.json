@@ -1,0 +1,548 @@
+{
+  "disclosure": "AI-use disclosure: Prepared with OpenAI Codex assistance; verify results. Educational purposes only. Not financial or investment advice.",
+  "decision_date": "2026-10-30",
+  "inputs": {
+    "target": 7.49,
+    "reserve": 3.0,
+    "window": 59,
+    "cost_bp": 10.0,
+    "qqq_shift": 0.0,
+    "lag": 0
+  },
+  "base": {
+    "signal": {
+      "vintage": "2026-10-28",
+      "requested": "2026-10-29",
+      "download": "2026-10-29T13:40:47.670523-04:00",
+      "cutoff": "2026-10-30",
+      "month": "2026-09-01",
+      "level": 336.298,
+      "prior_month": "2025-09-01",
+      "prior": 324.245,
+      "yoy": 3.7172508442689933,
+      "floor": 10.0,
+      "source": "https://alfred.stlouisfed.org/graph/alfredgraph.csv?id=CPIAUCSL&vintage_date=2026-10-29"
+    },
+    "floor": 0.1,
+    "results": {
+      "Equal weight": {
+        "weights": {
+          "QQQ": 0.16666666666666666,
+          "ONEQ": 0.16666666666666666,
+          "VUG": 0.16666666666666666,
+          "BIL": 0.16666666666666666,
+          "IEF": 0.16666666666666666,
+          "LQD": 0.16666666666666666
+        },
+        "gross": 0.07494385949598528,
+        "net": 0.07494385949598528,
+        "risk": 0.12137798117097887,
+        "reserve": 0.16666666666666666,
+        "turnover": 0.0,
+        "cost": 0.0,
+        "verdict": "PASS",
+        "rules": []
+      },
+      "Inverse volatility": {
+        "weights": {
+          "QQQ": 0.019874140799353488,
+          "ONEQ": 0.02039463012151624,
+          "VUG": 0.02042809336222593,
+          "BIL": 0.843674759195822,
+          "IEF": 0.05366001966221258,
+          "LQD": 0.041968356858869675
+        },
+        "gross": 0.03842729763164054,
+        "net": 0.03775028953911138,
+        "risk": 0.0199906356374337,
+        "reserve": 0.843674759195822,
+        "turnover": 0.6770080925291554,
+        "cost": 0.0006770080925291554,
+        "verdict": "FAIL",
+        "rules": [
+          "First-year net return below objective"
+        ]
+      },
+      "Constrained": {
+        "weights": {
+          "QQQ": 0.15,
+          "ONEQ": 0.05,
+          "VUG": 0.15,
+          "BIL": 0.65,
+          "IEF": 0.0,
+          "LQD": 0.0
+        },
+        "gross": 0.07546367503559534,
+        "net": 0.074980341702262,
+        "risk": 0.07240552784237987,
+        "reserve": 0.65,
+        "turnover": 0.48333333333333334,
+        "cost": 0.00048333333333333334,
+        "verdict": "PASS",
+        "rules": []
+      }
+    },
+    "feasible": 15294,
+    "estimate_start": "2021-11-30",
+    "estimate_end": "2026-09-30",
+    "stop": null
+  },
+  "stresses": {
+    "QQQ estimate \u22121 point": {
+      "signal": {
+        "vintage": "2026-10-28",
+        "requested": "2026-10-29",
+        "download": "2026-10-29T13:40:47.670523-04:00",
+        "cutoff": "2026-10-30",
+        "month": "2026-09-01",
+        "level": 336.298,
+        "prior_month": "2025-09-01",
+        "prior": 324.245,
+        "yoy": 3.7172508442689933,
+        "floor": 10.0,
+        "source": "https://alfred.stlouisfed.org/graph/alfredgraph.csv?id=CPIAUCSL&vintage_date=2026-10-29"
+      },
+      "floor": 0.1,
+      "results": {
+        "Equal weight": {
+          "weights": {
+            "QQQ": 0.16666666666666666,
+            "ONEQ": 0.16666666666666666,
+            "VUG": 0.16666666666666666,
+            "BIL": 0.16666666666666666,
+            "IEF": 0.16666666666666666,
+            "LQD": 0.16666666666666666
+          },
+          "gross": 0.07327719282931862,
+          "net": 0.07327719282931862,
+          "risk": 0.12137798117097887,
+          "reserve": 0.16666666666666666,
+          "turnover": 0.0,
+          "cost": 0.0,
+          "verdict": "FAIL",
+          "rules": [
+            "First-year net return below objective"
+          ]
+        },
+        "Inverse volatility": {
+          "weights": {
+            "QQQ": 0.019874140799353488,
+            "ONEQ": 0.02039463012151624,
+            "VUG": 0.02042809336222593,
+            "BIL": 0.843674759195822,
+            "IEF": 0.05366001966221258,
+            "LQD": 0.041968356858869675
+          },
+          "gross": 0.03822855622364701,
+          "net": 0.03755154813111785,
+          "risk": 0.0199906356374337,
+          "reserve": 0.843674759195822,
+          "turnover": 0.6770080925291554,
+          "cost": 0.0006770080925291554,
+          "verdict": "FAIL",
+          "rules": [
+            "First-year net return below objective"
+          ]
+        },
+        "Constrained": {
+          "weights": {
+            "QQQ": 0.25,
+            "ONEQ": 0.1,
+            "VUG": 0.0,
+            "BIL": 0.65,
+            "IEF": 0.0,
+            "LQD": 0.0
+          },
+          "gross": 0.0756299886400889,
+          "net": 0.07506332197342222,
+          "risk": 0.07316008452171426,
+          "reserve": 0.65,
+          "turnover": 0.5666666666666667,
+          "cost": 0.0005666666666666667,
+          "verdict": "PASS",
+          "rules": []
+        }
+      },
+      "feasible": 14649,
+      "estimate_start": "2021-11-30",
+      "estimate_end": "2026-09-30",
+      "stop": null
+    },
+    "36-month window": {
+      "signal": {
+        "vintage": "2026-10-28",
+        "requested": "2026-10-29",
+        "download": "2026-10-29T13:40:47.670523-04:00",
+        "cutoff": "2026-10-30",
+        "month": "2026-09-01",
+        "level": 336.298,
+        "prior_month": "2025-09-01",
+        "prior": 324.245,
+        "yoy": 3.7172508442689933,
+        "floor": 10.0,
+        "source": "https://alfred.stlouisfed.org/graph/alfredgraph.csv?id=CPIAUCSL&vintage_date=2026-10-29"
+      },
+      "floor": 0.1,
+      "results": {
+        "Equal weight": {
+          "weights": {
+            "QQQ": 0.16666666666666666,
+            "ONEQ": 0.16666666666666666,
+            "VUG": 0.16666666666666666,
+            "BIL": 0.16666666666666666,
+            "IEF": 0.16666666666666666,
+            "LQD": 0.16666666666666666
+          },
+          "gross": 0.14927617440221796,
+          "net": 0.14927617440221796,
+          "risk": 0.0954049571508612,
+          "reserve": 0.16666666666666666,
+          "turnover": 0.0,
+          "cost": 0.0,
+          "verdict": "PASS",
+          "rules": []
+        },
+        "Inverse volatility": {
+          "weights": {
+            "QQQ": 0.011279512768863941,
+            "ONEQ": 0.011349366445434054,
+            "VUG": 0.011518980400372794,
+            "BIL": 0.9117442537081297,
+            "IEF": 0.029225094274109267,
+            "LQD": 0.02488279240309018
+          },
+          "gross": 0.05070413127419579,
+          "net": 0.04995905368715433,
+          "risk": 0.008551863803846345,
+          "reserve": 0.9117442537081297,
+          "turnover": 0.7450775870414631,
+          "cost": 0.0007450775870414631,
+          "verdict": "FAIL",
+          "rules": [
+            "First-year net return below objective"
+          ]
+        },
+        "Constrained": {
+          "weights": {
+            "QQQ": 0.1,
+            "ONEQ": 0.0,
+            "VUG": 0.05,
+            "BIL": 0.85,
+            "IEF": 0.0,
+            "LQD": 0.0
+          },
+          "gross": 0.07596828691143773,
+          "net": 0.0752849535781044,
+          "risk": 0.025758012639136834,
+          "reserve": 0.85,
+          "turnover": 0.6833333333333333,
+          "cost": 0.0006833333333333333,
+          "verdict": "PASS",
+          "rules": []
+        }
+      },
+      "feasible": 31143,
+      "estimate_start": "2023-10-31",
+      "estimate_end": "2026-09-30",
+      "stop": null
+    },
+    "48-month window": {
+      "signal": {
+        "vintage": "2026-10-28",
+        "requested": "2026-10-29",
+        "download": "2026-10-29T13:40:47.670523-04:00",
+        "cutoff": "2026-10-30",
+        "month": "2026-09-01",
+        "level": 336.298,
+        "prior_month": "2025-09-01",
+        "prior": 324.245,
+        "yoy": 3.7172508442689933,
+        "floor": 10.0,
+        "source": "https://alfred.stlouisfed.org/graph/alfredgraph.csv?id=CPIAUCSL&vintage_date=2026-10-29"
+      },
+      "floor": 0.1,
+      "results": {
+        "Equal weight": {
+          "weights": {
+            "QQQ": 0.16666666666666666,
+            "ONEQ": 0.16666666666666666,
+            "VUG": 0.16666666666666666,
+            "BIL": 0.16666666666666666,
+            "IEF": 0.16666666666666666,
+            "LQD": 0.16666666666666666
+          },
+          "gross": 0.15003017487740922,
+          "net": 0.15003017487740922,
+          "risk": 0.10167580287841474,
+          "reserve": 0.16666666666666666,
+          "turnover": 0.0,
+          "cost": 0.0,
+          "verdict": "PASS",
+          "rules": []
+        },
+        "Inverse volatility": {
+          "weights": {
+            "QQQ": 0.011860740274648385,
+            "ONEQ": 0.012085514888114228,
+            "VUG": 0.012295897182877474,
+            "BIL": 0.9097607409528897,
+            "IEF": 0.0297427521436136,
+            "LQD": 0.024254354557856635
+          },
+          "gross": 0.05091574162906901,
+          "net": 0.05017264755478279,
+          "risk": 0.00934108573915146,
+          "reserve": 0.9097607409528897,
+          "turnover": 0.743094074286223,
+          "cost": 0.000743094074286223,
+          "verdict": "FAIL",
+          "rules": [
+            "First-year net return below objective"
+          ]
+        },
+        "Constrained": {
+          "weights": {
+            "QQQ": 0.05,
+            "ONEQ": 0.0,
+            "VUG": 0.1,
+            "BIL": 0.85,
+            "IEF": 0.0,
+            "LQD": 0.0
+          },
+          "gross": 0.07638682401558039,
+          "net": 0.07570349068224706,
+          "risk": 0.02623078887194402,
+          "reserve": 0.85,
+          "turnover": 0.6833333333333333,
+          "cost": 0.0006833333333333333,
+          "verdict": "PASS",
+          "rules": []
+        }
+      },
+      "feasible": 30831,
+      "estimate_start": "2022-10-31",
+      "estimate_end": "2026-09-30",
+      "stop": null
+    },
+    "Cost 50 bp": {
+      "signal": {
+        "vintage": "2026-10-28",
+        "requested": "2026-10-29",
+        "download": "2026-10-29T13:40:47.670523-04:00",
+        "cutoff": "2026-10-30",
+        "month": "2026-09-01",
+        "level": 336.298,
+        "prior_month": "2025-09-01",
+        "prior": 324.245,
+        "yoy": 3.7172508442689933,
+        "floor": 10.0,
+        "source": "https://alfred.stlouisfed.org/graph/alfredgraph.csv?id=CPIAUCSL&vintage_date=2026-10-29"
+      },
+      "floor": 0.1,
+      "results": {
+        "Equal weight": {
+          "weights": {
+            "QQQ": 0.16666666666666666,
+            "ONEQ": 0.16666666666666666,
+            "VUG": 0.16666666666666666,
+            "BIL": 0.16666666666666666,
+            "IEF": 0.16666666666666666,
+            "LQD": 0.16666666666666666
+          },
+          "gross": 0.07494385949598528,
+          "net": 0.07494385949598528,
+          "risk": 0.12137798117097887,
+          "reserve": 0.16666666666666666,
+          "turnover": 0.0,
+          "cost": 0.0,
+          "verdict": "PASS",
+          "rules": []
+        },
+        "Inverse volatility": {
+          "weights": {
+            "QQQ": 0.019874140799353488,
+            "ONEQ": 0.02039463012151624,
+            "VUG": 0.02042809336222593,
+            "BIL": 0.843674759195822,
+            "IEF": 0.05366001966221258,
+            "LQD": 0.041968356858869675
+          },
+          "gross": 0.03842729763164054,
+          "net": 0.03504225716899476,
+          "risk": 0.0199906356374337,
+          "reserve": 0.843674759195822,
+          "turnover": 0.6770080925291554,
+          "cost": 0.003385040462645777,
+          "verdict": "FAIL",
+          "rules": [
+            "First-year net return below objective"
+          ]
+        },
+        "Constrained": {
+          "weights": {
+            "QQQ": 0.25,
+            "ONEQ": 0.05,
+            "VUG": 0.05,
+            "BIL": 0.65,
+            "IEF": 0.0,
+            "LQD": 0.0
+          },
+          "gross": 0.07783517086632863,
+          "net": 0.0750018375329953,
+          "risk": 0.07306390349178105,
+          "reserve": 0.65,
+          "turnover": 0.5666666666666667,
+          "cost": 0.002833333333333333,
+          "verdict": "PASS",
+          "rules": []
+        }
+      },
+      "feasible": 14743,
+      "estimate_start": "2021-11-30",
+      "estimate_end": "2026-09-30",
+      "stop": null
+    },
+    "BIL minimum 90%": {
+      "signal": {
+        "vintage": "2026-10-28",
+        "requested": "2026-10-29",
+        "download": "2026-10-29T13:40:47.670523-04:00",
+        "cutoff": "2026-10-30",
+        "month": "2026-09-01",
+        "level": 336.298,
+        "prior_month": "2025-09-01",
+        "prior": 324.245,
+        "yoy": 3.7172508442689933,
+        "floor": 10.0,
+        "source": "https://alfred.stlouisfed.org/graph/alfredgraph.csv?id=CPIAUCSL&vintage_date=2026-10-29"
+      },
+      "floor": 0.9,
+      "results": {
+        "Equal weight": {
+          "weights": {
+            "QQQ": 0.16666666666666666,
+            "ONEQ": 0.16666666666666666,
+            "VUG": 0.16666666666666666,
+            "BIL": 0.16666666666666666,
+            "IEF": 0.16666666666666666,
+            "LQD": 0.16666666666666666
+          },
+          "gross": 0.07494385949598528,
+          "net": 0.07494385949598528,
+          "risk": 0.12137798117097887,
+          "reserve": 0.16666666666666666,
+          "turnover": 0.0,
+          "cost": 0.0,
+          "verdict": "FAIL",
+          "rules": [
+            "BIL below effective reserve minimum"
+          ]
+        },
+        "Inverse volatility": {
+          "weights": {
+            "QQQ": 0.019874140799353488,
+            "ONEQ": 0.02039463012151624,
+            "VUG": 0.02042809336222593,
+            "BIL": 0.843674759195822,
+            "IEF": 0.05366001966221258,
+            "LQD": 0.041968356858869675
+          },
+          "gross": 0.03842729763164054,
+          "net": 0.03775028953911138,
+          "risk": 0.0199906356374337,
+          "reserve": 0.843674759195822,
+          "turnover": 0.6770080925291554,
+          "cost": 0.0006770080925291554,
+          "verdict": "FAIL",
+          "rules": [
+            "First-year net return below objective",
+            "BIL below effective reserve minimum"
+          ]
+        },
+        "Constrained": null
+      },
+      "feasible": 0,
+      "estimate_start": "2021-11-30",
+      "estimate_end": "2026-09-30",
+      "stop": "No eligible allocation. Pause allocation."
+    },
+    "Prior CPI vintage (30-day lag)": {
+      "signal": {
+        "vintage": "2026-09-30",
+        "requested": "2026-09-30",
+        "download": "2026-10-29T13:38:46.587039-04:00",
+        "cutoff": "2026-09-30",
+        "month": "2026-08-01",
+        "level": 334.131,
+        "prior_month": "2025-08-01",
+        "prior": 323.291,
+        "yoy": 3.353016322755642,
+        "floor": 10.0,
+        "source": "https://alfred.stlouisfed.org/graph/alfredgraph.csv?id=CPIAUCSL&vintage_date=2026-09-30"
+      },
+      "floor": 0.1,
+      "results": {
+        "Equal weight": {
+          "weights": {
+            "QQQ": 0.16666666666666666,
+            "ONEQ": 0.16666666666666666,
+            "VUG": 0.16666666666666666,
+            "BIL": 0.16666666666666666,
+            "IEF": 0.16666666666666666,
+            "LQD": 0.16666666666666666
+          },
+          "gross": 0.07494385949598528,
+          "net": 0.07494385949598528,
+          "risk": 0.12137798117097887,
+          "reserve": 0.16666666666666666,
+          "turnover": 0.0,
+          "cost": 0.0,
+          "verdict": "PASS",
+          "rules": []
+        },
+        "Inverse volatility": {
+          "weights": {
+            "QQQ": 0.019874140799353488,
+            "ONEQ": 0.02039463012151624,
+            "VUG": 0.02042809336222593,
+            "BIL": 0.843674759195822,
+            "IEF": 0.05366001966221258,
+            "LQD": 0.041968356858869675
+          },
+          "gross": 0.03842729763164054,
+          "net": 0.03775028953911138,
+          "risk": 0.0199906356374337,
+          "reserve": 0.843674759195822,
+          "turnover": 0.6770080925291554,
+          "cost": 0.0006770080925291554,
+          "verdict": "FAIL",
+          "rules": [
+            "First-year net return below objective"
+          ]
+        },
+        "Constrained": {
+          "weights": {
+            "QQQ": 0.15,
+            "ONEQ": 0.05,
+            "VUG": 0.15,
+            "BIL": 0.65,
+            "IEF": 0.0,
+            "LQD": 0.0
+          },
+          "gross": 0.07546367503559534,
+          "net": 0.074980341702262,
+          "risk": 0.07240552784237987,
+          "reserve": 0.65,
+          "turnover": 0.48333333333333334,
+          "cost": 0.00048333333333333334,
+          "verdict": "PASS",
+          "rules": []
+        }
+      },
+      "feasible": 15294,
+      "estimate_start": "2021-11-30",
+      "estimate_end": "2026-09-30",
+      "stop": null
+    }
+  }
+}

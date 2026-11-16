@@ -1,0 +1,5 @@
+AI-use disclosure: Prepared with OpenAI Codex assistance; verify results. Educational purposes only. Not financial or investment advice.
+PASS independent full grid, risk, costs, baseline and feasibility counts.
+PASS Lab 15 parity, same-vintage CPI, publication cutoff, gap refusal and infeasibility.
+PASS saved output reproducibility and operating the app through its controls.
+PASS isolated cold start: copied project to a temporary directory, created a new Python 3.12 environment, installed only requirements.txt and passed verify.py including Streamlit app interactions.

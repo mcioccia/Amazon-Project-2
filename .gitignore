@@ -1,0 +1,6 @@
+# AI-assisted coursework. Educational only. Not financial or investment advice.
+.venv/
+__pycache__/
+*.pyc
+.env
+.streamlit/secrets.toml
