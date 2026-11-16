@@ -11,7 +11,7 @@ Local build prepared November 16, 2026. Replace each local reference with its pe
 | Validation and AI use | [Validation and AI use](validation-and-ai-use.md) | Complete personal check and locked record |
 | Visible output | [Executed base and stresses](../outputs/committee-run.json), [verification](../outputs/verification.txt) | GitHub URLs pending |
 | Locked record evidence | Pre-run prediction commit and separate post-run results commit | Pending |
-| Video 1 · Process and AI verification | ≤3:00. Show the Lab 15-to-project change and a number you checked yourself. | YouTube URL, actual duration, timestamp index, corrected transcript link pending |
+| Video 1 · Process and AI verification | ≤3:00. [Recording dashboard](../Video-1-Dashboard.html) · [Timed script and screen cues](video-1-recording-guide.md). | YouTube URL, actual duration, timestamp index, corrected transcript link pending |
 | Video 2 · Code walkthrough | ≤5:00. Trace price inputs → covariance → cost-adjusted search → reported verdict. Explain the CPI cutoff. | YouTube URL, actual duration, timestamp index, corrected transcript link pending |
 | Video 3 · Committee presentation | ≤5:00. Start with the disclosures, show the running app immediately, compare all three portfolios, change a control, show a pause, and defend the range. | YouTube URL, actual duration, timestamp index, corrected transcript link pending |
 | Deployment | Local Streamlit app from the README | Hosted link optional |
