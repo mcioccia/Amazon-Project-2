@@ -21,7 +21,7 @@ AI-use disclosure: OpenAI Codex assisted with software, analysis and writing. Ma
 
 **AI use.** OpenAI Codex, November 16, 2026, adapted the Lab 15 estimator/search, proposed the committee benchmark and cost-aware pilot terms, extracted the Lab 17 CPI vintages, built the interface, wrote verification code and drafted the committee documents. Matt previously selected the six ETFs, objective, reserve, and conditional pilot. Lab 19's NVIDIA business screens are supplementary company research. They do not estimate ETF returns or set ETF weights.
 
-**Student check to record personally.** Use the CPI values or the turnover calculation in the memo, recompute it independently and record your calculation, source, finding and date here. Automated independent code verification appears above. Personal check: pending.
+**Matt's independent calculation check (November 16, 2026).** I got $48.33 for the base trading cost on a $100,000 portfolio. At 48.33% one-way turnover, I would switch $48,330. At 10 basis points (0.10%) per dollar switched, the cost is $48,330 × 0.001 = **$48.33**. The model uses unrounded turnover and also gives $48.33 to the nearest cent. [Base run, constrained portfolio](../outputs/committee-run.json)
 
 ## Locked Changed-Input Record — student completes
 
