@@ -6,9 +6,9 @@ This is an educational course project. It is not financial or investment advice.
 
 Target 2:30. Course limit 3:00. Open [the dashboard](../Video-1-Dashboard.html) in your browser. Start at Opening. Use the right arrow after each cue. Press N to show or hide the matching narration, or read this guide on a second screen. Times are rehearsal targets. The corrected transcript should follow what you actually say.
 
-## 0:00–0:23 · From a lab model to a committee decision
+## 0:00–0:27 · Would I fund this portfolio?
 
-**On screen.** Start here. Read both disclosures before introducing the project.
+**On screen.** Read both disclosures, then point to the proposed allocation.
 
 **Say**
 
@@ -16,39 +16,39 @@ I used OpenAI Codex to adapt my lab code, test calculations, and help draft this
 
 This is an educational course project. It is not financial or investment advice.
 
-My question was whether I’d let a committee use this portfolio process with real money.
+I’d pilot this six-fund process on paper. The mix clears my target, but the allocation depends on how much history I use.
 
-## 0:23–0:52 · What changed after Lab 15?
+## 0:27–0:55 · What changed from Lab 15?
 
-**On screen.** Point first to the gross-return test, then to the after-cost test.
-
-**Say**
-
-In Lab 15, I asked which mix of six funds had the lowest estimated risk while meeting my return target. I kept the 7.49% target for Project 2, but I started asking what it would actually cost to get there. I assumed the committee starts at equal weight. Now the app charges for moving those dollars, then checks whether the portfolio still clears the target.
-
-## 0:52–1:20 · What does the extra risk buy?
-
-**On screen.** Point to inverse volatility’s net return, then compare the risk of the two passing portfolios.
+**On screen.** Trace ONEQ across the two bars, then point to the inflation trigger.
 
 **Say**
 
-The baselines gave me a way to judge the model. Equal weight already passes. Inverse volatility has the lowest estimated risk here, but its net return falls short. My constrained mix also passes and has lower estimated risk than equal weight. What stood out to me was how little room it has: a 7.498% net estimate against a 7.49% target. That’s less than one basis point of cushion.
+In Lab 15 I searched for the lowest-risk mix meeting a 7.49% gross target. Project 2 starts at equal weight and charges for the trade before testing that target. BIL stays at 65%, but ONEQ drops from 20% to 5%. The September inflation reading available on decision day also raised my minimum Treasury-bill reserve to 10%.
 
-## 1:20–1:52 · I checked the trading cost in dollars
+## 0:55–1:23 · Which mix earns its risk?
 
-**On screen.** Follow each step from the account value to the dollar cost you calculated.
-
-**Say**
-
-One AI-assisted output I checked myself was the trading cost. I used a hundred-thousand-dollar account. The model switches 48.33% of it, so the amount changing hands is 48,330 dollars. Ten basis points is one tenth of one percent. I multiplied the amount switched by point zero zero one and got 48 dollars and 33 cents. That matched the model to the cent. The cost applies to the dollars I move.
-
-## 1:52–2:30 · Why I’d pilot it on paper
-
-**On screen.** Point to the two BIL weights and finish on the decision. Pause before stopping the recording.
+**On screen.** Compare the two passing rows, then point to the constrained portfolio’s return cushion.
 
 **Say**
 
-The window test is why I’d keep this on paper. With all 59 monthly returns, the model puts 65% in BIL, the Treasury-bill fund. With the most recent 36 returns, it puts 85% there. My target stayed the same, but changing the history moved a fifth of the portfolio into BIL. I’d take that shift back to the committee and track actual results and costs before asking for a funded allocation.
+Equal weight already passes. The constrained mix earns almost the same estimated net return while cutting annual volatility from about 12.14% to 7.24%. Inverse volatility takes even less risk, but it misses the return target. The figure I’d flag for the committee is the cushion on our selected mix. It clears the target by only 0.80 basis points.
+
+## 1:23–1:54 · Does the trading charge add up?
+
+**On screen.** Follow the dollars switched into the calculator check, then compare gross and net return.
+
+**Say**
+
+I checked the fee myself on a hundred-thousand-dollar account. The model switches about 48,333 dollars. Ten basis points is one tenth of one percent, so I multiply the dollars switched by 0.001 and get 48 dollars and 33 cents. That matches the model. Across the whole account the charge is 4.83 basis points, which brings the gross estimate down to 7.498% net.
+
+## 1:54–2:30 · How stable is the allocation?
+
+**On screen.** Compare BIL across all three bars. End on the review trigger and the stop condition.
+
+**Say**
+
+With 59 months, BIL gets 65%. Shorten the history to 48 or 36 months and it gets 85%. That 20-point shift is enough for me to call for committee review. There’s also a real stop condition. If I require 90% in BIL, no mix clears the target. I’d keep this on paper and track actual costs and results before asking the committee to fund it.
 
 ## Evidence
 
