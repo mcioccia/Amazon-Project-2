@@ -8,7 +8,9 @@ This is an educational course project. It is not financial or investment advice.
 
 ## Start the app
 
-From a terminal opened in this directory, use Python 3.12 and the following commands on Windows. No account, API key or download of financial data is required. Installing packages requires internet access.
+Open this repository on GitHub. If GitHub shows a 404 page, sign in to the account invited to the private repository and accept the invitation. Select **Code → Download ZIP**, extract the entire archive, and open the extracted folder containing **app.py**, **requirements.txt**, and this README. On Windows, right-click inside that folder and choose **Open in Terminal**.
+
+Use Python 3.12 and the following commands on Windows. If the first command reports that Python 3.12 is missing, install it from [python.org](https://www.python.org/downloads/) and reopen the terminal. No financial-data account, API key or download of financial data is required. Installing packages requires internet access.
 
 ```powershell
 py -3.12 -m venv .venv
@@ -16,7 +18,7 @@ py -3.12 -m venv .venv
 .\.venv\Scripts\python.exe -m streamlit run app.py
 ```
 
-On macOS or Linux use `python3.12 -m venv .venv` and replace the Python executable in the remaining commands with `.venv/bin/python`. Open the local URL printed by Streamlit. From an environment already containing the dependencies, `python -m streamlit run app.py` is sufficient.
+On macOS or Linux use `python3.12 -m venv .venv` and replace the Python executable in the remaining commands with `.venv/bin/python`. Open the local URL printed by Streamlit on the same computer and keep the terminal running. A localhost link points to the computer opening it, so each reviewer starts their own copy of the app. From an environment already containing the dependencies, `python -m streamlit run app.py` is sufficient.
 
 The **Decision** tab displays mandate verdicts, allocations and annual net estimates. Change a sidebar control to run the whole comparison. **Stress results** shows saved-base perturbations. **Point-in-time signal** shows the permitted vintage and reserve effect. **Mandate** distinguishes the student's established rules from the committee terms proposed for this pilot. With base settings, raising the reserve to the documented 90% stress illustrates an infeasible portfolio. Reset to 3% afterward.
 
