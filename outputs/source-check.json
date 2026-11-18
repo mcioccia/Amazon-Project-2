@@ -2,7 +2,7 @@
   "disclosure": "OpenAI Codex assisted with source documentation. Educational purposes only. Not financial or investment advice.",
   "checked_at": "2026-11-18T16:34:47.366564-05:00",
   "checker": "OpenAI Codex, automated retrieval comparison",
-  "student_independent_check": "Partially complete: Matt supplied QQQ source screenshots; his calculation and interpretation remain pending.",
+  "student_independent_check": "Source and calculator evidence received; Matt's access-date confirmation and interpretation remain pending.",
   "training": {
     "url": "https://raw.githubusercontent.com/CinderZhang/FIN43900-Fall2026/main/lessons/week-02/starter/mini_case.csv",
     "sha256": "471ac3a529d7ac29e3b8a04cdd32a55b828edb6a38906ebd1eb54805c82850cb"
@@ -42,7 +42,24 @@
       {
         "path": "docs/evidence/qqq-source-2026-08-31.png",
         "sha256": "4272cb7b5f55ab2674311f9f2cc073d4efe01abade3d7a8fbe7dd24ceea0e669"
+      },
+      {
+        "path": "docs/evidence/qqq-return-calculator-input.png",
+        "sha256": "77702fc22ec8c384e127598d44498297519939447499586e7f8398409348e5ae"
+      },
+      {
+        "path": "docs/evidence/qqq-return-calculator-result.png",
+        "sha256": "049965bc82b82138548bcb882040a47903e905d033bff7172a3f2f93f2986292"
       }
-    ]
+    ],
+    "calculator_check": {
+      "received_date": "2026-11-18",
+      "formula": "(739.77 / 716.01 - 1) * 100",
+      "displayed_result_percent": 3.31838940797,
+      "rounded_result_percent": 3.32,
+      "archived_full_precision_result_percent": 3.31782706792,
+      "provenance": "Formula supplied by Codex; calculator input and result screenshots supplied by Matt; arithmetic and rounding explanation checked by Codex.",
+      "remaining": "Matt access-date confirmation and personal interpretation"
+    }
   }
 }

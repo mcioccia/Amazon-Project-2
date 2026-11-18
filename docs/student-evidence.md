@@ -6,9 +6,9 @@ This is an educational course project. It is not financial or investment advice.
 
 ## Source check
 
-**Status: source screenshots received; Matt's own monthly-return calculation and interpretation pending.**
+**Status: source screenshots and Matt's calculator check received; access-date confirmation and personal interpretation pending.**
 
-On November 18, 2026, Matt supplied two screenshots of Yahoo Finance's QQQ daily historical prices. The images are preserved unchanged below. Codex transcribed the visible values and compared them with the archived input file; this transcription is not Matt's independent arithmetic.
+On November 18, 2026, Matt supplied two screenshots of Yahoo Finance's QQQ daily historical prices. The images are preserved unchanged below. Codex transcribed the visible values and compared them with the archived input file. Matt then supplied screenshots of his calculator input and result, retained below. Codex supplied the formula earlier and verified the arithmetic afterward; the calculator execution is Matt's evidence and is separate from the AI-off prediction requirement.
 
 [Yahoo page shown in both screenshots](https://finance.yahoo.com/quote/QQQ/history/?period1=1785542400&period2=1790812800&frequency=1d) · [Archived prices](../data/prices.csv) · [Original source ledger](../data/source-ledger.json)
 
@@ -25,7 +25,7 @@ The September image identifies QQQ, USD, Daily frequency, column headings and th
 | Source and input | Yahoo Finance QQQ daily historical data; adjusted close, USD per share |
 | Values visible in Matt's screenshots | August 31: 716.01; September 30: 739.77 |
 | Comparison performed by Codex | Both observations match the October 22 archive to the source's displayed cent precision |
-| Matt's independent calculation | Pending: use (September Adj Close / August Adj Close - 1) x 100 and retain calculator or handwritten evidence |
+| Matt's calculator check | (739.77 / 716.01 - 1) x 100 = 3.31838940797%, or +3.32% for September; input and result screenshots supplied |
 | Matt's explanation of any match or difference | Pending personal response; no difference visible at cent precision |
 | Effect on Matt's decision | Pending personal response |
 
@@ -43,12 +43,24 @@ Original screenshots are retained without editing. The AI disclosure and educati
 
 ![QQQ August 31 daily historical row showing Adj Close of 716.01](evidence/qqq-source-2026-08-31.png)
 
+### Calculator evidence supplied by Matt
+
+The first image shows the formula entered. The second shows the evaluated result, **3.31838940797**. Because the formula multiplies by 100, the result is **3.31838940797%**, a positive September monthly return.
+
+![Matt's calculator input using the two displayed QQQ adjusted closes](evidence/qqq-return-calculator-input.png)
+
+![Matt's calculator result of 3.31838940797 percent](evidence/qqq-return-calculator-result.png)
+
+**Codex arithmetic cross-check:** the cent-rounded source values reproduce Matt's result. The full-precision archived prices produce 3.31782706792%, a difference of 0.00056234005 percentage points due to rounding the prices. Both results round to **3.32%**. No input-file or model change is needed for this rounding difference. This explanation is supplied by Codex; Matt's interpretation and effect on his decision remain open above.
+
 File fingerprints identify the exact attachments preserved here; they do not establish when the screenshots were captured.
 
 | File | SHA-256 |
 |---|---|
 | qqq-source-2026-09-30.png | edbfc331736c756de5c98c8a60fdbe5ffecbc6cb0843574b59515be82f90e8fc |
 | qqq-source-2026-08-31.png | 4272cb7b5f55ab2674311f9f2cc073d4efe01abade3d7a8fbe7dd24ceea0e669 |
+| qqq-return-calculator-input.png | 77702fc22ec8c384e127598d44498297519939447499586e7f8398409348e5ae |
+| qqq-return-calculator-result.png | 049965bc82b82138548bcb882040a47903e905d033bff7172a3f2f93f2986292 |
 
 ## Highest-risk claim and three possible failures
 
