@@ -31,6 +31,10 @@ The September image identifies QQQ, USD, Daily frequency, column headings and th
 
 This sample supports two month-end observations. It does not verify every fund or date, the entire annual estimate, or future performance. QQQ's estimated return affects the target constraint, so this check concerns a portfolio input. The separate [automated CPI comparison](../outputs/source-check.json) supplies additional evidence; the CPI reserve floor is slack at base.
 
+### Matt's response — November 18, 2026
+
+Yes, I checked Yahoo today. Since the number were aligned with what my algorithm has come up with, this actually makes more way more confident to proceed, especially when it is using the correct data. I still want to pilot it.
+
 ### Screenshots supplied by Matt
 
 Original screenshots are retained without editing. The AI disclosure and educational-use notice at the top of this record apply to the organization and explanation of these attachments.
