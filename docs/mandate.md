@@ -1,19 +1,39 @@
+I used OpenAI Codex to help implement and document the portfolio rules. I am responsible for the analysis and decision.
+
+This is an educational course project. It is not financial or investment advice.
+
 # Committee mandate
 
-The student selected QQQ, ONEQ, VUG, BIL, IEF and LQD, a 7.49% annual expected return target, a 3% minimum invested in BIL, and a pilot until the allocation holds up across estimation windows. The target was the rounded equal-weight historical average in Lab 15. It is sample-dependent. Its near-equality to the benchmark is mechanical.
+**Paper pilot approved by Matt.** Initial terms were approved November 16, 2026. Matt added a **10% maximum estimated annual volatility** on November 18. The app applies these rules to the October 30, 2026 information snapshot. This is a retrospective exercise under a subsequently approved mandate.
 
-**Pilot terms approved by Matt on November 16, 2026.** The approval covers equal weight as benchmark and starting holdings, a one-year horizon with annual rebalancing, a 10 bp cost per dollar switched, and a BIL minimum of 10% when annual CPI inflation reaches 3%, or 3% otherwise. The intended user is a committee evaluating a diversified ETF reserve in a paper account. Use a one-year evaluation horizon, annual scheduled rebalancing and monthly monitoring. Use an equal-weight, annually reset portfolio of the same six funds as the policy benchmark. Inverse volatility is the second baseline. Start the modeled transition from equal weights. The current reference holdings are an assumption, not an observed account.
-
-| Rule | Implementation |
+| Item | Rule and rationale |
 |---|---|
-| Eligible assets | QQQ and ONEQ provide overlapping Nasdaq exposure, VUG adds growth equity, BIL represents Treasury bills, IEF represents Treasury duration and LQD investment-grade credit. Only BIL qualifies for the reserve. |
-| Position limits | Fully invested, weights sum to 100%, long only, no borrowing or derivatives. Each fund may range from 0% to 100%. No tighter single-fund or look-through issuer cap has been confirmed. |
-| Return | The approved pilot cost convention applies 7.49% to the first-year estimate after modeled transition costs. The prior lab applied it gross. The app displays both. |
-| Reserve | BIL must meet the larger of the mandate floor and the point-in-time CPI floor. |
-| Risk | Minimize annualized sample portfolio standard deviation among feasible five-percentage-point allocations. No numerical maximum loss or volatility has been supplied. Real-money adoption awaits client loss tolerance. |
-| Turnover and liquidity | Report one-way turnover and cost. No separate hard turnover cap has been supplied. ETF liquidity beyond the BIL reserve, taxes, settlement stress and market impact are outside the model. |
-| Control | Pause on infeasibility, missing eligible CPI data or invalid prices. Refer any window-to-window fund move of at least 20 points to the committee. |
+| User and horizon | Committee considering a one-year ETF paper portfolio, annual scheduled rebalancing and monthly monitoring. |
+| Universe | QQQ, ONEQ and VUG provide overlapping Nasdaq/growth equity exposure. BIL provides Treasury bills, IEF Treasury duration and LQD investment-grade credit. |
+| Return objective | At least 7.49% estimated first-year return after initial switching costs. Matt selected the rounded original equal-weight historical mean. The target requires client confirmation because it is tied to this sample. |
+| Risk limit | At most 10% estimated annual standard deviation, approved by Matt November 18. It measures dispersion and does not promise a maximum calendar-year loss. |
+| Investment constraints | Fully invested, long only, no borrowing or derivatives. Each fund may be 0–100%. Five-percentage-point allocation grid. |
+| Reserve | Only BIL qualifies. At least 3%, increasing to 10% when same-vintage annual CPI inflation is at least 3%. |
+| Benchmark and starting holdings | Equal weight across the six funds. This policy reference can fail the mandate, which the app shows. |
+| Second baseline | Inverse volatility, with weights proportional to each fund’s inverse estimated volatility. |
+| Cost | 10 bp per dollar switched from equal weight. One-way turnover is half the absolute weight changes. The charge covers the two trading legs together and is deducted once. |
+| Decision rule | Among eligible mixes, choose the lowest estimated volatility. Stop if none qualifies. |
+| Monitoring | Monthly review of source availability, net cushion, actual costs, overlap and reserve. Refer a move of at least 20 percentage points in any fund across windows to the committee. |
+| Funded allocation | Requires confirmed client loss tolerance, review of suitability and observed forward paper results after costs. |
 
-The 60/40 benchmark and issuer rules in the Lab 13 fictional Meridian exercise belong to that case. The student's own-client fields in Lab 13 were blank. Matt approved the pilot terms listed above. A funded mandate would still require client review of loss tolerance and suitability.
+## Assumption register
 
-AI-use disclosure: OpenAI Codex assisted with software, analysis and writing. Educational purposes only. Not financial or investment advice.
+| Value | Label | Reason |
+|---|---|---|
+| 59 monthly returns at base; 48 and 36 in window tests | History | Uses the archived five-year price panel and checks sensitivity to its length. |
+| Annual mean = monthly arithmetic mean × 12 | Estimate | Transparent historical estimate. It can be unstable as a forward return input. |
+| Annual sample covariance = monthly sample covariance × 12 | Estimate | Uses joint returns from the same complete months. |
+| 7.49% target | Student judgment | Matt selected the original six-fund average for the course pilot. Its similarity to equal weight is mechanical. |
+| 10% volatility ceiling | Student judgment | Matt’s stated acceptable maximum annual volatility. Client suitability remains to be confirmed before funding. |
+| 3% reserve; 10% after the 3% inflation trigger | Student-approved judgment | Preserves liquidity for committee review of real spending needs. No predictive advantage has been demonstrated. |
+| 10 bp switching charge | Student-approved judgment | Illustrative cost assumption, stressed separately. Actual execution must be measured. |
+| Equal-weight initial holdings | Student-approved judgment | Provides a transparent common starting point for comparing transaction costs. |
+
+The October 30 information date and November mandate approval have different roles. An actual forward record begins only after the committee freezes the process.
+
+[Source data](data-card.md) · [Decision memo](decision-memo.md)

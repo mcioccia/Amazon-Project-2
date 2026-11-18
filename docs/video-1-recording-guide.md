@@ -4,6 +4,8 @@ This is an educational course project. It is not financial or investment advice.
 
 # Project 2 · Video 1 recording script
 
+**Recording requirement.** Keep your face visible in a webcam overlay throughout, with your microphone on. Place it clear of the key numbers. This November 18 draft reflects the approved 10% volatility ceiling. Correct the transcript from your actual final recording.
+
 Target 2:30. Course limit 3:00. Open [the dashboard](../Video-1-Dashboard.html) in your browser. Start at Opening. Use the right arrow after each cue. Press N to show or hide the matching narration, or read this guide on a second screen. Times are rehearsal targets. The corrected transcript should follow what you actually say.
 
 ## 0:00–0:27 · Would I fund this portfolio?
@@ -24,15 +26,15 @@ I’d pilot this six-fund process on paper. The mix clears my target, but the al
 
 **Say**
 
-In Lab 15 I searched for the lowest-risk mix meeting a 7.49% gross target. Project 2 starts at equal weight and charges for the trade before testing that target. BIL stays at 65%, but ONEQ drops from 20% to 5%. The September inflation reading available on decision day also raised my minimum Treasury-bill reserve to 10%.
+In Lab 15 I searched for the lowest-risk mix meeting a 7.49 percent gross target. Project 2 charges for moving from equal weight before testing that target. I’ve also set a ten percent volatility ceiling. The result has 65 percent in BIL, but the equity weights change. The available CPI reading raises my required reserve to ten percent.
 
 ## 0:55–1:23 · Which mix earns its risk?
 
-**On screen.** Compare the two passing rows, then point to the constrained portfolio’s return cushion.
+**On screen.** Point to the two baseline failures, then the constrained portfolio’s return cushion.
 
 **Say**
 
-Equal weight already passes. The constrained mix earns almost the same estimated net return while cutting annual volatility from about 12.14% to 7.24%. Inverse volatility takes even less risk, but it misses the return target. The figure I’d flag for the committee is the cushion on our selected mix. It clears the target by only 0.80 basis points.
+Equal weight fails my new risk ceiling. Its estimated volatility is 12.14 percent. Inverse volatility takes less risk, but its return misses the target. The constrained mix passes both with about 7.24 percent volatility. Its net return clears the target by only 0.80 basis points. That’s the thin margin I’d bring to the committee.
 
 ## 1:23–1:54 · Does the trading charge add up?
 

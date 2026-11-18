@@ -1,5 +1,6 @@
 AI-use disclosure: Prepared with OpenAI Codex assistance; verify results. Educational purposes only. Not financial or investment advice.
-PASS independent full grid, risk, costs, baseline and feasibility counts.
-PASS Lab 15 parity, same-vintage CPI, publication cutoff, gap refusal and infeasibility.
-PASS saved output reproducibility and operating the app through its controls.
-PASS isolated cold start: copied project to a temporary directory, created a new Python 3.12 environment, installed only requirements.txt and passed verify.py including Streamlit app interactions.
+PASS published Week 2, Lab 14 and Lab 15 reconciliations.
+PASS independent 53,130-mix enumeration, covariance, risk ceiling and 655 feasible mixes.
+PASS failures: missing month, impossible covariance, invalid weights/risk, duplicate CPI; trailing missing CPI handled.
+PASS saved evidence reproducibility, actual changed-scenario export and independent base settings.
+PASS app base, 36-month window, infeasible mandate, missing vintage and full reset.

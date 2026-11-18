@@ -1,0 +1,399 @@
+{
+  "disclosure": "AI-use disclosure: Prepared with OpenAI Codex assistance; verify results. Educational purposes only. Not financial or investment advice.",
+  "executed_at": "2026-11-18T16:37:32.525221-05:00",
+  "scope": "Lab 14 and Lab 15 use the application's portfolio engine. Week 2 is a supplementary financial-arithmetic reconciliation.",
+  "sources": {
+    "Week 2": "https://github.com/CinderZhang/FIN43900-Fall2026/blob/main/lessons/week-02/student-handout.md",
+    "Lab 14": "https://github.com/CinderZhang/FIN43900-Fall2026/blob/main/lessons/week-09/lab-14-portfolio-baselines.md",
+    "Lab 15": "https://github.com/CinderZhang/FIN43900-Fall2026/blob/main/lessons/week-09/lab-15-portfolio-stability.md"
+  },
+  "checks": [
+    {
+      "Case": "Week 2",
+      "Metric": "FCFF",
+      "Published": 77.5,
+      "Computed": 77.5,
+      "Unit": "USD millions",
+      "Tolerance": "Rounded to 1 decimals",
+      "Status": "PASS"
+    },
+    {
+      "Case": "Week 2",
+      "Metric": "Equity value",
+      "Published": 820,
+      "Computed": 820.0,
+      "Unit": "USD millions",
+      "Tolerance": "Rounded to 1 decimals",
+      "Status": "PASS"
+    },
+    {
+      "Case": "Week 2",
+      "Metric": "Per share",
+      "Published": 8.2,
+      "Computed": 8.2,
+      "Unit": "USD/share",
+      "Tolerance": "Rounded to 2 decimals",
+      "Status": "PASS"
+    },
+    {
+      "Case": "Lab 14 Benchmark",
+      "Metric": "return",
+      "Published": 6.8,
+      "Computed": 6.8,
+      "Unit": "%",
+      "Tolerance": "Rounded to 2 decimals",
+      "Status": "PASS"
+    },
+    {
+      "Case": "Lab 14 Benchmark",
+      "Metric": "volatility",
+      "Published": 10.46,
+      "Computed": 10.46,
+      "Unit": "%",
+      "Tolerance": "Rounded to 2 decimals",
+      "Status": "PASS"
+    },
+    {
+      "Case": "Lab 14 Benchmark",
+      "Metric": "reserve",
+      "Published": 0.0,
+      "Computed": 0.0,
+      "Unit": "%",
+      "Tolerance": "Rounded to 1 decimals",
+      "Status": "PASS"
+    },
+    {
+      "Case": "Lab 14 Equal weight",
+      "Metric": "return",
+      "Published": 5.2,
+      "Computed": 5.2,
+      "Unit": "%",
+      "Tolerance": "Rounded to 2 decimals",
+      "Status": "PASS"
+    },
+    {
+      "Case": "Lab 14 Equal weight",
+      "Metric": "volatility",
+      "Published": 5.21,
+      "Computed": 5.21,
+      "Unit": "%",
+      "Tolerance": "Rounded to 2 decimals",
+      "Status": "PASS"
+    },
+    {
+      "Case": "Lab 14 Equal weight",
+      "Metric": "reserve",
+      "Published": 50.0,
+      "Computed": 50.0,
+      "Unit": "%",
+      "Tolerance": "Rounded to 1 decimals",
+      "Status": "PASS"
+    },
+    {
+      "Case": "Lab 14 Inverse volatility",
+      "Metric": "return",
+      "Published": 3.77,
+      "Computed": 3.77,
+      "Unit": "%",
+      "Tolerance": "Rounded to 2 decimals",
+      "Status": "PASS"
+    },
+    {
+      "Case": "Lab 14 Inverse volatility",
+      "Metric": "volatility",
+      "Published": 1.05,
+      "Computed": 1.05,
+      "Unit": "%",
+      "Tolerance": "Rounded to 2 decimals",
+      "Status": "PASS"
+    },
+    {
+      "Case": "Lab 14 Inverse volatility",
+      "Metric": "reserve",
+      "Published": 90.3,
+      "Computed": 90.3,
+      "Unit": "%",
+      "Tolerance": "Rounded to 1 decimals",
+      "Status": "PASS"
+    },
+    {
+      "Case": "Lab 14 Benchmark",
+      "Metric": "Weight 1",
+      "Published": 0,
+      "Computed": 0.0,
+      "Unit": "%",
+      "Tolerance": "Rounded to 1 decimals",
+      "Status": "PASS"
+    },
+    {
+      "Case": "Lab 14 Benchmark",
+      "Metric": "Weight 2",
+      "Published": 0,
+      "Computed": 0.0,
+      "Unit": "%",
+      "Tolerance": "Rounded to 1 decimals",
+      "Status": "PASS"
+    },
+    {
+      "Case": "Lab 14 Benchmark",
+      "Metric": "Weight 3",
+      "Published": 40,
+      "Computed": 40.0,
+      "Unit": "%",
+      "Tolerance": "Rounded to 1 decimals",
+      "Status": "PASS"
+    },
+    {
+      "Case": "Lab 14 Benchmark",
+      "Metric": "Weight 4",
+      "Published": 60,
+      "Computed": 60.0,
+      "Unit": "%",
+      "Tolerance": "Rounded to 1 decimals",
+      "Status": "PASS"
+    },
+    {
+      "Case": "Lab 14 Equal weight",
+      "Metric": "Weight 1",
+      "Published": 25,
+      "Computed": 25.0,
+      "Unit": "%",
+      "Tolerance": "Rounded to 1 decimals",
+      "Status": "PASS"
+    },
+    {
+      "Case": "Lab 14 Equal weight",
+      "Metric": "Weight 2",
+      "Published": 25,
+      "Computed": 25.0,
+      "Unit": "%",
+      "Tolerance": "Rounded to 1 decimals",
+      "Status": "PASS"
+    },
+    {
+      "Case": "Lab 14 Equal weight",
+      "Metric": "Weight 3",
+      "Published": 25,
+      "Computed": 25.0,
+      "Unit": "%",
+      "Tolerance": "Rounded to 1 decimals",
+      "Status": "PASS"
+    },
+    {
+      "Case": "Lab 14 Equal weight",
+      "Metric": "Weight 4",
+      "Published": 25,
+      "Computed": 25.0,
+      "Unit": "%",
+      "Tolerance": "Rounded to 1 decimals",
+      "Status": "PASS"
+    },
+    {
+      "Case": "Lab 14 Inverse volatility",
+      "Metric": "Weight 1",
+      "Published": 84.3,
+      "Computed": 84.3,
+      "Unit": "%",
+      "Tolerance": "Rounded to 1 decimals",
+      "Status": "PASS"
+    },
+    {
+      "Case": "Lab 14 Inverse volatility",
+      "Metric": "Weight 2",
+      "Published": 6.0,
+      "Computed": 6.0,
+      "Unit": "%",
+      "Tolerance": "Rounded to 1 decimals",
+      "Status": "PASS"
+    },
+    {
+      "Case": "Lab 14 Inverse volatility",
+      "Metric": "Weight 3",
+      "Published": 7.0,
+      "Computed": 7.0,
+      "Unit": "%",
+      "Tolerance": "Rounded to 1 decimals",
+      "Status": "PASS"
+    },
+    {
+      "Case": "Lab 14 Inverse volatility",
+      "Metric": "Weight 4",
+      "Published": 2.6,
+      "Computed": 2.6,
+      "Unit": "%",
+      "Tolerance": "Rounded to 1 decimals",
+      "Status": "PASS"
+    },
+    {
+      "Case": "Lab 15 Base",
+      "Metric": "Weight 1",
+      "Published": 0,
+      "Computed": 0.0,
+      "Unit": "%",
+      "Tolerance": "Rounded to 1 decimals",
+      "Status": "PASS"
+    },
+    {
+      "Case": "Lab 15 Base",
+      "Metric": "Weight 2",
+      "Published": 20,
+      "Computed": 20.0,
+      "Unit": "%",
+      "Tolerance": "Rounded to 1 decimals",
+      "Status": "PASS"
+    },
+    {
+      "Case": "Lab 15 Base",
+      "Metric": "Weight 3",
+      "Published": 25,
+      "Computed": 25.0,
+      "Unit": "%",
+      "Tolerance": "Rounded to 1 decimals",
+      "Status": "PASS"
+    },
+    {
+      "Case": "Lab 15 Base",
+      "Metric": "Weight 4",
+      "Published": 55,
+      "Computed": 55.0,
+      "Unit": "%",
+      "Tolerance": "Rounded to 1 decimals",
+      "Status": "PASS"
+    },
+    {
+      "Case": "Lab 15 Base",
+      "Metric": "Return",
+      "Published": 6.51,
+      "Computed": 6.51,
+      "Unit": "%",
+      "Tolerance": "Rounded to 2 decimals",
+      "Status": "PASS"
+    },
+    {
+      "Case": "Lab 15 Base",
+      "Metric": "Volatility",
+      "Published": 9.44,
+      "Computed": 9.44,
+      "Unit": "%",
+      "Tolerance": "Rounded to 2 decimals",
+      "Status": "PASS"
+    },
+    {
+      "Case": "Lab 15 Equity 7%",
+      "Metric": "Weight 1",
+      "Published": 0,
+      "Computed": 0.0,
+      "Unit": "%",
+      "Tolerance": "Rounded to 1 decimals",
+      "Status": "PASS"
+    },
+    {
+      "Case": "Lab 15 Equity 7%",
+      "Metric": "Weight 2",
+      "Published": 10,
+      "Computed": 10.0,
+      "Unit": "%",
+      "Tolerance": "Rounded to 1 decimals",
+      "Status": "PASS"
+    },
+    {
+      "Case": "Lab 15 Equity 7%",
+      "Metric": "Weight 3",
+      "Published": 10,
+      "Computed": 10.0,
+      "Unit": "%",
+      "Tolerance": "Rounded to 1 decimals",
+      "Status": "PASS"
+    },
+    {
+      "Case": "Lab 15 Equity 7%",
+      "Metric": "Weight 4",
+      "Published": 80,
+      "Computed": 80.0,
+      "Unit": "%",
+      "Tolerance": "Rounded to 1 decimals",
+      "Status": "PASS"
+    },
+    {
+      "Case": "Lab 15 Equity 7%",
+      "Metric": "Return",
+      "Published": 6.53,
+      "Computed": 6.53,
+      "Unit": "%",
+      "Tolerance": "Rounded to 2 decimals",
+      "Status": "PASS"
+    },
+    {
+      "Case": "Lab 15 Equity 7%",
+      "Metric": "Volatility",
+      "Published": 12.94,
+      "Computed": 12.94,
+      "Unit": "%",
+      "Tolerance": "Rounded to 2 decimals",
+      "Status": "PASS"
+    },
+    {
+      "Case": "Lab 15 Correlation .50",
+      "Metric": "Weight 1",
+      "Published": 0,
+      "Computed": 0.0,
+      "Unit": "%",
+      "Tolerance": "Rounded to 1 decimals",
+      "Status": "PASS"
+    },
+    {
+      "Case": "Lab 15 Correlation .50",
+      "Metric": "Weight 2",
+      "Published": 40,
+      "Computed": 40.0,
+      "Unit": "%",
+      "Tolerance": "Rounded to 1 decimals",
+      "Status": "PASS"
+    },
+    {
+      "Case": "Lab 15 Correlation .50",
+      "Metric": "Weight 3",
+      "Published": 0,
+      "Computed": 0.0,
+      "Unit": "%",
+      "Tolerance": "Rounded to 1 decimals",
+      "Status": "PASS"
+    },
+    {
+      "Case": "Lab 15 Correlation .50",
+      "Metric": "Weight 4",
+      "Published": 60,
+      "Computed": 60.0,
+      "Unit": "%",
+      "Tolerance": "Rounded to 1 decimals",
+      "Status": "PASS"
+    },
+    {
+      "Case": "Lab 15 Correlation .50",
+      "Metric": "Return",
+      "Published": 6.52,
+      "Computed": 6.52,
+      "Unit": "%",
+      "Tolerance": "Rounded to 2 decimals",
+      "Status": "PASS"
+    },
+    {
+      "Case": "Lab 15 Correlation .50",
+      "Metric": "Volatility",
+      "Published": 9.73,
+      "Computed": 9.73,
+      "Unit": "%",
+      "Tolerance": "Rounded to 2 decimals",
+      "Status": "PASS"
+    },
+    {
+      "Case": "Lab 15",
+      "Metric": "Largest weight move",
+      "Published": 25,
+      "Computed": 25.0,
+      "Unit": "percentage points",
+      "Tolerance": "Rounded to 1 decimals",
+      "Status": "PASS"
+    }
+  ]
+}

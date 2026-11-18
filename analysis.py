@@ -1,8 +1,8 @@
 """Project 2 committee analysis. AI-assisted coursework. Not financial or investment advice."""
 import argparse
-import csv
+import math
+import hashlib
 from datetime import date, timedelta
-from functools import lru_cache
 import io
 import json
 from pathlib import Path
@@ -15,20 +15,20 @@ FUNDS = ["QQQ", "ONEQ", "VUG", "BIL", "IEF", "LQD"]
 BENCH = [1 / 6] * 6
 AS_OF = "2026-10-30"
 NOTICE = lab.AI_NOTICE + " " + lab.EDUCATIONAL_NOTICE
-BASE = dict(target=7.49, reserve=3.0, window=59, cost_bp=10.0, qqq_shift=0.0, lag=0)
+BASE = dict(target=7.49, reserve=3.0, window=59, cost_bp=10.0, qqq_shift=0.0, lag=0, vol_limit=10.0)
 STRESSES = {"QQQ estimate −1 point": {"qqq_shift": -1.0},
             "36-month window": {"window": 36}, "48-month window": {"window": 48},
             "Cost 50 bp": {"cost_bp": 50.0}, "BIL minimum 90%": {"reserve": 90.0},
             "Prior CPI vintage (30-day lag)": {"lag": 30}}
 
 
-@lru_cache(maxsize=60)
 def estimates(window):
     rows = [s for s in (DATA/"prices.csv").read_text(encoding="utf-8-sig").splitlines()
             if s.strip() and not s.startswith("#")]
     if not 12 <= window <= len(rows) - 2:
         raise ValueError("Window must fit the available monthly returns.")
-    # Validate the full original panel before selecting the window.
+    # Reject defects anywhere in the input panel before selecting a shorter window.
+    lab.estimate_from_csv(io.StringIO("\n".join(rows)))
     if rows[0].split(",") != ["Date"] + FUNDS:
         raise ValueError("Unexpected fund universe or ordering.")
     if rows[-1].split(",")[0] > AS_OF:
@@ -43,7 +43,20 @@ def signal(lag=0):
     if not eligible:
         return None
     snap = max(eligible, key=lambda s:s["effective_vintage"])
-    points = {r["date"]:r["value"] for r in snap["data"] if r["date"] <= cutoff.isoformat()}
+    points = {}
+    for row in snap["data"]:
+        observed = date.fromisoformat(row["date"])
+        value = row["value"]
+        if value is None:
+            continue
+        if not isinstance(value, (int, float)) or not math.isfinite(value) or value <= 0:
+            raise ValueError("CPI levels must be finite and positive.")
+        if observed.isoformat() in points:
+            raise ValueError("Duplicate CPI observation in one vintage.")
+        if observed <= cutoff:
+            points[observed.isoformat()] = value
+    if not points:
+        return None
     end = max(points)
     prior = (date.fromisoformat(end).replace(year=int(end[:4])-1)).isoformat()
     if prior not in points or points[prior] <= 0:
@@ -54,10 +67,10 @@ def signal(lag=0):
                 floor=10.0 if yoy >= 3.0 else 0.0,source=snap["url"])
 
 
-@lru_cache(maxsize=80)
-def calculate(target=7.49, reserve=3.0, window=59, cost_bp=10.0, qqq_shift=0.0, lag=0):
+def calculate(target=7.49, reserve=3.0, window=59, cost_bp=10.0, qqq_shift=0.0, lag=0, vol_limit=10.0):
     if not (0 <= target <= 40 and 0 <= reserve <= 100 and 0 <= cost_bp <= 200
-            and -15 <= qqq_shift <= 15 and 0 <= lag <= 90):
+            and -15 <= qqq_shift <= 15 and 0 <= lag <= 90
+            and 0 < vol_limit <= 50):
         raise ValueError("Setting outside committee scenario bounds.")
     sig = signal(lag)
     if sig is None:
@@ -72,19 +85,22 @@ def calculate(target=7.49, reserve=3.0, window=59, cost_bp=10.0, qqq_shift=0.0, 
     start = lab.equal_weights(len(sleeves))
     cost_rate = cost_bp / 10000
     mix = lab.search_portfolios(sleeves, data["correlations"], target/100, floor,
-                                starting_weights=start, switching_cost=cost_rate)
+                                starting_weights=start, switching_cost=cost_rate, volatility_limit=vol_limit/100)
     def measure(weights):
         gross = lab.portfolio_return(weights, means)
         turnover = lab.one_way_turnover(weights,start)
         cost = turnover * cost_rate
         net = gross - cost
         bil = lab.reserve_eligible_weight(weights,sleeves)
+        risk = lab.portfolio_volatility(weights,cov)
         failed = []
         if not lab.meets_objective(net,target/100):
             failed.append("First-year net return below objective")
         if bil + lab.TOLERANCE < floor:
             failed.append("BIL below effective reserve minimum")
-        return dict(weights=dict(zip(FUNDS, weights)), gross=gross, net=net, risk=lab.portfolio_volatility(weights,cov),
+        if risk > vol_limit/100 + lab.TOLERANCE:
+            failed.append("Annual volatility above limit")
+        return dict(weights=dict(zip(FUNDS, weights)), gross=gross, net=net, risk=risk,
                     reserve=bil, turnover=turnover, cost=cost, verdict="FAIL" if failed else "PASS", rules=failed)
     results = {"Equal weight":measure(start),"Inverse volatility":measure(lab.inverse_volatility_weights(vols)),
                "Constrained":measure(mix["weights"]) if mix else None}
@@ -97,6 +113,26 @@ def stress_runs():
     return {name:calculate(**(BASE | change)) for name,change in STRESSES.items()}
 
 
+
+def input_hashes():
+    return {name: hashlib.sha256((DATA / name).read_bytes()).hexdigest()
+            for name in ("prices.csv", "cpi-vintages.json")}
+
+
+def verify_inputs():
+    ledger = json.loads((DATA / "source-ledger.json").read_text(encoding="utf-8"))
+    for name, actual in input_hashes().items():
+        if ledger["files"][name]["sha256"] != actual:
+            raise ValueError(f"{name} differs from the documented snapshot. Review its provenance before use.")
+
+
+def scenario_record(settings):
+    verify_inputs()
+    return dict(disclosure=NOTICE, decision_as_of=AS_OF,
+                mandate_updated="2026-11-18", inputs=dict(settings),
+                source_sha256=input_hashes(), output=calculate(**settings))
+
+
 def main():
     p = argparse.ArgumentParser()
     p.add_argument("--target",type=float,default=BASE["target"])
@@ -105,8 +141,10 @@ def main():
     p.add_argument("--cost-bp",type=float,default=BASE["cost_bp"])
     p.add_argument("--qqq-shift",type=float,default=BASE["qqq_shift"])
     p.add_argument("--lag",type=int,default=BASE["lag"])
+    p.add_argument("--vol-limit",type=float,default=BASE["vol_limit"])
     args = vars(p.parse_args())
-    print(json.dumps({"disclosure":NOTICE,"decision_as_of":AS_OF,"inputs":args,"output":calculate(**args)},indent=2))
+    verify_inputs()
+    print(json.dumps(scenario_record(args),indent=2))
 
 if __name__ == "__main__":
     main()

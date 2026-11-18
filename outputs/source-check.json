@@ -1,0 +1,31 @@
+{
+  "disclosure": "OpenAI Codex assisted with source documentation. Educational purposes only. Not financial or investment advice.",
+  "checked_at": "2026-11-18T16:34:47.366564-05:00",
+  "checker": "OpenAI Codex, automated retrieval comparison",
+  "student_independent_check": "Pending",
+  "training": {
+    "url": "https://raw.githubusercontent.com/CinderZhang/FIN43900-Fall2026/main/lessons/week-02/starter/mini_case.csv",
+    "sha256": "471ac3a529d7ac29e3b8a04cdd32a55b828edb6a38906ebd1eb54805c82850cb"
+  },
+  "cpi": [
+    {
+      "url": "https://alfred.stlouisfed.org/graph/alfredgraph.csv?id=CPIAUCSL&vintage_date=2026-09-30",
+      "vintage": "2026-09-30",
+      "downloaded_at": "2026-11-18T16:34:47.366564-05:00",
+      "status": "match",
+      "value_column": "CPIAUCSL_20260930",
+      "mismatches": [],
+      "response_sha256": "45d0f40dc41567bc3ce03fb73845d647a0b5a6b34e8874959f5106a791683a85"
+    },
+    {
+      "url": "https://alfred.stlouisfed.org/graph/alfredgraph.csv?id=CPIAUCSL&vintage_date=2026-10-29",
+      "vintage": "2026-10-28",
+      "downloaded_at": "2026-11-18T16:34:47.366564-05:00",
+      "status": "match",
+      "value_column": "CPIAUCSL_20261029",
+      "mismatches": [],
+      "response_sha256": "3ec8d7ad1372ceabf68ff1f610fcb79cb102a7ab15c2909cf02cfe8b145b59ee",
+      "metadata_note": "The November 18 retrieval labels the requested vintage 2026-10-29; the original retained Lab 17 record labels its effective vintage 2026-10-28. Compared observed values match. Both dates precede the October 30 decision. The original response header was not independently re-established."
+    }
+  ]
+}

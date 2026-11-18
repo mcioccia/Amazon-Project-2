@@ -1,0 +1,15 @@
+OpenAI Codex automated clean-copy test. Educational purposes only. Not financial or investment advice.
+Started 2026-11-18T16:43:05.699705-05:00
+Source app SHA256 64ae63de5ba93151ff62f4324ed9fdfc1d70ba6562140de48ed0e962747f13bd
+Fresh local copy and new Python environment; partner observation is recorded separately.
+Create Python environment exit 0
+Install requirements exit 0
+Verify calculations and app exit 0
+AI-use disclosure: Prepared with OpenAI Codex assistance; verify results. Educational purposes only. Not financial or investment advice.
+PASS published Week 2, Lab 14 and Lab 15 reconciliations.
+PASS independent 53,130-mix enumeration, covariance, risk ceiling and 655 feasible mixes.
+PASS failures: missing month, impossible covariance, invalid weights/risk, duplicate CPI; trailing missing CPI handled.
+PASS saved evidence reproducibility, actual changed-scenario export and independent base settings.
+PASS app base, 36-month window, infeasible mandate, missing vintage and full reset.
+
+Elapsed seconds 115.4

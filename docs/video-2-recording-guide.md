@@ -4,6 +4,8 @@ This is an educational course project. It is not financial or investment advice.
 
 # Video 2 · Code walkthrough
 
+**Recording requirement.** Keep your face visible in a webcam overlay throughout, with your microphone on. Place it clear of the key numbers. This November 18 draft reflects the approved 10% volatility ceiling. Correct the transcript from your actual final recording.
+
 Record the browser window showing [the code dashboard](../Video-2-Dashboard.html) with your microphone. Open it locally, choose **Full screen**, and start at **Inputs**. Keep this guide on a second screen or on paper. Use → to advance and N to toggle narration during rehearsal. The timing is a rehearsal target of 4:25. The course maximum is 5:00.
 
 ## 0:00–0:30 · Inputs
@@ -48,7 +50,7 @@ September is the month this number measures. October 28 is the vintage that was 
 
 **Say**
 
-Each unit is five percent of the portfolio. The search distributes twenty units across six funds, so the weights add up to one hundred percent. For each mix it calculates gross return and the BIL weight. Then it deducts ten basis points on the dollars switched from equal weight. A mix that misses either the net return target or the reserve minimum hits continue and drops out. Of 53,130 possible mixes, 15,294 survive. Among those, the code keeps the mix with the lowest estimated volatility.
+The search distributes twenty five-percent units across six funds. For each mix it calculates the gross return and BIL weight, then deducts the cost of switching from equal weight. A mix drops out if it misses the net return target, the reserve floor or my ten percent volatility ceiling. Of 53,130 mixes, 655 survive all three limits. The code keeps the eligible mix with the lowest estimated volatility.
 
 ## 3:36–4:25 · Verdict
 
@@ -56,7 +58,7 @@ Each unit is five percent of the portfolio. The search distributes twenty units 
 
 **Say**
 
-The app takes the constrained result from the engine. It shows 7.498 percent estimated net return, 7.241 percent annual volatility, and 65 percent in BIL. It also shows the comparison table so the committee can see which baselines passed. Our mix clears the return target by just 0.80 basis points. Raise the BIL minimum to 90 percent and no mix qualifies. That warning tells me to pause. With such a small cushion and weights that move when I change the estimation window, I’d keep this as a paper pilot.
+The app shows the engine’s result. Our chosen mix has a 7.498 percent estimated net return, 7.241 percent volatility, and 65 percent in BIL. Equal weight fails the risk limit, and inverse volatility fails the return target. The export now saves these actual controls and results. If I require 90 percent BIL, no mix qualifies. The app displays a pause, which is a decision the committee needs to see.
 
 ## After recording
 

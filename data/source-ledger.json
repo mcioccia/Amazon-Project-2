@@ -1,0 +1,57 @@
+{
+  "disclosure": "OpenAI Codex assisted with source documentation. Educational purposes only. Not financial or investment advice.",
+  "documented_at": "2026-11-18T16:34:47.366564-05:00",
+  "files": {
+    "prices.csv": {
+      "sha256": "2c93e65a793d2ecc89f704cff078f0bdf92bf2ec3bcb03e57b0ac57214fdc9c6",
+      "provider": "Yahoo Finance chart API adjclose",
+      "unit": "USD per fund share, adjusted for distributions and splits",
+      "period": "2021-10-29 through 2026-09-30",
+      "transform": "Last available trading observation in each complete month; 60 prices yield 59 returns."
+    },
+    "cpi-vintages.json": {
+      "sha256": "38fdcd3fabeb45924ee0d8dc34ecf331c56bbb185640917ba5eff340e6476c78",
+      "provider": "ALFRED, Federal Reserve Bank of St. Louis",
+      "unit": "CPIAUCSL index, seasonally adjusted, 1982\u201384=100",
+      "transform": "Same-vintage twelve-month change; latest eligible archived vintage before the decision cutoff."
+    }
+  },
+  "funds": [
+    {
+      "ticker": "QQQ",
+      "downloaded_at": "2026-10-22T13:41:25.749879-04:00",
+      "url": "https://query1.finance.yahoo.com/v8/finance/chart/QQQ?period1=1633046400&period2=1790812800&interval=1d&events=div%2Csplits&includeAdjustedClose=true",
+      "source_page": "https://finance.yahoo.com/quote/QQQ/history/"
+    },
+    {
+      "ticker": "ONEQ",
+      "downloaded_at": "2026-10-22T13:41:26.197658-04:00",
+      "url": "https://query1.finance.yahoo.com/v8/finance/chart/ONEQ?period1=1633046400&period2=1790812800&interval=1d&events=div%2Csplits&includeAdjustedClose=true",
+      "source_page": "https://finance.yahoo.com/quote/ONEQ/history/"
+    },
+    {
+      "ticker": "VUG",
+      "downloaded_at": "2026-10-22T13:41:26.518302-04:00",
+      "url": "https://query1.finance.yahoo.com/v8/finance/chart/VUG?period1=1633046400&period2=1790812800&interval=1d&events=div%2Csplits&includeAdjustedClose=true",
+      "source_page": "https://finance.yahoo.com/quote/VUG/history/"
+    },
+    {
+      "ticker": "BIL",
+      "downloaded_at": "2026-10-22T13:46:56.954793-04:00",
+      "url": "https://query1.finance.yahoo.com/v8/finance/chart/BIL?period1=1633046400&period2=1790812800&interval=1d&events=div%2Csplits&includeAdjustedClose=true",
+      "source_page": "https://finance.yahoo.com/quote/BIL/history/"
+    },
+    {
+      "ticker": "IEF",
+      "downloaded_at": "2026-10-22T13:46:57.209600-04:00",
+      "url": "https://query1.finance.yahoo.com/v8/finance/chart/IEF?period1=1633046400&period2=1790812800&interval=1d&events=div%2Csplits&includeAdjustedClose=true",
+      "source_page": "https://finance.yahoo.com/quote/IEF/history/"
+    },
+    {
+      "ticker": "LQD",
+      "downloaded_at": "2026-10-22T13:46:57.452062-04:00",
+      "url": "https://query1.finance.yahoo.com/v8/finance/chart/LQD?period1=1633046400&period2=1790812800&interval=1d&events=div%2Csplits&includeAdjustedClose=true",
+      "source_page": "https://finance.yahoo.com/quote/LQD/history/"
+    }
+  ]
+}

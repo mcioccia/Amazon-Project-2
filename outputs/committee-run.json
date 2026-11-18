@@ -1,13 +1,19 @@
 {
   "disclosure": "AI-use disclosure: Prepared with OpenAI Codex assistance; verify results. Educational purposes only. Not financial or investment advice.",
   "decision_date": "2026-10-30",
+  "mandate_updated": "2026-11-18",
   "inputs": {
     "target": 7.49,
     "reserve": 3.0,
     "window": 59,
     "cost_bp": 10.0,
     "qqq_shift": 0.0,
-    "lag": 0
+    "lag": 0,
+    "vol_limit": 10.0
+  },
+  "source_sha256": {
+    "prices.csv": "2c93e65a793d2ecc89f704cff078f0bdf92bf2ec3bcb03e57b0ac57214fdc9c6",
+    "cpi-vintages.json": "38fdcd3fabeb45924ee0d8dc34ecf331c56bbb185640917ba5eff340e6476c78"
   },
   "base": {
     "signal": {
@@ -40,8 +46,10 @@
         "reserve": 0.16666666666666666,
         "turnover": 0.0,
         "cost": 0.0,
-        "verdict": "PASS",
-        "rules": []
+        "verdict": "FAIL",
+        "rules": [
+          "Annual volatility above limit"
+        ]
       },
       "Inverse volatility": {
         "weights": {
@@ -82,7 +90,7 @@
         "rules": []
       }
     },
-    "feasible": 15294,
+    "feasible": 655,
     "estimate_start": "2021-11-30",
     "estimate_end": "2026-09-30",
     "stop": null
@@ -121,7 +129,8 @@
           "cost": 0.0,
           "verdict": "FAIL",
           "rules": [
-            "First-year net return below objective"
+            "First-year net return below objective",
+            "Annual volatility above limit"
           ]
         },
         "Inverse volatility": {
@@ -163,7 +172,7 @@
           "rules": []
         }
       },
-      "feasible": 14649,
+      "feasible": 543,
       "estimate_start": "2021-11-30",
       "estimate_end": "2026-09-30",
       "stop": null
@@ -241,7 +250,7 @@
           "rules": []
         }
       },
-      "feasible": 31143,
+      "feasible": 19845,
       "estimate_start": "2023-10-31",
       "estimate_end": "2026-09-30",
       "stop": null
@@ -277,8 +286,10 @@
           "reserve": 0.16666666666666666,
           "turnover": 0.0,
           "cost": 0.0,
-          "verdict": "PASS",
-          "rules": []
+          "verdict": "FAIL",
+          "rules": [
+            "Annual volatility above limit"
+          ]
         },
         "Inverse volatility": {
           "weights": {
@@ -319,7 +330,7 @@
           "rules": []
         }
       },
-      "feasible": 30831,
+      "feasible": 17154,
       "estimate_start": "2022-10-31",
       "estimate_end": "2026-09-30",
       "stop": null
@@ -355,8 +366,10 @@
           "reserve": 0.16666666666666666,
           "turnover": 0.0,
           "cost": 0.0,
-          "verdict": "PASS",
-          "rules": []
+          "verdict": "FAIL",
+          "rules": [
+            "Annual volatility above limit"
+          ]
         },
         "Inverse volatility": {
           "weights": {
@@ -397,7 +410,7 @@
           "rules": []
         }
       },
-      "feasible": 14743,
+      "feasible": 513,
       "estimate_start": "2021-11-30",
       "estimate_end": "2026-09-30",
       "stop": null
@@ -435,7 +448,8 @@
           "cost": 0.0,
           "verdict": "FAIL",
           "rules": [
-            "BIL below effective reserve minimum"
+            "BIL below effective reserve minimum",
+            "Annual volatility above limit"
           ]
         },
         "Inverse volatility": {
@@ -497,8 +511,10 @@
           "reserve": 0.16666666666666666,
           "turnover": 0.0,
           "cost": 0.0,
-          "verdict": "PASS",
-          "rules": []
+          "verdict": "FAIL",
+          "rules": [
+            "Annual volatility above limit"
+          ]
         },
         "Inverse volatility": {
           "weights": {
@@ -539,7 +555,7 @@
           "rules": []
         }
       },
-      "feasible": 15294,
+      "feasible": 655,
       "estimate_start": "2021-11-30",
       "estimate_end": "2026-09-30",
       "stop": null

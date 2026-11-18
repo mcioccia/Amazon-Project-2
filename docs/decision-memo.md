@@ -2,20 +2,30 @@ I used OpenAI Codex to adapt my lab code, check calculations and draft the docum
 
 This is an educational course project. It is not financial or investment advice.
 
-# Investment committee decision · October 30, 2026 snapshot
+# Committee decision
 
-**Pilot the process on paper.** I would authorize a tracked model portfolio and defer a funded allocation until the committee validates its return target, loss tolerance and cost assumptions. This carries forward my Lab 15 decision. The initial modeled allocation is 15% QQQ, 5% ONEQ, 15% VUG and 65% BIL, with zero IEF and LQD.
+**Authorize a paper pilot.** Begin with 15% QQQ, 5% ONEQ, 15% VUG and 65% BIL. IEF and LQD receive zero. Require committee review before committing real money, after confirming loss tolerance and reviewing forward paper results after costs.
 
-| Portfolio | Gross estimate | First-year net | Annual risk | BIL | Verdict |
+Decision information snapshot October 30, 2026. Mandate updated November 18, 2026 when Matt approved a 10% annual volatility ceiling. The model uses USD adjusted fund prices through September 30, 2026. Returns and risk are annual estimates.
+
+| Portfolio | Gross estimate | First-year net | Annual volatility | BIL | Verdict |
 |---|---:|---:|---:|---:|---|
-| Equal weight | 7.494% | 7.494% | 12.138% | 16.67% | Pass |
-| Inverse volatility | 3.843% | 3.775% | 1.999% | 84.37% | Fail · net return below 7.49% |
+| Equal weight | 7.494% | 7.494% | 12.138% | 16.67% | Fail — volatility exceeds 10% |
+| Inverse volatility | 3.843% | 3.775% | 1.999% | 84.37% | Fail — net return below 7.49% |
 | Constrained | 7.546% | 7.498% | 7.241% | 65.00% | Pass |
 
-All three use the same six funds and information date. The pilot reduces estimated volatility relative to equal weight but clears the return objective by only **0.80 basis points**. Switching 48.33% of the portfolio at an assumed 10 bp per dollar switched costs 4.83 bp of portfolio value. The inverse-volatility baseline shows what prioritizing low risk alone would sacrifice in expected return.
+## Why pilot
 
-**Paper allocation range.** Across the 59-, 48- and 36-month windows, the feasible mixes use **65–85% BIL and 15–35% growth/Nasdaq equities in aggregate**. IEF and LQD receive zero in those runs. These are paired scenario ranges, not instructions to combine independently chosen weights. The 20-point move in BIL meets the proposed escalation trigger. At a 90% minimum BIL allocation, no five-point mix reaches the objective.
+The selected mix passes the return, risk and reserve rules, with estimated volatility below equal weight. However, its net return clears the target by only **0.80 basis points**. Moving 48.33% of the account at the assumed 10 bp switching cost deducts 4.83 bp from portfolio value. A $100,000 account would incur approximately $48.33.
 
-**Monitoring and decision rights.** At each monthly review, check vintage validity, reserve, net target cushion, actual trading costs and fund concentration. Use the stress page to compare windows. A missing usable vintage, invalid data or no feasible mix pauses the process. Seek committee review whenever a fund moves at least 20 percentage points across windows. Stay in paper pilot until the committee confirms suitability and reviews independently observed forward results after costs. This exercise reports expected returns. It supplies no realized holdout return or established CPI timing benefit.
+The target originated in the same price history used to estimate returns. The equity funds are highly correlated. The CPI signal raises the required reserve to 10%, while the model independently chooses 65% BIL. This run supplies no evidence of a CPI timing advantage. These limitations support a paper trial.
 
-[Source inputs and scenario results](../outputs/committee-run.json) · [Mandate](mandate.md) · [Vintage evidence](data-card.md)
+## Range, monitoring and reversal
+
+Across the 59-, 48- and 36-month estimation windows, the feasible mixes hold **65–85% BIL**, paired with **35–15% aggregate equities**. Each complete mix totals 100%. A 20-point move in BIL meets the committee-review trigger. The 90% minimum BIL stress produces no eligible portfolio.
+
+At each monthly review, check vintage availability, reserve, net return cushion, actual trading costs and fund overlap. Pause on missing or invalid source evidence or an infeasible mandate. Escalate a fund move of at least 20 points across windows. Continue on paper until the committee confirms suitability and reviews independently observed forward results after costs.
+
+Estimated annual volatility is a statistical risk measure. The exercise has no realized forward record, maximum-loss guarantee, tax model or full market-impact model. Later rebalances must use actual holdings and measured costs.
+
+[Computed base and stresses](../outputs/committee-run.json) · [Mandate](mandate.md) · [Source evidence](data-card.md) · [Validation](validation-and-ai-use.md)

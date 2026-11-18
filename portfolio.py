@@ -65,6 +65,22 @@ def validate_correlations(correlations, count):
                 )
 
 
+    # Positive-semidefinite LDL factorization, allowing singular empirical matrices.
+    lower = [[0.0] * count for _ in range(count)]
+    diagonal = [0.0] * count
+    for i in range(count):
+        diagonal[i] = correlations[i][i] - sum(lower[i][k] ** 2 * diagonal[k] for k in range(i))
+        if diagonal[i] < -1e-10:
+            raise ValueError("Correlation table is not positive semidefinite.")
+        for j in range(i + 1, count):
+            residual = correlations[j][i] - sum(lower[j][k] * lower[i][k] * diagonal[k] for k in range(i))
+            if abs(diagonal[i]) <= 1e-10:
+                if abs(residual) > 1e-10:
+                    raise ValueError("Correlation table is not positive semidefinite.")
+            else:
+                lower[j][i] = residual / diagonal[i]
+
+
 def build_covariance_matrix(volatilities, correlations):
     validate_correlations(correlations, len(volatilities))
     if not volatilities or any(not math.isfinite(v) or v <= 0 for v in volatilities):
@@ -209,10 +225,12 @@ def self_test():
 
 
 def one_way_turnover(weights, starting_weights):
+    validate_weights(weights, len(starting_weights))
+    validate_weights(starting_weights, len(weights))
     return sum(abs(a-b) for a,b in zip(weights,starting_weights)) / 2
 
 
-def search_portfolios(sleeves, correlations, objective, reserve_minimum, *, starting_weights=None, switching_cost=0.0):
+def search_portfolios(sleeves, correlations, objective, reserve_minimum, *, starting_weights=None, switching_cost=0.0, volatility_limit=None):
     """Exhaust every long-only 5-point mix; return the lowest volatility or None.
 
     Decimal inputs; no borrowing. A tie keeps the first mix in sleeve order.
@@ -241,6 +259,8 @@ def search_portfolios(sleeves, correlations, objective, reserve_minimum, *, star
         validate_weights(starting_weights, count)
     if switching_cost < 0 or not math.isfinite(switching_cost):
         raise ValueError("Invalid switching cost.")
+    if volatility_limit is not None and (not math.isfinite(volatility_limit) or volatility_limit <= 0):
+        raise ValueError("Volatility limit must be finite and positive.")
     best = None
     tried = feasible = 0
     for units in allocations(20, count):
@@ -251,8 +271,10 @@ def search_portfolios(sleeves, correlations, objective, reserve_minimum, *, star
         net = expected if starting_weights is None else expected - switching_cost * one_way_turnover(weights, starting_weights)
         if not meets_objective(net, objective) or reserve < reserve_minimum - TOLERANCE:
             continue
-        feasible += 1
         volatility = portfolio_volatility(weights, covariance)
+        if volatility_limit is not None and volatility > volatility_limit + TOLERANCE:
+            continue
+        feasible += 1
         if best is None or volatility < best["volatility"] - TOLERANCE:
             best = {"weights": weights, "return": expected,
                     "volatility": volatility, "reserve": reserve}
