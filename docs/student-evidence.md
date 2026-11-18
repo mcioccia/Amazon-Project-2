@@ -6,18 +6,49 @@ This is an educational course project. It is not financial or investment advice.
 
 ## Source check
 
-Use a **QQQ adjusted-close observation and its resulting monthly return** as the load-bearing check. QQQ’s estimated return affects which mixes meet the target. Open the source endpoint recorded for QQQ in the [source ledger](../data/source-ledger.json), locate the month-end observations you choose, and compare them with [prices.csv](../data/prices.csv). Compute current divided by prior minus one yourself. Record the date you retrieved the source and any adjustment differences from the October 22 archive.
+**Status: source screenshots received; Matt's own monthly-return calculation and interpretation pending.**
 
-The [CPI vintage comparison](../outputs/source-check.json) is additional source evidence. At base its reserve floor is below the selected BIL weight, so a CPI-only check would not establish the reliability of the return estimates driving the allocation.
+On November 18, 2026, Matt supplied two screenshots of Yahoo Finance's QQQ daily historical prices. The images are preserved unchanged below. Codex transcribed the visible values and compared them with the archived input file; this transcription is not Matt's independent arithmetic.
 
-| Field | Matt’s record |
+[Yahoo page shown in both screenshots](https://finance.yahoo.com/quote/QQQ/history/?period1=1785542400&period2=1790812800&frequency=1d) · [Archived prices](../data/prices.csv) · [Original source ledger](../data/source-ledger.json)
+
+| Observation date | Screenshot Adj Close (USD/share) | Archived QQQ adjusted close (USD/share) | Comparison |
+|---|---:|---:|---|
+| August 31, 2026 | 716.01 | 716.013916015625 | Matches when rounded to cents |
+| September 30, 2026 | 739.77 | 739.77001953125 | Matches when rounded to cents |
+
+The September image identifies QQQ, USD, Daily frequency, column headings and the September 30 row. The August image shows the August 31 row at the same page URL; column positions are interpreted using the first image. August's unadjusted Close is 716.76, whereas its Adj Close is 716.01. The adjusted-close field is the one the model uses.
+
+| Field | Evidence / remaining personal entry |
 |---|---|
-| Date checked and source opened | Pending |
-| Input and units | Pending |
-| Observation dates and values read directly | Pending |
-| Calculation checked independently | Pending |
-| What matched or differed and how I resolved it | Pending |
-| Effect on my decision | Pending |
+| Date received | November 18, 2026; exact capture/access date is not visible and remains unconfirmed |
+| Source and input | Yahoo Finance QQQ daily historical data; adjusted close, USD per share |
+| Values visible in Matt's screenshots | August 31: 716.01; September 30: 739.77 |
+| Comparison performed by Codex | Both observations match the October 22 archive to the source's displayed cent precision |
+| Matt's independent calculation | Pending: use (September Adj Close / August Adj Close - 1) x 100 and retain calculator or handwritten evidence |
+| Matt's explanation of any match or difference | Pending personal response; no difference visible at cent precision |
+| Effect on Matt's decision | Pending personal response |
+
+This sample supports two month-end observations. It does not verify every fund or date, the entire annual estimate, or future performance. QQQ's estimated return affects the target constraint, so this check concerns a portfolio input. The separate [automated CPI comparison](../outputs/source-check.json) supplies additional evidence; the CPI reserve floor is slack at base.
+
+### Screenshots supplied by Matt
+
+Original screenshots are retained without editing. The AI disclosure and educational-use notice at the top of this record apply to the organization and explanation of these attachments.
+
+**September 30 observation, including column headings**
+
+![QQQ September 30 daily historical prices showing Adj Close of 739.77](evidence/qqq-source-2026-09-30.png)
+
+**August 31 observation on the same historical-data page**
+
+![QQQ August 31 daily historical row showing Adj Close of 716.01](evidence/qqq-source-2026-08-31.png)
+
+File fingerprints identify the exact attachments preserved here; they do not establish when the screenshots were captured.
+
+| File | SHA-256 |
+|---|---|
+| qqq-source-2026-09-30.png | edbfc331736c756de5c98c8a60fdbe5ffecbc6cb0843574b59515be82f90e8fc |
+| qqq-source-2026-08-31.png | 4272cb7b5f55ab2674311f9f2cc073d4efe01abade3d7a8fbe7dd24ceea0e669 |
 
 ## Highest-risk claim and three possible failures
 

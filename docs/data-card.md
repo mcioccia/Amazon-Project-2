@@ -20,6 +20,6 @@ The source ledger records each fund’s original download timestamp, exact chart
 
 Fresh downloads of both requested ALFRED vintages match every nonmissing CPI observation retained in the input archive. The refreshed October response labels its column CPIAUCSL_20261029; the original Lab 17 record labeled the effective vintage 2026-10-28. The input retains that original metadata. Both dates precede the October 30 decision, and compared values agree. The November 18 retrieval does not re-establish the original response header or an intraday release time.
 
-Prices are retained from the October 22 download. Live adjusted-close history can change after later distributions or corrections. The hash comparison and existing Lab 15 verification preserve the fixed input panel. Matt’s independent inspection of a load-bearing price input remains pending.
+Prices are retained from the October 22 download. Live adjusted-close history can change after later distributions or corrections. The hash comparison and existing Lab 15 verification preserve the fixed input panel. Matt supplied QQQ source screenshots on November 18: August 31 Adj Close 716.01 and September 30 Adj Close 739.77 USD per share. Codex's comparison matches the archive at displayed cent precision. The [images and comparison](student-evidence.md#source-check) are retained; Matt's calculation, access-date confirmation and personal conclusion remain pending.
 
 [Source ledger](../data/source-ledger.json) · [Automated comparison](../outputs/source-check.json) · [Personal source check](student-evidence.md)

@@ -26,7 +26,7 @@ Historical means are estimates. The target was selected from the original equal-
 
 OpenAI Codex assisted with Lab 15 code reuse, the committee terms initially proposed and approved by Matt, documentation, validation, source retrieval, interface design and recording guides. The November 18 revision was prompted by Project 1 feedback. Matt supplied the 10% risk ceiling and reported his partner’s calculation question and startup commands. Product identification is OpenAI Codex; an exact underlying model build was not exposed in the saved project evidence.
 
-The 25 bp practice prediction below was authored with AI. Matt’s own highest-risk claim, three possible failures, load-bearing source check and fresh AI-off prediction remain pending in the linked records.
+The 25 bp practice prediction below was authored with AI. Matt's own highest-risk claim, three possible failures and fresh AI-off prediction remain pending. For the load-bearing source check, Matt supplied two QQQ Yahoo screenshots on November 18. Codex transcribed August 31 Adj Close of 716.01 and September 30 Adj Close of 739.77 (USD per share), which match the archived inputs to the displayed cent precision. Original images and fingerprints are retained in [Personal evidence](student-evidence.md#source-check). Matt's own monthly-return calculation, access-date confirmation and interpretation remain pending; this source check is partially complete.
 
 [Personal evidence](student-evidence.md)
 

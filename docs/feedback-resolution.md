@@ -8,7 +8,7 @@ Review date November 18, 2026. The supplied instructor feedback is the basis of 
 
 | Feedback | Project 2 response | Evidence or remaining work |
 |---|---|---|
-| Data integrity and traceability | Record per-fund source, download timestamp, units, transformation and file fingerprints. Compare archived CPI observations with fresh ALFRED downloads. | [Source ledger](../data/source-ledger.json), [source comparison](../outputs/source-check.json), [data card](data-card.md). Matt’s own source check remains pending. |
+| Data integrity and traceability | Record per-fund source, download timestamp, units, transformation and file fingerprints. Compare archived CPI observations with fresh ALFRED downloads. | [Source ledger](../data/source-ledger.json), [source comparison](../outputs/source-check.json), [data card](data-card.md). Matt's two QQQ screenshots are retained in [personal evidence](student-evidence.md#source-check) and match archived prices to cents; his calculation and interpretation remain pending. |
 | Financial soundness | Apply Matt’s 10% annual volatility ceiling to all portfolios. Explain historical means, covariance, cost convention, ETF overlap, target circularity and CPI floor. | [Mandate](mandate.md), app Calculations tab, [memo](decision-memo.md). |
 | Published training case | Reconcile Week 2 FCFF and equity bridge and the actual portfolio engine against Labs 14 and 15. | [43 computed checks](training-reconciliation.md). Week 2 is supplementary arithmetic; Labs 14 and 15 validate the app’s engine. |
 | Validation and reproducibility | Independently enumerate all 53,130 allocations and test risk, input, vintage, export and reset behavior. | [Verification](../outputs/verification.txt). |

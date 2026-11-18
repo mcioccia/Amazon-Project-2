@@ -2,7 +2,7 @@
   "disclosure": "OpenAI Codex assisted with source documentation. Educational purposes only. Not financial or investment advice.",
   "checked_at": "2026-11-18T16:34:47.366564-05:00",
   "checker": "OpenAI Codex, automated retrieval comparison",
-  "student_independent_check": "Pending",
+  "student_independent_check": "Partially complete: Matt supplied QQQ source screenshots; his calculation and interpretation remain pending.",
   "training": {
     "url": "https://raw.githubusercontent.com/CinderZhang/FIN43900-Fall2026/main/lessons/week-02/starter/mini_case.csv",
     "sha256": "471ac3a529d7ac29e3b8a04cdd32a55b828edb6a38906ebd1eb54805c82850cb"
@@ -27,5 +27,22 @@
       "response_sha256": "3ec8d7ad1372ceabf68ff1f610fcb79cb102a7ab15c2909cf02cfe8b145b59ee",
       "metadata_note": "The November 18 retrieval labels the requested vintage 2026-10-29; the original retained Lab 17 record labels its effective vintage 2026-10-28. Compared observed values match. Both dates precede the October 30 decision. The original response header was not independently re-established."
     }
-  ]
+  ],
+  "student_evidence_update": {
+    "received_date": "2026-11-18",
+    "record": "docs/student-evidence.md#source-check",
+    "capture_date": "Not visible in screenshots; unconfirmed",
+    "comparison_by": "OpenAI Codex",
+    "comparison": "QQQ August 31 Adj Close 716.01 and September 30 Adj Close 739.77 USD per share match saved inputs when rounded to cents.",
+    "attachments": [
+      {
+        "path": "docs/evidence/qqq-source-2026-09-30.png",
+        "sha256": "edbfc331736c756de5c98c8a60fdbe5ffecbc6cb0843574b59515be82f90e8fc"
+      },
+      {
+        "path": "docs/evidence/qqq-source-2026-08-31.png",
+        "sha256": "4272cb7b5f55ab2674311f9f2cc073d4efe01abade3d7a8fbe7dd24ceea0e669"
+      }
+    ]
+  }
 }
