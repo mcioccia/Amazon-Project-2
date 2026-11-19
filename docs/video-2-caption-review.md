@@ -30,7 +30,7 @@ Matt requested a complete cleaned transcript using the script after confirming a
 
 Sources: [base output](../outputs/committee-run.json), [15 bp output](../outputs/cost15-changed.json), [calculation code](../analysis.py), [word-for-word rehearsal script](video-2-word-for-word-script.md).
 
-No audio or video was supplied for this review. Playback, webcam visibility, synchronization, complete runtime, YouTube access and published captions remain unverified. The requested complete edited document is transcript-video-2.txt. A final audio-verified caption track has not been created.
+At the caption-editing stage, only the SRT was supplied. A subsequent YouTube access check is recorded below; full audio/text agreement, synchronization and continuous webcam visibility remain unverified. The requested complete edited document is transcript-video-2.txt. A final audio-verified caption track has not been created.
 
 
 ## Matt's confirmation and correction plan
@@ -41,3 +41,17 @@ On November 19, Matt answered: **I misspoke on at least one**. Do not certify th
 ## Current delivery
 
 Matt subsequently requested the complete cleaned transcript rather than another recording step. The new [edited transcript](transcript-video-2.txt) delivers that request and retains a separate numerical-edit note. The earlier correction guide is an optional recording aid, not a claimed completed action. The original recording and original SRT remain unchanged.
+
+
+## Published-video access check — November 19, 2026
+
+- URL: [Video 2](https://youtu.be/YfrNEF4OK6g).
+- Displayed title: **Project 2 Vid 2**.
+- Displayed visibility: **Unlisted**.
+- Player runtime: **4:32**, within the five-minute maximum.
+- Signed-out access: the page displayed **Sign in**, and playback advanced from 0:00 to 0:11 without authentication.
+- The code walkthrough and presenter webcam image were visible at the opening. Continuous face visibility and the entire audible narration were not checked.
+- The player reported **Subtitles/closed captions unavailable**. Published caption/transcript availability remains outstanding.
+- The previously disclosed numerical edits in the edited text transcript remain disclosed. Brief playback does not establish that those spoken errors were corrected.
+
+The original caption endpoint was 4:30.863; the full YouTube player runtime is 4:32. These refer to different measurements and are consistent.

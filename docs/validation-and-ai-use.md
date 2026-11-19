@@ -91,3 +91,6 @@ Matt subsequently confirmed at least one spoken error. A short recording-correct
 
 
 At Matt's subsequent request, Codex saved a complete [edited Video 2 transcript](transcript-video-2.txt) using the supplied captions and intended script. Its separate editorial note discloses the date, basis-point conversion and passing-mix count changes, including Matt's confirmation of at least one spoken error. This fulfills the edited-document request without claiming the original recording was corrected or certified verbatim. The original SRT is unchanged; full playback and caption/audio agreement remain unverified.
+
+
+On November 19, Codex checked the [published Video 2](https://youtu.be/YfrNEF4OK6g): title **Project 2 Vid 2**, runtime **4:32**, visibility **Unlisted**, and playback while signed out. The opening webcam image was visible. The entire narration and continuous webcam visibility were not reviewed, and YouTube reported captions unavailable. The edited-transcript numerical disclosures remain unchanged. See the [access check](video-2-caption-review.md#published-video-access-check--november-19-2026).
