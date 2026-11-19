@@ -4,7 +4,47 @@ This is an educational course project. It is not financial or investment advice.
 
 # Reproduction record
 
-## Partner’s run
+## Partner report — November 19, 2026
+
+Matt supplied the following report attributed to **Aj Chapman**. This is partner-reported evidence, with Codex's comparison labeled separately.
+
+| Field | Reported detail |
+|---|---|
+| Reviewer | Aj Chapman |
+| Start | November 19, 2026, 9:00 AM; time zone not specified |
+| Repository supplied | https://github.com/mcioccia/Amazon-Project-2 |
+| Exact version / commit | Not supplied; the repository URL does not identify the tested commit |
+| Fresh copy used | **No** |
+| First problem | **"No problems"** |
+| Elapsed time | **15 minutes** |
+| App tab or result location | Not specified |
+| Selected fund weights | Not supplied |
+| Control changed, old/new values and resulting verdict | Not supplied |
+| Whether only the README was used, without coaching | Not supplied |
+| Additional feedback | Not supplied |
+
+Commands supplied for this report:
+
+~~~powershell
+py -3.12 -m venv .venv
+.\.venv\Scripts\python.exe -m pip install -r requirements.txt
+~~~
+
+The app-launch command was not included in this report. An earlier report supplied a launch command; it has not been attributed to this attempt.
+
+### Results supplied
+
+| Portfolio | Net estimate | Annual volatility | Verdict |
+|---|---|---|---|
+| Equal weight | 7.494% | 12.138% | Fail — exceeds 10% risk limit |
+| Inverse volatility | 3.775% | 1.999% | Fail — below return target |
+| Constrained | 7.498% | 7.241% | Pass |
+
+**Codex comparison:** all six displayed numerical values and the three verdicts match the saved base output at the reported precision. The report does not establish the exact software version used.
+
+**Status:** partner app check recorded. Because the reviewer answered "No" to using a fresh copy, this does not establish a clean-copy partner reproduction. No fix was identified by the reported attempt; a fresh-copy run following only the README is still needed. Retain that run's exact commit, commands (including app launch), time, first-error outcome, result location and one changed-control observation.
+
+## Earlier partner report — November 18, 2026
 
 On November 18, 2026, Matt reported that his partner had tested Project 2 and asked how the calculations were computed. Matt supplied these commands:
 
@@ -25,7 +65,7 @@ py -3.12 -m venv .venv
 | Response implemented | Calculations tab traces historical estimates, covariance, the switching-cost bridge and the selection rule. |
 | Partner rerun of revised version | Pending |
 
-Ask the partner to confirm the timing, first-error outcome and result independently. Preserve their words.
+The fields in this earlier report describe what was known on November 18. The November 19 report above supplies additional timing and observed-result evidence; it does not establish the identity or exact version of the earlier attempt.
 
 ## Automated reproduction
 

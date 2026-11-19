@@ -245,7 +245,7 @@ with validation:
         st.write("Automated ALFRED comparison · " + ", ".join(f"{x['vintage']} {x['status']}" for x in check["cpi"]))
     st.write("Independent numerical validation recomputes sample covariance and enumerates the allocation grid through a separate calculation.")
     st.warning("Student evidence still needed · personal source check, AI-off prediction and later result, final transcripts and access checks.")
-    st.caption("Matt reports that a partner ran the app and asked how the calculations work. The command is recorded. Timing and first-error details remain unconfirmed.")
+    st.caption("Partner report: Aj Chapman, November 19, 9:00 AM; 15 minutes; no problems; displayed base results match. Fresh copy was marked No. Clean-copy reproduction, exact version and a changed-control observation remain unconfirmed.")
 
 with mandate:
     st.markdown((engine.ROOT/"docs/mandate.md").read_text(encoding="utf-8"))

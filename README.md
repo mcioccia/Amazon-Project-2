@@ -68,6 +68,6 @@ The source ledger fingerprints the archived inputs. The app refuses an undocumen
 
 ## Submission status
 
-Software and recorded numerical checks are complete for this revision. The [15 bp prediction and result](docs/cost15-prediction-comparison.md) are saved with a pre-run commit and restored baseline. Personal source-verification status, the highest-risk claim and three failures, final video links/transcripts, instructor access and the revised partner-run details remain tracked in the [manifest](docs/manifest.md). Every video requires a visible webcam image. Video 3 starts with the live app. Record after the mandate and thesis are finalized.
+Software and recorded numerical checks are complete for this revision. The [15 bp prediction and result](docs/cost15-prediction-comparison.md) are saved with a pre-run commit and restored baseline. Personal source-verification status, the highest-risk claim and three failures, final video links/transcripts, instructor access and the remaining clean-copy partner run and control-change evidence remain tracked in the [manifest](docs/manifest.md). Every video requires a visible webcam image. Video 3 starts with the live app. Record after the mandate and thesis are finalized.
 
 [Feedback resolution](docs/feedback-resolution.md) · [Personal evidence](docs/student-evidence.md) · [Partner reproduction](docs/cold-run.md)
