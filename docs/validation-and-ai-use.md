@@ -54,7 +54,7 @@ The current base is target 7.49% net, volatility ceiling 10%, BIL minimum 3% bef
 | Actual output and signed change, with units | Annual volatility 7.240553% to 7.244616% (+0.004063 pp); net 7.498034% to 7.503349% (+0.005315 pp); BIL 65% unchanged |
 | Did my decision change? | Applying Matt's pre-run conditions supports continued pilot: a mix exists, volatility is below 9%, and BIL is above 50%. This is the recorded-rule assessment, not an invented personal post-run statement. |
 | Why the result matched or differed, or stayed unchanged | Volatility rose as predicted but below the 7.3–8.6% range. Five points moved from VUG to ONEQ; BIL and turnover stayed fixed. Gross estimate gain exceeded added cost. Full [after-run diagnosis](cost15-prediction-comparison.md) prepared by Codex. |
-| Separate post-run commit URL | Pending creation of the result commit; will be recorded after commit and push. |
+| Separate post-run commit URL | [Results commit 0e42306](https://github.com/mcioccia/Amazon-Project-2/commit/0e4230638481a93bdcf86394db007ad5f111e922) · 2026-11-19T00:46:51-05:00 (America/New_York), pushed after execution |
 
 The saved standard stresses and the completed 25 bp practice scenario have already been observed. They do not supply a fresh blind prediction.
 
