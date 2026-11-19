@@ -1,0 +1,32 @@
+I used OpenAI Codex to build, test and help explain this app. The analysis and decision are mine.
+
+This is for educational purposes only, not for financial or investment advice.
+
+I'm asking the committee to authorize a one-year paper pilot with an annual rebalancing and monthly reviews. This app uses an October 30th historical snapshot under the mandate approved later. The base passes, but its expected return cushion is less than one basis point.
+
+My proposed starting allocation is 65% BIL, 15% QQQ, 5% ONEQ, and 15% VUG. IEF and LQD receive zero. The equity funds overlap, so the fund count overstates diversification.
+
+Okay, now we're going to go to sources and timing. The signal uses inflation from an archived vintage available by the cutoff. Inflation of about 3.7% raises the BIL minimum from 3% to 10%. The model already holds 65%, so this run does not demonstrate a CPI timing advantage. I also checked two QQQ prices against Yahoo and verified the monthly return myself.
+
+Now I'm increasing switching cost from 10 to 15 basis points. Go ahead and do that over here and then press Enter. Let that load. Perfect. Leaving every other input fixed. This repeats my saved test. The prediction was committed before the original run. The mix still passes.
+
+Volatility is 7.24%, below my predicted range. Five percentage points move from VUG to ONEQ, while BIL stays at 65%. Reoptimization raises gross expected return enough to offset the extra cost. That supports a cautious pilot. Future performance remains uncertain.
+
+So now I'm going to go reset the base. I'm going to put that back to 10. And then I'm going to set the monthly returns window to 36 months. So now I've used 36 monthly returns. BIL now rises to 85%. The 48-month result also holds 85%. Across these complete mixes, the range is 65% to 85% BIL, paired with 35% to 15% equities. That 20-point move triggers committee review. A different window changes all estimated means and covariance. The target also came from this historical sample, so I want to confirm it independently.
+
+So I'm going to go restore to the approved base again. This time I'm going to set minimum BIL to 90%. So no mix meets all the rules, so allocation pauses. I'll bring the conflicting requirements back to the committee instead of lowering the target just to force the actual answer out of this.
+
+Okay, I've reset and now I'm going to go to mandate. So my decision remains a paper pilot. Any one of these makes me reconsider: no mix passes at 15 basis points; estimated volatility exceeds 9%; BIL falls below 55%; or the base fails after a window change. I'll monitor source availability, costs, the return cushion, and fund overlap monthly. Missing evidence or any infeasible mandate stops the process. Estimated volatility does not cap actual losses. Before funding, I want to confirm client loss tolerance and forward results after costs. My committee request is approval to track the base allocation on paper.
+
+---
+EDITORIAL NOTE — this note was not spoken in the video.
+
+Prepared with OpenAI Codex from Matt's supplied Video 3 SRT and intended script, with financial values checked against the saved project output. This is a cleaned, edited transcript, not a certification of every spoken word. Educational purposes only; not financial or investment advice.
+
+Matt confirmed that the actual video includes the full opening AI-use statement. The words missing before the first supplied caption are restored here from his intended script. The SRT itself begins mid-sentence at 00:00:00,172, so the full opening and the caption timing still need alignment against the recording. The review SRT retains the supplied starting point rather than inventing times for the missing words.
+
+Two substantive numerical edits use the intended script and saved output:
+- About 00:16: October 30th replaces October 13th in the supplied SRT.
+- About 01:49: BIL stays at 65%, replacing 15% in the supplied SRT.
+
+The 7.24% volatility in the supplied captions is retained at two decimal places. It agrees with the saved 15 bp result, 7.244615791%, rounded to two decimals. Fund symbols, percentage-point wording, the 48-month window, punctuation and obvious recognition errors were corrected. The original caption overlap at 01:15.953 was removed in the review SRT. No audio modification or full audio review is claimed. The original SRT is preserved at docs/evidence/video-3-original.srt; detailed corrections are in docs/video-3-caption-review.md.

@@ -1,0 +1,367 @@
+1
+00:00:00,172 --> 00:00:02,914
+tests and help explain the app. The
+
+2
+00:00:02,914 --> 00:00:04,889
+analyst decisions are mine. This is for
+
+3
+00:00:04,889 --> 00:00:07,147
+educational purposes only, not for
+
+4
+00:00:07,147 --> 00:00:09,565
+financial or investment advice. I'm
+
+5
+00:00:09,565 --> 00:00:10,976
+asking the committee to authorize a
+
+6
+00:00:10,976 --> 00:00:13,758
+one-year paper pilot with an annual
+
+7
+00:00:13,758 --> 00:00:16,419
+rebalancing and monthly reviews. This app
+
+8
+00:00:16,419 --> 00:00:19,120
+uses a October 13th historical snapshot
+
+9
+00:00:19,120 --> 00:00:21,951
+under the mandate approvedapprove later.
+
+10
+00:00:22,193 --> 00:00:24,854
+The base passes but is expected cushion
+
+11
+00:00:24,854 --> 00:00:26,668
+is less than one basis point.
+
+12
+00:00:28,345 --> 00:00:30,718
+My proposed starting allocation is 65%
+
+13
+00:00:31,121 --> 00:00:31,764
+BIL.
+
+14
+00:00:36,782 --> 00:00:39,759
+15% QQQ, 5%
+
+15
+00:00:39,799 --> 00:00:41,851
+ONEQ, and 15% BUG
+
+16
+00:00:42,736 --> 00:00:45,632
+IEF LD receives 0. The equity
+
+17
+00:00:45,632 --> 00:00:47,483
+funds overlaps. The fund count
+
+18
+00:00:48,287 --> 00:00:49,724
+overstates diversification.
+
+19
+00:00:49,936 --> 00:00:51,306
+Okay, now we're going to go to sources
+
+20
+00:00:51,306 --> 00:00:54,087
+and timing. The signal
+
+21
+00:00:54,087 --> 00:00:56,586
+uses inflation from an archive vintage
+
+22
+00:00:56,586 --> 00:00:59,125
+available by the cutoff. Inflation of
+
+23
+00:00:59,125 --> 00:01:01,786
+about 3.7% raises the BIL
+
+24
+00:01:02,068 --> 00:01:05,050
+minimum from 3 to 10%. The model already
+
+25
+00:01:05,050 --> 00:01:08,033
+holds 65%, so this run does
+
+26
+00:01:08,033 --> 00:01:10,774
+not demonstrate a CPI timing advantage. I
+
+27
+00:01:10,774 --> 00:01:13,636
+also check two QQQ prices against Yahoo
+
+28
+00:01:13,636 --> 00:01:16,455
+and verify the monthlyReturnI'll be back.
+
+29
+00:01:15,953 --> 00:01:16,679
+myself.
+
+30
+00:01:19,999 --> 00:01:21,730
+Now I'm increasing this to switching cost
+
+31
+00:01:21,730 --> 00:01:24,711
+from 10 to 15 basis points. Go ahead
+
+32
+00:01:24,711 --> 00:01:26,603
+and do that over here and then press
+
+33
+00:01:27,248 --> 00:01:29,181
+enter. Get that load.
+
+34
+00:01:30,067 --> 00:01:32,805
+Perfect. Leaving every other input
+
+35
+00:01:32,805 --> 00:01:34,980
+fixed. This repeats my save test. The
+
+36
+00:01:34,980 --> 00:01:36,631
+prediction was committed before the
+
+37
+00:01:36,631 --> 00:01:38,927
+original run. The mix still passes.
+
+38
+00:01:38,927 --> 00:01:40,216
+Volatility is 7.
+
+39
+00:01:40,689 --> 00:01:43,669
+7.24% below unpredicted range.
+
+40
+00:01:43,830 --> 00:01:46,810
+5% points move from
+
+41
+00:01:46,810 --> 00:01:49,509
+BUG to ONAQ, while BIL stays at
+
+42
+00:01:49,509 --> 00:01:52,127
+15%. Re-optimization remains gross
+
+43
+00:01:52,127 --> 00:01:54,180
+expected return enough to offset the
+
+44
+00:01:54,180 --> 00:01:56,395
+extra cost. That supports a conscious
+
+45
+00:01:56,395 --> 00:01:58,973
+pilot. Future performance remains
+
+46
+00:01:59,134 --> 00:01:59,940
+uncertain.
+
+47
+00:02:04,816 --> 00:02:06,987
+So now I'm going to go reset the base.
+
+48
+00:02:06,987 --> 00:02:09,923
+I'm going
+
+49
+00:02:09,923 --> 00:02:11,170
+to put that back to 10. And
+
+50
+00:02:15,593 --> 00:02:18,569
+then I'm going to put this to monthly
+
+51
+00:02:18,569 --> 00:02:20,339
+returns to 36 months.
+
+52
+00:02:22,349 --> 00:02:25,084
+So now I've used a 36 monthly
+
+53
+00:02:25,084 --> 00:02:27,949
+returns. BIL now raises
+
+54
+00:02:28,633 --> 00:02:31,287
+to 85%. The 48% month
+
+55
+00:02:31,287 --> 00:02:32,735
+result also holds
+
+56
+00:02:33,941 --> 00:02:36,676
+85%. Across these complete mixes, the
+
+57
+00:02:36,676 --> 00:02:39,289
+range is 65 to 85% BIL,
+
+58
+00:02:39,893 --> 00:02:42,306
+paired with the 35 to 15%
+
+59
+00:02:42,748 --> 00:02:45,161
+equities. That 20-point move triggers
+
+60
+00:02:45,161 --> 00:02:47,131
+committee review. A different window
+
+61
+00:02:47,131 --> 00:02:49,303
+changes all estimated means and
+
+62
+00:02:49,303 --> 00:02:51,354
+covariance. The target also came from
+
+63
+00:02:51,354 --> 00:02:53,606
+this historical sample, so I want to
+
+64
+00:02:53,606 --> 00:02:54,933
+confirm it independently.
+
+65
+00:02:56,977 --> 00:02:58,797
+So I'm going to go restore to the
+
+66
+00:02:58,797 --> 00:02:59,889
+approved base again.
+
+67
+00:03:02,720 --> 00:03:04,581
+This time I'm going to put minimum BIL to
+
+68
+00:03:04,581 --> 00:03:05,066
+90.
+
+69
+00:03:08,625 --> 00:03:11,335
+So no mix meets all the rules, so
+
+70
+00:03:11,335 --> 00:03:12,912
+allocation pauses. I'll bring the
+
+71
+00:03:12,912 --> 00:03:15,137
+conflicting requirements back to the
+
+72
+00:03:15,137 --> 00:03:16,714
+committee instead of lowering the target
+
+73
+00:03:16,714 --> 00:03:18,696
+just to force the actual answer out of
+
+74
+00:03:18,696 --> 00:03:19,060
+this.
+
+75
+00:03:21,751 --> 00:03:24,685
+Okay, I've reset and now I'm
+
+76
+00:03:24,765 --> 00:03:27,498
+going to go to mandate. So
+
+77
+00:03:27,900 --> 00:03:29,025
+my decision
+
+78
+00:03:31,195 --> 00:03:34,048
+remains a paper pilot. Any one of
+
+79
+00:03:34,048 --> 00:03:36,058
+these makes me reconsider. No mixed
+
+80
+00:03:36,058 --> 00:03:38,871
+passes at 15 basis points. Estimated
+
+81
+00:03:38,871 --> 00:03:40,116
+volatility exceeds 9%.
+
+82
+00:03:41,322 --> 00:03:43,331
+BIL falls below 55%.
+
+83
+00:03:44,939 --> 00:03:47,109
+or the base fails after a window change.
+
+84
+00:03:47,350 --> 00:03:50,042
+A monitor source availability, costs, the
+
+85
+00:03:50,042 --> 00:03:52,654
+return cushion, and fund overlap monthly.
+
+86
+00:03:52,976 --> 00:03:54,905
+Missing evidence or any infeasible
+
+87
+00:03:54,905 --> 00:03:57,075
+mandate stops the process. Estimated
+
+88
+00:03:57,075 --> 00:03:59,486
+volatility does not cap actual losses.
+
+89
+00:03:59,727 --> 00:04:02,460
+Before funding, I want to confirm client
+
+90
+00:04:02,460 --> 00:04:05,072
+loss tolerance and forward results after
+
+91
+00:04:05,072 --> 00:04:07,845
+cost. My committee request is approved to
+
+92
+00:04:07,885 --> 00:04:10,738
+track the base allocation on paper.
