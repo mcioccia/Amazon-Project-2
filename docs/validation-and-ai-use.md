@@ -94,3 +94,8 @@ At Matt's subsequent request, Codex saved a complete [edited Video 2 transcript]
 
 
 On November 19, Codex checked the [published Video 2](https://youtu.be/YfrNEF4OK6g): title **Project 2 Vid 2**, runtime **4:32**, visibility **Unlisted**, and playback while signed out. The opening webcam image was visible. The entire narration and continuous webcam visibility were not reviewed, and YouTube reported captions unavailable. The edited-transcript numerical disclosures remain unchanged. See the [access check](video-2-caption-review.md#published-video-access-check--november-19-2026).
+
+
+## Video 3 preparation — November 19, 2026
+
+Codex prepared the [475-word script](video-3-word-for-word-script.md) and [exact click guide](video-3-recording-guide.md), then exercised the live app at base, 15 bp cost, 36-month history and 90% BIL minimum, resetting between tests and restoring the base at the end. Displayed values matched saved outputs; the current OR review conditions were visible in the Mandate tab. [Rehearsal record](../outputs/video3-review.txt) documents the scope. App changes were limited to heading spacing and correcting an outdated evidence-status sentence. Financial calculations, archived results and the original prediction were unchanged. Actual recording and transcript remain pending.

@@ -1,0 +1,24 @@
+AI-use disclosure: OpenAI Codex prepared this recording guide and tested the live app route.
+Educational purposes only. Not financial or investment advice.
+
+Video 3 live-app rehearsal — November 19, 2026
+PASS: 475-word narration matches all seven Say exactly passages in the click guide.
+PASS: script uses current November 19 OR review triggers, including 55% BIL and 9% volatility.
+PASS: live app started at http://127.0.0.1:8506/ using the Lab_14 Python environment.
+PASS: approved base displayed 7.498% net, 7.241% risk, +0.80 bp cushion and 65% BIL.
+PASS: Sources & timing displayed September 2026, returned vintage 2026-10-28, cutoff 2026-10-30, CPI 3.717% and 10% effective floor.
+PASS: changed only cost to 15 bp through the sidebar; displayed 7.503%, 7.245%, +1.33 bp and 65% BIL. Allocation chart showed QQQ 15%, ONEQ 10%, VUG 10%, BIL 65%.
+PASS: reset before changing only window to 36; displayed 7.528%, 2.576%, +3.85 bp and 85% BIL.
+PASS: Stress results showed the 59-, 48- and 36-month allocations and stated the 20-point committee-review trigger.
+PASS: reset before changing only BIL minimum to 90%; displayed No eligible allocation. Pause allocation.
+PASS: Mandate tab displayed all four current reconsideration triggers joined by OR.
+PASS: final reset restored all seven sidebar controls and the original base metrics; Decision selected.
+PASS: recorded displayed metrics agree with the saved base, 15 bp run and window/constraint results.
+PASS: current app syntax parses; no financial-engine changes.
+PASS: opening heading spacing and the outdated Validation evidence message were corrected. The UI now recognizes completed personal checks, locked prediction/result and partner report.
+PASS: no browser error logs observed during this route.
+PASS: recording view inspected at 1536 x 864; temporary viewport override removed.
+Preview: docs/evidence/video3-live-preview.jpg. This is a live-app screenshot, not a recorded video.
+
+Only presentation spacing and an evidence-status sentence changed in app.py. The financial engine, assumptions, archived results, original prediction and recorded Video 2 materials were not changed. Video 2's source fingerprints identify its earlier recorded source snapshot.
+Actual Video 3, duration, audio, continuous webcam visibility, transcript and YouTube access remain pending. The timing guide is a rehearsal target, not a measured recording.

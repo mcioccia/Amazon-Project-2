@@ -78,6 +78,12 @@ Open **Video-2-Dashboard.html** from the Project 2 folder, click **Reset → Ful
 
 [Dashboard preview](docs/evidence/video2-dashboard-preview.jpg) · [Presentation checks](outputs/video2-review.txt)
 
+## Record Video 3
+
+Open the running **Streamlit app**, beginning on **Decision** at the approved base. Read the [475-word spoken script](docs/video-3-word-for-word-script.md) and follow the [exact live click guide](docs/video-3-recording-guide.md). Route: base verdicts → Sources & timing → cost 15 bp → reset → 36-month window and Stress results → reset → BIL minimum 90% → reset → Mandate conditions → Decision. The live route was checked against saved results. Keep your face visible throughout; aim for 4:35–4:50 and stay under 5:00. The actual recording, link and transcript remain pending.
+
+[Live-app preview](docs/evidence/video3-live-preview.jpg) · [Rehearsal checks](outputs/video3-review.txt)
+
 ## Submission status
 
 Software and recorded numerical checks are complete for this revision. The [15 bp prediction and result](docs/cost15-prediction-comparison.md) are saved with a pre-run commit and restored baseline. Personal source-verification status, the highest-risk claim and three failures, final video links/transcripts, instructor access and the remaining partner-run metadata and control-change evidence remain tracked in the [manifest](docs/manifest.md). Every video requires a visible webcam image. Video 3 starts with the live app. Record after the mandate and thesis are finalized.

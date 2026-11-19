@@ -12,7 +12,7 @@ st.markdown("""
 <style>
 @import url('https://fonts.googleapis.com/css2?family=DM+Sans:wght@400;500;600;700&family=Libre+Caslon+Text&display=swap');
 .stApp {background:#f5f6f2;color:#183b40;}
-.block-container {max-width:1450px;padding-top:2rem;padding-bottom:3rem;}
+.block-container {max-width:1450px;padding-top:4rem;padding-bottom:3rem;}
 h1,h2,h3 {color:#173c41;}
 h1 {font-family:Georgia,serif!important;font-weight:400!important;letter-spacing:-.035em;}
 html,body,[class*="css"],p,li {font-family:"DM Sans","Segoe UI",sans-serif;}
@@ -244,7 +244,7 @@ with validation:
         check=json.loads(source_path.read_text())
         st.write("Automated ALFRED comparison · " + ", ".join(f"{x['vintage']} {x['status']}" for x in check["cpi"]))
     st.write("Independent numerical validation recomputes sample covariance and enumerates the allocation grid through a separate calculation.")
-    st.warning("Student evidence still needed · personal source check, AI-off prediction and later result, final transcripts and access checks.")
+    st.info("Evidence saved · personal source and calculation check, locked 15 bp prediction and result, and partner reproduction report. Remaining: final video/caption checks and submission access; see docs/manifest.md.")
     st.caption("Partner report: Aj Chapman, November 19, 9:00 AM; fresh download confirmed by Matt; 15 minutes; no problems; displayed base results match. No fix needed for the reported run. Exact version and a changed-control observation remain unspecified.")
 
 with mandate:
