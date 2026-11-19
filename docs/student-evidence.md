@@ -68,16 +68,16 @@ File fingerprints identify the exact attachments preserved here; they do not est
 
 ## Highest-risk claim and three possible failures
 
-Complete this section yourself with AI closed, following the instructor’s feedback. Name the claim in your own words and explain how it could fail. The saved code tests are separate evidence.
+Matt supplied his claim, evidence, three failures with detection methods, and conclusion on November 19 after receiving the test result. His full wording is preserved in [his reflection](highest-risk-claim.md), with separately labeled verification notes. This does not replace the locked prediction. Numerical consistency and the meaning of the newly stated decision triggers remain identified for review.
 
 | Field | Matt’s response |
 |---|---|
-| Highest-risk claim I am making | Pending |
-| Evidence supporting it | Pending |
-| Failure possibility 1 and how I would detect it | Pending |
-| Failure possibility 2 and how I would detect it | Pending |
-| Failure possibility 3 and how I would detect it | Pending |
-| My conclusion and the condition that changes it | Pending |
+| Highest-risk claim I am making | Supplied; see My Highest-Risk Claim in [the unchanged reflection](highest-risk-claim.md) |
+| Evidence supporting it | Supplied; see Evidence paragraph in [the unchanged reflection](highest-risk-claim.md) |
+| Failure possibility 1 and how I would detect it | Supplied; see Failure 1: switching-cost calculation in [the unchanged reflection](highest-risk-claim.md) |
+| Failure possibility 2 and how I would detect it | Supplied; see Failure 2: estimated stock-return contribution in [the unchanged reflection](highest-risk-claim.md) |
+| Failure possibility 3 and how I would detect it | Supplied; see Failure 3: estimation-window stability in [the unchanged reflection](highest-risk-claim.md) |
+| My conclusion and the condition that changes it | Supplied; see Conclusion: cautious pilot and stated conditions in [the unchanged reflection](highest-risk-claim.md) |
 
 The [Locked Changed-Input Record](validation-and-ai-use.md) now links the November 19 prediction committed before execution and the [15 bp result and comparison](cost15-prediction-comparison.md). The original prediction is preserved.
 
