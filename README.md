@@ -72,6 +72,12 @@ Open **Video-1-Dashboard.html** from your downloaded Project 2 folder. It runs l
 
 [Dashboard preview](docs/evidence/video1-dashboard-preview.jpg) · [Presentation checks](outputs/video1-review.txt)
 
+## Record Video 2
+
+Open **Video-2-Dashboard.html** from the Project 2 folder, click **Reset → Full screen**, and record the code walkthrough with your webcam visible. Read the [527-word spoken script](docs/video-2-word-for-word-script.md) and follow the [exact click guide](docs/video-2-recording-guide.md): **Inputs → Returns → Risk → CPI cutoff → Costs → Search → Verdict**. Aim for 4:25–4:45; maximum 5:00. The dashboard shows source excerpts from the current code, saved results, a rehearsal timer, line highlighting and the same narration. It runs locally and does not execute a new financial scenario. The actual recording, YouTube link and corrected transcript remain pending.
+
+[Dashboard preview](docs/evidence/video2-dashboard-preview.jpg) · [Presentation checks](outputs/video2-review.txt)
+
 ## Submission status
 
 Software and recorded numerical checks are complete for this revision. The [15 bp prediction and result](docs/cost15-prediction-comparison.md) are saved with a pre-run commit and restored baseline. Personal source-verification status, the highest-risk claim and three failures, final video links/transcripts, instructor access and the remaining partner-run metadata and control-change evidence remain tracked in the [manifest](docs/manifest.md). Every video requires a visible webcam image. Video 3 starts with the live app. Record after the mandate and thesis are finalized.

@@ -76,3 +76,8 @@ OpenAI Codex corrected the SRT supplied by Matt for finance terms, ticker symbol
 
 
 On November 19, Codex checked the [published Video 1](https://youtu.be/e79Ix9xr71k) in a signed-out browser. The title was PROJECT 2 VID 1 FINAL, duration 2:36, and visibility Unlisted. Brief playback and opening webcam visibility passed; full-video audio and continuous webcam review were not performed. YouTube reported captions unavailable, so publishing the corrected caption file remains outstanding. See the [access check](video-1-caption-review.md#published-video-access-check--november-19-2026).
+
+
+## Video 2 preparation — November 19, 2026
+
+OpenAI Codex prepared the [word-for-word draft](video-2-word-for-word-script.md), [click guide](video-2-recording-guide.md) and source-code recording dashboard. The generator reads actual source lines and saved outputs; all displayed excerpts were checked against their files. The approved base rerun matched its archive, and a 90% BIL floor returned no eligible mix. [Presentation review](../outputs/video2-review.txt) records UI checks and limitations; [source fingerprints](../outputs/video2-presentation-sources.json) identify the code displayed. No model inputs, archived results or locked prediction text changed. This draft is not an actual recording transcript; the actual video and corrected transcript remain pending.

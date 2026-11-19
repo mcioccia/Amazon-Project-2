@@ -1,0 +1,21 @@
+AI-use disclosure: OpenAI Codex prepared and checked the Video 2 code walkthrough.
+Educational purposes only. Not financial or investment advice.
+
+Video 2 presentation review — November 19, 2026
+PASS: seven scenes and 527 spoken words; word-for-word file, guide and dashboard narration match.
+PASS: every displayed source line matches its stated file and original line number; skipped lines explicitly marked.
+PASS: source/input fingerprints saved in video2-presentation-sources.json.
+PASS: documented price/CPI input fingerprints match the source ledger.
+PASS: rerun of approved base exactly matches outputs/committee-run.json base.
+PASS: 90% BIL constraint returns no eligible constrained allocation.
+PASS: supplied source-check example and saved 15 bp result agree with displayed precision.
+PASS: all seven scenes fit a tested 1366 x 768 recording viewport without page or code-panel overflow.
+PASS: native 1536 x 864 recording view inspected; source code, calculations and webcam reservation readable.
+PASS: webcam reservation stays at the same vertical position across scenes at each desktop size.
+PASS: named scene navigation, source-line highlighting, full-source dialog open/close, script show/close, timer start/pause/reset.
+PASS: full-screen control worked; viewport override removed; final view reset to Inputs at 0:00 with script hidden.
+PASS: no browser error logs observed during control checks.
+Preview: docs/evidence/video2-dashboard-preview.jpg. This is a browser screenshot, not a recorded video.
+
+The financial model, financial input files, original locked prediction and archived financial output files were not changed.
+The 4:25–4:45 runtime is a rehearsal target. Actual recording length, webcam visibility throughout, audio, transcript and YouTube access remain to be checked after recording.

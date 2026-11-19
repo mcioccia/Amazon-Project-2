@@ -1,0 +1,15 @@
+{
+  "disclosure": "Built with OpenAI Codex assistance. Educational only; not financial or investment advice.",
+  "prepared": "2026-11-19",
+  "spoken_words": 527,
+  "source_sha256": {
+    "analysis.py": "18697df0562e5f721e4ca08297e3fbe0cc35b7b3809f000ef564828ed73d2073",
+    "portfolio.py": "fb1aeb3208dfea5cdc2eb2d3b847de2770557ab6f4eb08d526de0c79de4b88a3",
+    "app.py": "b0d2b737c73a52747df57aca7017917714c036d862e9e641180bce24c5cba800"
+  },
+  "inputs": {
+    "outputs/committee-run.json": "08009aee0798de9343366add42205c6e68bd7c1779c345c1d381f52c5431f110",
+    "outputs/cost15-changed.json": "f3b6be296edb8728e2efb284a4d61cfbc54c1d384be9694d44c377d3a0dbb7ee",
+    "data/prices.csv": "2c93e65a793d2ecc89f704cff078f0bdf92bf2ec3bcb03e57b0ac57214fdc9c6"
+  }
+}
