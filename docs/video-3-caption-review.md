@@ -4,7 +4,7 @@ Educational purposes only; not financial or investment advice.
 
 # Video 3 caption review — November 19, 2026
 
-The [complete edited transcript](transcript-video-3.txt) is prepared from Matt's supplied `Project 2 VId 3 Final.srt`. The [original SRT](evidence/video-3-original.srt) is preserved byte-for-byte. The [review caption track](captions-video-3-review.srt) contains all 92 original cue numbers. Its final cue ends at **4:10.738**; this is a caption endpoint, not independently verified video runtime. The video link and playback check remain pending.
+The [complete edited transcript](transcript-video-3.txt) is prepared from Matt's supplied `Project 2 VId 3 Final.srt`. The [original SRT](evidence/video-3-original.srt) is preserved byte-for-byte. The [review caption track](captions-video-3-review.srt) contains all 92 original cue numbers. Its final cue ends at **4:10.738**; this is a caption endpoint, not independently verified video runtime. The subsequent published-video access check is recorded below.
 
 ## Opening confirmed by Matt
 
@@ -41,4 +41,18 @@ Sources: [saved base and window stresses](../outputs/committee-run.json), [15 bp
 
 ## Status
 
-The edited text is complete, with the opening restored following Matt's confirmation. It is not an audio-verified transcript. No audio was changed. The review captions need opening alignment and playback review before use as a final timed track. Published title, video runtime, YouTube access, continuous webcam visibility and final caption publication remain unverified. Original numerical outputs, model inputs and the locked prediction were not changed.
+The edited text is complete, with the opening restored following Matt's confirmation. It is not an audio-verified transcript. No audio was changed. The review captions need opening alignment and playback review before use as a final timed track. Published title, runtime and signed-out playback were subsequently verified below. Full audio/text agreement, continuous webcam visibility, caption synchronization and final caption publication remain unverified. Original numerical outputs, model inputs and the locked prediction were not changed.
+
+
+## Published-video access check — November 19, 2026
+
+- URL: [Video 3](https://youtu.be/9RYrqkSZCaw).
+- Displayed title: **Project 2 VId 3 Final**.
+- Displayed visibility: **Unlisted**.
+- Player runtime: **4:11**, within the five-minute maximum.
+- Signed-out access: the page displayed **Sign in** and playback advanced from 0:00 to 0:03 without authentication.
+- The live Streamlit portfolio app and presenter webcam were visible at the opening. The visible base metrics included 7.498% net estimate, 7.241% volatility, +0.80 bp cushion and 65% BIL.
+- The player reported **Subtitles/closed captions unavailable**. A final caption track is not confirmed published.
+- This brief access check did not review the entire narration, verify caption synchronization or establish continuous face visibility. The disclosed numerical edits and the opening-alignment limitation remain unchanged.
+
+The original SRT endpoint, 4:10.738, and the player runtime, 4:11, are distinct measurements and are consistent. Matt's earlier confirmation that the full opening is in the video remains attributed to him; brief visual playback did not independently verify its audible wording.
