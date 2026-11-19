@@ -88,3 +88,6 @@ OpenAI Codex prepared the [word-for-word draft](video-2-word-for-word-script.md)
 Codex compared the supplied SRT with the script and saved results and prepared [review drafts](video-2-caption-review.md). Original cues and timings are retained, and the source SRT is archived unchanged. Three possible spoken-versus-caption errors (decision date, basis-point conversion and passing-mix count) require Matt’s playback confirmation. Drafts use the correct script/model values but are not certified transcripts. No model inputs or archived results were changed.
 
 Matt subsequently confirmed at least one spoken error. A short recording-correction guide is saved; no corrected audio, final transcript or revised caption timing is claimed yet.
+
+
+At Matt's subsequent request, Codex saved a complete [edited Video 2 transcript](transcript-video-2.txt) using the supplied captions and intended script. Its separate editorial note discloses the date, basis-point conversion and passing-mix count changes, including Matt's confirmation of at least one spoken error. This fulfills the edited-document request without claiming the original recording was corrected or certified verbatim. The original SRT is unchanged; full playback and caption/audio agreement remain unverified.

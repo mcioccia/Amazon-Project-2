@@ -4,19 +4,19 @@ Educational purposes only; not financial or investment advice.
 
 # Video 2 caption review — November 19, 2026
 
-**Review draft, not yet the final submission transcript. Matt confirmed that he misspoke on at least one of the three values below.** Matt supplied the recorded video's SRT. The [original](evidence/video-2-original.srt) is preserved unchanged. [Proposed corrected captions](captions-video-2-review.srt) and [proposed readable transcript](transcript-video-2-review.txt) retain all 102 original cue numbers and timestamps. The last cue ends at 00:04:30,863; this does not establish the full video runtime.
+**Complete edited transcript saved at [transcript-video-2.txt](transcript-video-2.txt), at Matt’s request. Three numerical corrections are disclosed in its editorial note. It is not certified as verbatim audio.** Matt supplied the recorded video's SRT. The [original](evidence/video-2-original.srt) is preserved unchanged. [Proposed corrected captions](captions-video-2-review.srt) and [proposed readable transcript](transcript-video-2-review.txt) retain all 102 original cue numbers and timestamps. The last cue ends at 00:04:30,863; this does not establish the full video runtime.
 
 Finance terms corrected include annualizes, covariance, archived vintages, one-way turnover, search, inverse volatility and constrained mix. The recorded opening and transitions, two-decimal turnover of 48.33%, the brief restart before the verdict, and final funding wording are retained. Grammar and punctuation were lightly cleaned, without replacing the entire recording with the rehearsal script.
 
-## Three passages requiring playback confirmation
+## Three disclosed numerical edits
 
 | Time / cue | Supplied SRT | Correct value in the script and saved model | Status |
 |---|---|---|---|
-| 00:27 / 12 | October 13th | October 30th, 2026 | Proposed correction; confirm what was spoken |
-| 02:36 / 61 | 10 basis points becomes 0.001% | 10 basis points = 0.001 as a decimal = 0.1% | Proposed correction; confirm what was spoken |
-| 03:19 / 77 | 65 passing candidates | 655 passing candidates out of 53,130 | Proposed correction; confirm what was spoken |
+| 00:27 / 12 | October 13th | October 30th, 2026 | Edited to the intended script/model value; see transcript note |
+| 02:36 / 61 | 10 basis points becomes 0.001% | 10 basis points = 0.001 as a decimal = 0.1% | Edited to the intended script/model value; see transcript note |
+| 03:19 / 77 | 65 passing candidates | 655 passing candidates out of 53,130 | Edited to the intended script/model value; see transcript note |
 
-The review drafts use the script/model values in this table. They are **not ready for upload** until the recording is corrected and the resulting captions are checked. Matt confirmed at least one spoken mistake; the exact affected passages remain unspecified. If a value was spoken incorrectly, keep an honest record of the spoken error and record/edit an audible correction rather than silently making the transcript claim different speech. Any video edit may require new caption timings.
+Matt requested a complete cleaned transcript using the script after confirming at least one spoken mistake. The edited transcript uses the correct values above and explicitly discloses those changes in a separate, unspoken editorial note. The original SRT and earlier proposed SRT remain available. The edited text is not evidence that the audio was changed, and it is not an audio-verified closed-caption track. No replacement recording is required to create this requested edited document.
 
 ## Numerical evidence
 
@@ -30,9 +30,14 @@ The review drafts use the script/model values in this table. They are **not read
 
 Sources: [base output](../outputs/committee-run.json), [15 bp output](../outputs/cost15-changed.json), [calculation code](../analysis.py), [word-for-word rehearsal script](video-2-word-for-word-script.md).
 
-No audio or video was supplied for this review. Playback, webcam visibility, synchronization, complete runtime, YouTube access and published captions remain unverified. Final filenames after resolution: captions-video-2-corrected.srt and transcript-video-2.txt.
+No audio or video was supplied for this review. Playback, webcam visibility, synchronization, complete runtime, YouTube access and published captions remain unverified. The requested complete edited document is transcript-video-2.txt. A final audio-verified caption track has not been created.
 
 
 ## Matt's confirmation and correction plan
 
 On November 19, Matt answered: **I misspoke on at least one**. Do not certify the proposed script-corrected wording as a verbatim transcript of the current recording. The original SRT remains preserved. Use the [short correction guide](video-2-recording-corrections.md) to repair the spoken values, then export the revised SRT so its wording and timings can be checked. No audio correction or revised recording is claimed to have been completed.
+
+
+## Current delivery
+
+Matt subsequently requested the complete cleaned transcript rather than another recording step. The new [edited transcript](transcript-video-2.txt) delivers that request and retains a separate numerical-edit note. The earlier correction guide is an optional recording aid, not a claimed completed action. The original recording and original SRT remain unchanged.
