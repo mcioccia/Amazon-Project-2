@@ -20,7 +20,7 @@ Information snapshot October 30, 2026. Prices end September 30. The mandate was 
 
 Requires Python 3.12. Internet access is needed for the initial package install. All financial input data is included.
 
-1. On GitHub choose **Code → Download ZIP** and extract it, or clone the repository. If the private repository shows a 404, sign in with the account invited by Matt and accept the invitation.
+1. On GitHub choose **Code → Download ZIP** and extract it, or clone the repository. The repository is public and was checked while signed out on November 19, 2026.
 2. Open a terminal in the extracted folder containing **app.py** and **requirements.txt**.
 3. On Windows PowerShell, run these commands once to install the environment.
 
@@ -47,7 +47,7 @@ If Python 3.12 is unavailable, install it from [python.org](https://www.python.o
 - **Stress results** holds the original base fixed and changes one assumption per row. Window changes re-estimate all means and covariance.
 - **Calculations** traces prices into estimates and explains portfolio volatility, one-way turnover and net return.
 - **Sources & timing** shows CPI observation and vintage dates, fund download timestamps and the input fingerprints.
-- **Validation** displays the published training reconciliation and evidence still requiring Matt’s personal work.
+- **Validation** displays the published training reconciliation and personal source, prediction and reproduction evidence.
 - **Mandate** states the approved rules and remaining suitability limits.
 
 Changing a sidebar control reruns the current scenario. **Reset to approved base** restores every control. **Download this scenario** exports the current settings and output. The saved standard stresses remain comparisons to the approved base.
@@ -66,26 +66,20 @@ analysis.py prints the current base record without writing over saved evidence. 
 
 The source ledger fingerprints the archived inputs. The app refuses an undocumented file change. Review and document legitimate source revisions before updating their fingerprints.
 
-## Record Video 1
+## Videos and transcripts
 
-Open **Video-1-Dashboard.html** from your downloaded Project 2 folder. It runs locally without additional dependencies and presents saved results. Read the [324-word, word-for-word spoken script](docs/video-1-word-for-word-script.md). Keep the [separate click guide](docs/video-1-recording-guide.md) beside it: Decision → What changed → My checks → Locked test → Reproduction → Pilot conditions. Use Show script for rehearsal, hide it for recording, and keep your actual webcam visible in the reserved space. Target 2:40–2:50; maximum 3:00. The dashboard timer does not record video. Matt reports Video 1 is recorded. The [corrected transcript](docs/transcript-video-1.txt) and [YouTube caption file](docs/captions-video-1-corrected.srt) are prepared from his supplied SRT; see the [correction review and upload steps](docs/video-1-caption-review.md). [Watch Video 1 — PROJECT 2 VID 1 FINAL](https://youtu.be/e79Ix9xr71k): **2:36**, unlisted and playable while signed out, checked November 19. The webcam is visible at the opening. Full playback review remains pending, and the corrected caption track must still be published: YouTube showed captions unavailable during the check.
+| Video | Published video | Runtime / limit | Repository transcript |
+|---|---|---|---|
+| 1 — How the process and thinking changed | [Watch Video 1](https://youtu.be/e79Ix9xr71k) | 2:36 / 3:00 | [Transcript](docs/transcript-video-1.txt) |
+| 2 — Code walkthrough | [Watch Video 2](https://youtu.be/YfrNEF4OK6g) | 4:32 / 5:00 | [Edited transcript](docs/transcript-video-2.txt) |
+| 3 — Committee presentation | [Watch Video 3](https://youtu.be/9RYrqkSZCaw) | 4:11 / 5:00 | [Edited transcript](docs/transcript-video-3.txt) |
 
-[Dashboard preview](docs/evidence/video1-dashboard-preview.jpg) · [Presentation checks](outputs/video1-review.txt)
-
-## Record Video 2
-
-Open **Video-2-Dashboard.html** from the Project 2 folder, click **Reset → Full screen**, and record the code walkthrough with your webcam visible. Read the [527-word spoken script](docs/video-2-word-for-word-script.md) and follow the [exact click guide](docs/video-2-recording-guide.md): **Inputs → Returns → Risk → CPI cutoff → Costs → Search → Verdict**. Aim for 4:25–4:45; maximum 5:00. The dashboard shows source excerpts from the current code, saved results, a rehearsal timer, line highlighting and the same narration. It runs locally and does not execute a new financial scenario. Matt supplied Video 2 captions. The [complete edited transcript](docs/transcript-video-2.txt) is saved with the three numerical edits disclosed separately; see the [correction record](docs/video-2-caption-review.md). It is an edited document, not a claim that the recording was changed or that every corrected word was spoken. [Watch Video 2 — Project 2 Vid 2](https://youtu.be/YfrNEF4OK6g): **4:32**, Unlisted and playable while signed out, checked November 19. Webcam visible at opening; full-video review remains pending. YouTube reported captions unavailable at the check.
-
-[Dashboard preview](docs/evidence/video2-dashboard-preview.jpg) · [Presentation checks](outputs/video2-review.txt)
-
-## Record Video 3
-
-Open the running **Streamlit app**, beginning on **Decision** at the approved base. Read the [475-word spoken script](docs/video-3-word-for-word-script.md) and follow the [exact live click guide](docs/video-3-recording-guide.md). Route: base verdicts → Sources & timing → cost 15 bp → reset → 36-month window and Stress results → reset → BIL minimum 90% → reset → Mandate conditions → Decision. The live route was checked against saved results. Keep your face visible throughout; aim for 4:35–4:50 and stay under 5:00. Matt supplied the recorded Video 3 captions. The [complete edited transcript](docs/transcript-video-3.txt) restores the full opening that Matt confirmed is in the video; two numerical edits are disclosed in its editorial note. The [review captions](docs/captions-video-3-review.srt) need opening alignment against the recording. See the [correction record](docs/video-3-caption-review.md). [Watch Video 3 — Project 2 VId 3 Final](https://youtu.be/9RYrqkSZCaw): **4:11**, Unlisted and playable while signed out, checked November 19. The live app and presenter webcam are visible at the opening. Full audio/text agreement, caption synchronization and continuous webcam visibility remain unverified. YouTube reported captions unavailable; the review track still needs opening alignment before publication. The supplied SRT endpoint is 4:10.738, distinct from the full video runtime.
-
-[Live-app preview](docs/evidence/video3-live-preview.jpg) · [Rehearsal checks](outputs/video3-review.txt)
+All three videos are Unlisted and passed signed-out access checks on November 19. Webcam images are visible at their openings; Video 3 opens on the live app. Full narration and continuous face visibility have not been independently reviewed. YouTube captions remain unavailable as of the final audit. Videos 2 and 3 have disclosed numerical edits in the written transcripts; these do not establish that the corresponding audio was corrected. Video 3's supplied SRT needs its opening aligned. See the [Video 1](docs/video-1-caption-review.md), [Video 2](docs/video-2-caption-review.md) and [Video 3](docs/video-3-caption-review.md) correction records.
 
 ## Submission status
 
-Software and recorded numerical checks are complete for this revision. The [15 bp prediction and result](docs/cost15-prediction-comparison.md) are saved with a pre-run commit and restored baseline. Personal source-verification status, the highest-risk claim and three failures, final caption/audio review, instructor access and the remaining partner-run metadata and control-change evidence remain tracked in the [manifest](docs/manifest.md). Every video requires a visible webcam image. Video 3 starts with the live app. Record after the mandate and thesis are finalized.
+The November 19 [readiness audit](docs/submission-readiness.md) reran the financial and app checks successfully. The approved base and standard stresses match saved output. The source check, calculator evidence, unchanged pre-run prediction, later result and partner fresh-download report are recorded. The repository is public and readable without signing in.
 
-[Feedback resolution](docs/feedback-resolution.md) · [Personal evidence](docs/student-evidence.md) · [Partner reproduction](docs/cold-run.md)
+**Remaining before submission:** resolve material spoken/caption discrepancies, publish synchronized YouTube captions with transcripts enabled, complete one full playback review, and attach the required Markdown files and links in Brightspace. Partner run details and a numerical clarification in the personal reflection are identified separately as ways to strengthen the evidence. The audit is not a grade guarantee.
+
+[Submission manifest](docs/manifest.md) · [Feedback response](docs/feedback-resolution.md) · [Personal evidence](docs/student-evidence.md) · [Partner reproduction](docs/cold-run.md)

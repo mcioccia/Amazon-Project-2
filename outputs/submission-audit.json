@@ -1,0 +1,114 @@
+{
+  "files_tracked": 74,
+  "required_files_present": true,
+  "local_markdown_links_checked": 198,
+  "broken_local_file_links": [],
+  "sensitive_filenames": [],
+  "credential_pattern_matches_files_only": [],
+  "head": "a4442510aac6b825ee750873df90dd722a05cfe5",
+  "code_and_data_sha256": {
+    "app.py": "86c690d696dcb94bb0ab173e9c38c001e424df29bfabb56edc716540b2a2cef1",
+    "analysis.py": "18697df0562e5f721e4ca08297e3fbe0cc35b7b3809f000ef564828ed73d2073",
+    "portfolio.py": "fb1aeb3208dfea5cdc2eb2d3b847de2770557ab6f4eb08d526de0c79de4b88a3",
+    "data/prices.csv": "2c93e65a793d2ecc89f704cff078f0bdf92bf2ec3bcb03e57b0ac57214fdc9c6",
+    "data/cpi-vintages.json": "38fdcd3fabeb45924ee0d8dc34ecf331c56bbb185640917ba5eff340e6476c78"
+  },
+  "base_results": {
+    "Equal weight": {
+      "net_pct": 7.494385949598528,
+      "risk_pct": 12.137798117097887,
+      "verdict": "FAIL"
+    },
+    "Inverse volatility": {
+      "net_pct": 3.775028953911138,
+      "risk_pct": 1.99906356374337,
+      "verdict": "FAIL"
+    },
+    "Constrained": {
+      "net_pct": 7.498034170226201,
+      "risk_pct": 7.2405527842379875,
+      "verdict": "PASS"
+    }
+  },
+  "stresses": {
+    "QQQ estimate \u22121 point": {
+      "net_pct": 7.506332197342222,
+      "risk_pct": 7.316008452171426,
+      "bil_pct": 65.0,
+      "verdict": "PASS"
+    },
+    "36-month window": {
+      "net_pct": 7.52849535781044,
+      "risk_pct": 2.5758012639136836,
+      "bil_pct": 85.0,
+      "verdict": "PASS"
+    },
+    "48-month window": {
+      "net_pct": 7.570349068224706,
+      "risk_pct": 2.623078887194402,
+      "bil_pct": 85.0,
+      "verdict": "PASS"
+    },
+    "Cost 50 bp": {
+      "net_pct": 7.50018375329953,
+      "risk_pct": 7.306390349178105,
+      "bil_pct": 65.0,
+      "verdict": "PASS"
+    },
+    "BIL minimum 90%": {
+      "stop": "No eligible allocation. Pause allocation."
+    },
+    "Prior CPI vintage (30-day lag)": {
+      "net_pct": 7.498034170226201,
+      "risk_pct": 7.2405527842379875,
+      "bil_pct": 65.0,
+      "verdict": "PASS"
+    }
+  },
+  "disclosure": "OpenAI Codex assisted with this audit. Matt owns the analysis and decision. Educational purposes only; not financial or investment advice.",
+  "audit_date": "2026-11-19",
+  "timezone": "America/New_York",
+  "existing_verify_py_exit_code": 0,
+  "verification_groups_passed": [
+    "43 published training comparisons",
+    "Independent 53,130-mix enumeration and 655 feasible base mixes",
+    "Input and missing-vintage failure handling",
+    "Saved base/stress reproduction and export settings",
+    "App base, changed window, infeasible mandate, missing vintage and reset"
+  ],
+  "environment_scope": "Existing installed Python environment; no new partner or clean-install claim.",
+  "repository_access": {
+    "visibility": "Public",
+    "signed_out_read_access": true,
+    "source": "Observed GitHub page on 2026-11-19; no permission change made."
+  },
+  "videos": [
+    {
+      "video": 1,
+      "url": "https://youtu.be/e79Ix9xr71k",
+      "runtime": "2:36",
+      "captions_available_at_audit": false,
+      "full_audio_review": false
+    },
+    {
+      "video": 2,
+      "url": "https://youtu.be/YfrNEF4OK6g",
+      "runtime": "4:32",
+      "captions_available_at_audit": false,
+      "full_audio_review": false
+    },
+    {
+      "video": 3,
+      "url": "https://youtu.be/9RYrqkSZCaw",
+      "runtime": "4:11",
+      "captions_available_at_audit": false,
+      "full_audio_review": false
+    }
+  ],
+  "scope_note": "Credential scan covers tracked working-tree files and common patterns only; no complete history/security certification. Local links refer to the pre-cleanup scan; documentation links are checked again before commit.",
+  "post_cleanup_local_and_repo_file_links_checked": 219,
+  "post_cleanup_broken_file_links": [],
+  "personal_source_response_preserved_exactly": true,
+  "original_locked_prediction_unchanged": true,
+  "financial_code_and_data_unchanged": true
+}

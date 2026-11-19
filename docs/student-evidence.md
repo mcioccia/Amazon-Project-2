@@ -1,4 +1,4 @@
-I used OpenAI Codex to organize this evidence form. My personal observations and AI-off responses will be entered by me.
+I used OpenAI Codex to organize the evidence and preserve my supplied observations and prediction. The analysis and decision are mine.
 
 This is an educational course project. It is not financial or investment advice.
 
@@ -6,7 +6,7 @@ This is an educational course project. It is not financial or investment advice.
 
 ## Source check
 
-**Status: source screenshots and Matt's calculator check received; access-date confirmation and personal interpretation pending.**
+**Status: source screenshots, Matt's calculator check and his personal response are recorded.** Matt's response dated November 18 says he checked Yahoo that day and still favors a pilot. This is his reported access date; the screenshot alone does not establish it.
 
 On November 18, 2026, Matt supplied two screenshots of Yahoo Finance's QQQ daily historical prices. The images are preserved unchanged below. Codex transcribed the visible values and compared them with the archived input file. Matt then supplied screenshots of his calculator input and result, retained below. Codex supplied the formula earlier and verified the arithmetic afterward; the calculator execution is Matt's evidence and is separate from the AI-off prediction requirement.
 
@@ -21,13 +21,13 @@ The September image identifies QQQ, USD, Daily frequency, column headings and th
 
 | Field | Evidence / remaining personal entry |
 |---|---|
-| Date received | November 18, 2026; exact capture/access date is not visible and remains unconfirmed |
+| Date received | November 18, 2026; Matt's response recorded that date says he checked Yahoo today. Screenshot capture time itself is not visible. |
 | Source and input | Yahoo Finance QQQ daily historical data; adjusted close, USD per share |
 | Values visible in Matt's screenshots | August 31: 716.01; September 30: 739.77 |
 | Comparison performed by Codex | Both observations match the October 22 archive to the source's displayed cent precision |
 | Matt's calculator check | (739.77 / 716.01 - 1) x 100 = 3.31838940797%, or +3.32% for September; input and result screenshots supplied |
-| Matt's explanation of any match or difference | Pending personal response; no difference visible at cent precision |
-| Effect on Matt's decision | Pending personal response |
+| Matt's explanation of any match or difference | Supplied in the unchanged response below: he says the source numbers aligned with the algorithm and increased his confidence; matches are at displayed cent precision. |
+| Effect on Matt's decision | Supplied below: he still wants to pilot it. |
 
 This sample supports two month-end observations. It does not verify every fund or date, the entire annual estimate, or future performance. QQQ's estimated return affects the target constraint, so this check concerns a portfolio input. The separate [automated CPI comparison](../outputs/source-check.json) supplies additional evidence; the CPI reserve floor is slack at base.
 
@@ -55,7 +55,7 @@ The first image shows the formula entered. The second shows the evaluated result
 
 ![Matt's calculator result of 3.31838940797 percent](evidence/qqq-return-calculator-result.png)
 
-**Codex arithmetic cross-check:** the cent-rounded source values reproduce Matt's result. The full-precision archived prices produce 3.31782706792%, a difference of 0.00056234005 percentage points due to rounding the prices. Both results round to **3.32%**. No input-file or model change is needed for this rounding difference. This explanation is supplied by Codex; Matt's interpretation and effect on his decision remain open above.
+**Codex arithmetic cross-check:** the cent-rounded source values reproduce Matt's result. The full-precision archived prices produce 3.31782706792%, a difference of 0.00056234005 percentage points due to rounding the prices. Both results round to **3.32%**. No input-file or model change is needed for this rounding difference. This rounding explanation is supplied by Codex; Matt's own interpretation and continued pilot decision are preserved unchanged above.
 
 File fingerprints identify the exact attachments preserved here; they do not establish when the screenshots were captured.
 
@@ -87,7 +87,7 @@ Keep your face visible in every video. Record from the final app and use the two
 
 | Item | Status |
 |---|---|
-| Video 1, at most 3 minutes | Link and corrected transcript pending |
-| Video 2, at most 5 minutes | Link and corrected transcript pending |
-| Video 3, at most 5 minutes, opens on the live app | Link and corrected transcript pending |
-| Instructor access to repository and videos | Unconfirmed |
+| Video 1, at most 3 minutes | [Published, 2:36](https://youtu.be/e79Ix9xr71k); [transcript](transcript-video-1.txt) saved. Caption publication and full playback review remain. |
+| Video 2, at most 5 minutes | [Published, 4:32](https://youtu.be/YfrNEF4OK6g); [edited transcript](transcript-video-2.txt) saved. Resolve disclosed spoken/caption discrepancies and publish captions. |
+| Video 3, at most 5 minutes, opens on the live app | [Published, 4:11](https://youtu.be/9RYrqkSZCaw); [edited transcript](transcript-video-3.txt) saved. Live app visible at opening; full narration, opening-caption timing and caption publication remain. |
+| Repository and video access | Repository is Public and readable while signed out, checked November 19. All three unlisted videos passed signed-out access checks; no repository invitation is currently needed. |
