@@ -1,0 +1,13 @@
+Hi, good morning. My name is Matthew Cioccia, and this is my Project 2. Before I get started, I just want to say I use OpenAI Codex to build, test, and help explain this app. The analysis and decisions are mine. This is for educational purposes only and is not meant for financial or investment advice.
+
+I recommend a paper pilot. My process now includes costs, risk limits, source checks, and a prediction recorded before testing.
+
+So, what changed? Lab 15 found a low-risk mix meeting return and reserve targets. I added switching costs, a 10% volatility limit, and point-in-time CPI. Equal weight fails the risk limit. Inverse volatility misses the return target. My mix passes with a very thin cushion.
+
+So, my checks. I checked the AI-prepared QQQ inputs against Yahoo: 716.01 in August and 739.77 in September. My calculator gave a 3.32% monthly return, and both adjusted prices matched to the cent. My separate trading costs also matched: $48.33 on a $100,000 account. This evidence is saved.
+
+Now going into the locked test. Before the run, I committed my prediction for a cost increase from 10 to 15 basis points. I expected volatility around 7.7%. Actual volatility was 7.24%, below my predicted range. The app moved five percentage points from VUG to ONEQ and kept BIL at 65%. The higher gross return offset the extra cost. My direction was right, but I overestimated the risk change. I learned to check the new allocation, not just the higher fee.
+
+Now going into reproduction. All 43 published training checks passed. Independent calculations confirmed the cost test, and the base reset matched. My partner reported a fresh download worked in 15 minutes with a matching result and no problems. His exact commit and changed-control evidence remain unspecified.
+
+Now going into the pilot conditions, my confidence increased, but I still recommend the paper pilot. Shorter windows move BIL from 65 to 85 percent. The target also comes from the estimation history. Any one condition makes me reconsider: no mix passes at 15 basis points, volatility exceeds 9%, BIL falls below 55%, or the base fails after a window change. I want forward evidence before actually funding. Thank you.

@@ -68,3 +68,8 @@ GitHub contained the [pre-run prediction](https://github.com/mcioccia/Amazon-Pro
 The lowest-risk feasible portfolio moved from a first-year net estimate of 7.498034% to 7.505646% (+0.761 bp). The actual result differed from the predicted decline. Gross return changed from 7.54637% to 7.63481%, while modeled trading cost changed from 0.04833% to 0.12917%. The difference between those changes explains the observed net direction after reoptimization.
 
 New weights: QQQ 15%, ONEQ 20%, VUG 0%, BIL 65%, IEF 0%, LQD 0%. The portfolio verdict is **PASS**. The practice result supports keeping the existing paper-pilot decision. This scenario is AI-assisted. The separate November 19 prediction and its executed 15 bp result are retained above.
+
+
+## Video 1 transcript correction — November 19, 2026
+
+OpenAI Codex corrected the SRT supplied by Matt for finance terms, ticker symbols, attribution and recognition errors, retained his **my partner** wording, and checked material numbers against saved output. Matt confirmed the script wording for two unclear passages. The [correction record](video-1-caption-review.md) separates text checking from playback checks not yet performed. [Original captions](evidence/video-1-original.srt), [corrected captions](captions-video-1-corrected.srt) and [transcript](transcript-video-1.txt) are retained. The original prediction, financial model, saved results and rehearsal script were not changed.
