@@ -26,7 +26,7 @@ Historical means are estimates. The target was selected from the original equal-
 
 OpenAI Codex assisted with Lab 15 code reuse, the committee terms initially proposed and approved by Matt, documentation, validation, source retrieval, interface design and recording guides. The November 18 revision was prompted by Project 1 feedback. Matt supplied the 10% risk ceiling and reported his partner’s calculation question and startup commands. Product identification is OpenAI Codex; an exact underlying model build was not exposed in the saved project evidence.
 
-The 25 bp practice prediction below was authored with AI. Matt's own highest-risk claim, three possible failures and fresh AI-off prediction remain pending. For the load-bearing source check, Matt supplied two QQQ Yahoo screenshots on November 18. Codex transcribed August 31 Adj Close of 716.01 and September 30 Adj Close of 739.77 (USD per share), which match the archived inputs to the displayed cent precision. Original images and fingerprints are retained in [Personal evidence](student-evidence.md#source-check). Matt then supplied calculator-input and result screenshots: (739.77 / 716.01 - 1) x 100 = 3.31838940797%, or +3.32%. Codex verified this arithmetic; the full-precision archive gives 3.31782706792%, also +3.32% when rounded. The small difference follows from rounding the price inputs. The formula was supplied by Codex and executed by Matt; this is separate from the AI-off prediction. Access-date confirmation and Matt's interpretation remain pending.
+The 25 bp practice prediction below was authored with AI. Matt's own highest-risk claim and three possible failures remain pending. On November 19, Matt supplied the [new 15 bp prediction](prediction-15bp-before-run.md), retained without rewriting; its result remains pending. For the load-bearing source check, Matt supplied two QQQ Yahoo screenshots on November 18. Codex transcribed August 31 Adj Close of 716.01 and September 30 Adj Close of 739.77 (USD per share), which match the archived inputs to the displayed cent precision. Original images and fingerprints are retained in [Personal evidence](student-evidence.md#source-check). Matt then supplied calculator-input and result screenshots: (739.77 / 716.01 - 1) x 100 = 3.31838940797%, or +3.32%. Codex verified this arithmetic; the full-precision archive gives 3.31782706792%, also +3.32% when rounded. The small difference follows from rounding the price inputs. The formula was supplied by Codex and executed by Matt; this is separate from the AI-off prediction. Access-date confirmation and Matt's interpretation remain pending.
 
 [Personal evidence](student-evidence.md)
 
@@ -40,12 +40,12 @@ The current base is target 7.49% net, volatility ceiling 10%, BIL minimum 3% bef
 
 | Before run | Matt’s entry |
 |---|---|
-| One input, old and new values, units | Pending |
-| All held-fixed inputs | Pending |
-| Expected direction for a named numerical output | Pending |
-| Expected committee-decision effect | Pending |
-| My economic reasoning | Pending |
-| Pre-run commit URL and timestamp | Pending |
+| One input, old and new values, units | Switching cost 10 bp to 15 bp per dollar switched; supplied wording in [section 1](prediction-15bp-before-run.md) |
+| All held-fixed inputs | [Section 2 and execution context](prediction-15bp-before-run.md); all other base settings and input files unchanged |
+| Expected direction for a named numerical output | Matt's exact forecast is retained in [section 3](prediction-15bp-before-run.md) |
+| Expected committee-decision effect | Matt's exact decision and reconsideration conditions are retained in [section 4](prediction-15bp-before-run.md) |
+| My economic reasoning | [Section 5](prediction-15bp-before-run.md), preserved without correcting the prediction |
+| Pre-run commit URL and timestamp | Pending creation of the commit containing this prediction; no run yet |
 
 | After run | Matt’s entry |
 |---|---|
@@ -67,4 +67,4 @@ GitHub contained the [pre-run prediction](https://github.com/mcioccia/Amazon-Pro
 
 The lowest-risk feasible portfolio moved from a first-year net estimate of 7.498034% to 7.505646% (+0.761 bp). The actual result differed from the predicted decline. Gross return changed from 7.54637% to 7.63481%, while modeled trading cost changed from 0.04833% to 0.12917%. The difference between those changes explains the observed net direction after reoptimization.
 
-New weights: QQQ 15%, ONEQ 20%, VUG 0%, BIL 65%, IEF 0%, LQD 0%. The portfolio verdict is **PASS**. The practice result supports keeping the existing paper-pilot decision. This scenario is AI-assisted. The separate AI-off record remains pending.
+New weights: QQQ 15%, ONEQ 20%, VUG 0%, BIL 65%, IEF 0%, LQD 0%. The portfolio verdict is **PASS**. The practice result supports keeping the existing paper-pilot decision. This scenario is AI-assisted. The separate November 19 prediction is retained above; its outcome remains pending.
