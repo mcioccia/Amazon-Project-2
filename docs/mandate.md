@@ -21,6 +21,12 @@ This is an educational course project. It is not financial or investment advice.
 | Monitoring | Monthly review of source availability, net cushion, actual costs, overlap and reserve. Refer a move of at least 20 percentage points in any fund across windows to the committee. |
 | Funded allocation | Requires confirmed client loss tolerance, review of suitability and observed forward paper results after costs. |
 
+## Pilot reconsideration triggers — clarified November 19
+
+Matt confirmed that **any one** of these conditions triggers reconsideration of the pilot: no mix passes at 15 bp switching cost; selected estimated annual volatility is above **9%**; BIL weight is below **55%**; or the base case fails when the estimation window changes. The conditions are joined by **OR**.
+
+The 9% volatility and 55% BIL levels are review triggers, distinct from the existing 10% volatility hard limit and reserve constraint. They do not change the optimization inputs. The original pre-run record retains its earlier 50% BIL condition.
+
 ## Assumption register
 
 | Value | Label | Reason |

@@ -28,6 +28,8 @@ The prediction was committed before changing switching cost from 10 to 15 bp. Th
 
 Across the 59-, 48- and 36-month estimation windows, the feasible mixes hold **65–85% BIL**, paired with **35–15% aggregate equities**. Each complete mix totals 100%. A 20-point move in BIL meets the committee-review trigger. The 90% minimum BIL stress produces no eligible portfolio.
 
+**Reconsideration triggers clarified November 19:** reconsider the pilot if **any one** occurs: no mix passes at 15 bp switching cost; selected estimated annual volatility exceeds **9%**; BIL falls below **55%**; or the base case fails when the estimation window changes. These are review triggers and do not alter the model's hard constraints or the original locked prediction.
+
 At each monthly review, check vintage availability, reserve, net return cushion, actual trading costs and fund overlap. Pause on missing or invalid source evidence or an infeasible mandate. Escalate a fund move of at least 20 points across windows. Continue on paper until the committee confirms suitability and reviews independently observed forward results after costs.
 
 Estimated annual volatility is a statistical risk measure. The exercise has no realized forward record, maximum-loss guarantee, tax model or full market-impact model. Later rebalances must use actual holdings and measured costs.

@@ -6,6 +6,19 @@ Educational purposes only. Not financial or investment advice.
 
 Received November 19, 2026, after the 15 bp result was reported. This reflection does not replace the previously committed prediction.
 
+## Matt's clarification — November 19, 2026
+
+Matt confirmed: **any one** of the following conditions is sufficient to reconsider the pilot:
+
+1. No mix passes at a switching cost of 15 bp.
+2. Selected estimated annual volatility rises **above 9%**.
+3. BIL weight falls **below 55%**.
+4. The base case fails when the estimation window changes.
+
+These conditions use **OR**, not AND. They prompt reconsideration; they do not automatically prescribe a new allocation. The 55% BIL threshold is a review trigger, separate from the model's existing minimum reserve constraint. The model inputs and previously locked prediction are unchanged.
+
+This dated clarification supersedes the ambiguous "and" in the originally supplied conclusion below.
+
 ## Matt's text — unchanged
 
 My Highest-Risk Claim
@@ -33,7 +46,7 @@ These notes are separate from Matt's words.
 - Actual 15 bp results: estimated annual volatility **7.244616%**, first-year net return **7.503349%**, mandate **PASS**. The reflection's **7.6%** is not the executed result. The original locked forecast was **7.7%** and remains unchanged.
 - Feasible mixes fell from **655 to 636**. Holding all other inputs fixed, higher nonnegative switching costs cannot expand the feasible set, so minimum feasible volatility cannot fall. Its observed rise was just **0.004063 percentage points**.
 - The selected mix kept **65% BIL** and moved **five percentage points from VUG to ONEQ**. Turnover stayed **48.333333%**. Cost at 15 bp is **0.0725% of portfolio value**, or **USD 72.50** on USD 100,000. The hypothetical BIL-to-equity move did not occur.
-- This reflection states a **55% BIL** threshold, versus **50%** in the locked prediction, and adds a window-failure condition. These are subsequent stated conditions; they do not change the historical test or model inputs. Whether any single listed condition is sufficient should be made explicit before operational use; the original wording "and" is preserved.
+- This reflection states a **55% BIL** threshold, versus **50%** in the locked prediction, and adds a window-failure condition. These are subsequent stated conditions; they do not change the historical test or model inputs. Matt subsequently confirmed that any single condition is sufficient, as recorded in the dated clarification above. The original wording is preserved for the record.
 - The current data provides at most **59 monthly returns**. A longer window requires additional sourced history. Existing shorter-window runs can be reviewed.
 - The 15 bp result is already observed. Future pilot reliability still requires forward evidence; this check does not establish realized safety.
 

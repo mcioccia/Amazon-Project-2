@@ -68,7 +68,7 @@ File fingerprints identify the exact attachments preserved here; they do not est
 
 ## Highest-risk claim and three possible failures
 
-Matt supplied his claim, evidence, three failures with detection methods, and conclusion on November 19 after receiving the test result. His full wording is preserved in [his reflection](highest-risk-claim.md), with separately labeled verification notes. This does not replace the locked prediction. Numerical consistency and the meaning of the newly stated decision triggers remain identified for review.
+Matt supplied his claim, evidence, three failures with detection methods, and conclusion on November 19 after receiving the test result. His full wording is preserved in [his reflection](highest-risk-claim.md), with separately labeled verification notes. This does not replace the locked prediction. Matt clarified on November 19 that any one condition triggers reconsideration, with BIL below 55%. The [dated clarification](highest-risk-claim.md) records this; the separate 7.6% versus observed-volatility note remains for review.
 
 | Field | Matt’s response |
 |---|---|
