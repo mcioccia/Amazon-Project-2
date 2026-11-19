@@ -73,3 +73,6 @@ New weights: QQQ 15%, ONEQ 20%, VUG 0%, BIL 65%, IEF 0%, LQD 0%. The portfolio v
 ## Video 1 transcript correction — November 19, 2026
 
 OpenAI Codex corrected the SRT supplied by Matt for finance terms, ticker symbols, attribution and recognition errors, retained his **my partner** wording, and checked material numbers against saved output. Matt confirmed the script wording for two unclear passages. The [correction record](video-1-caption-review.md) separates text checking from playback checks not yet performed. [Original captions](evidence/video-1-original.srt), [corrected captions](captions-video-1-corrected.srt) and [transcript](transcript-video-1.txt) are retained. The original prediction, financial model, saved results and rehearsal script were not changed.
+
+
+On November 19, Codex checked the [published Video 1](https://youtu.be/e79Ix9xr71k) in a signed-out browser. The title was PROJECT 2 VID 1 FINAL, duration 2:36, and visibility Unlisted. Brief playback and opening webcam visibility passed; full-video audio and continuous webcam review were not performed. YouTube reported captions unavailable, so publishing the corrected caption file remains outstanding. See the [access check](video-1-caption-review.md#published-video-access-check--november-19-2026).
