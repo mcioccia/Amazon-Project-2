@@ -1,57 +1,120 @@
-I used OpenAI Codex to adapt my lab code, test calculations, and help draft this script and the text on screen. The analysis, the checks, and the decision are mine.
+I used OpenAI Codex to build, test, and help explain this app and prepare this recording guide. The analysis and decision are mine.
 
-This is an educational course project. It is not financial or investment advice.
+This is an educational project, not financial or investment advice.
 
-# Project 2 · Video 1 recording script
+# Video 1 — How my process and thinking changed
 
-**Recording requirement.** Keep your face visible in a webcam overlay throughout, with your microphone on. Place it clear of the key numbers. This November 18 draft reflects the approved 10% volatility ceiling. Correct the transcript from your actual final recording.
+Updated November 19, 2026. **Draft script, not a transcript of a recorded video.** 324 spoken words; aim for **2:40–2:50**, with a hard limit of **3:00**. The subject follows the [Project 2 Video 1 directions](https://github.com/CinderZhang/FIN43900-Fall2026/blob/main/projects/project-2-investment-management-application.md): how the system and thinking changed, and an AI output checked. [Length checklist](https://github.com/CinderZhang/FIN43900-Fall2026/blob/main/projects/major-project-student-checklist.md).
 
-Target 2:30. Course limit 3:00. Open [the dashboard](../Video-1-Dashboard.html) in your browser. Start at Opening. Use the right arrow after each cue. Press N to show or hide the matching narration, or read this guide on a second screen. Times are rehearsal targets. The corrected transcript should follow what you actually say.
+## Before recording
 
-## 0:00–0:27 · Would I fund this portfolio?
+1. Open **Video-1-Dashboard.html** from the Project 2 folder in a browser. It runs directly from the extracted folder, with no server or internet needed for the dashboard and local screenshots. GitHub's file page shows its source; download the repository first.
+2. Maximize the browser. A local preview is also available at http://127.0.0.1:8507/Video-1-Dashboard.html while the preview server is running. To restart it from Project 2, use the command below. On another computer use the Python environment installed through the README.
+3. Click **Reset**, then **Full screen** if available. If absent, use the browser's full-screen control.
+4. In your recording software select this browser window or display, turn on your microphone, and enable your actual webcam. Place its overlay inside the reserved **Your webcam here** box on the right. The box is only reserved space, not a camera feed.
+5. Keep your face visible throughout. Turn off notifications. Check a short sample recording for clear speech and readable numbers.
+6. Rehearse with **Show script** (or N). It follows the selected screen. Before the final take, click **Hide script** and use this guide on a second screen or paper.
+7. Start your recorder first. With **Decision** selected, click **Start rehearsal** to start the dashboard timer and begin speaking. The dashboard does not record video or advance automatically.
 
-**On screen.** Read both disclosures, then point to the proposed allocation.
+~~~powershell
+..\Lab_14\.venv\Scripts\python.exe -m http.server 8507 --bind 127.0.0.1
+~~~
 
-**Say**
+## Exact click route
 
-I used OpenAI Codex to adapt my lab code, test calculations, and help draft this script and the text on screen. The analysis, the checks, and the decision are mine.
+Click the named tab after finishing its passage. Right Arrow or **Next →** advances the same route. Target times are rehearsal guidance, not the measured video duration.
 
-This is an educational course project. It is not financial or investment advice.
+| Target time | Click | What to point at |
+|---|---|---|
+| 0:00–0:25 | **Decision** | Point to Paper pilot, then the 65% BIL allocation. |
+| 0:25–0:50 | **What changed** | Point to the two failing baselines, then the constrained row. |
+| 0:50–1:15 | **My checks** | Point to the two QQQ prices, the calculator result, then the $48.33 check. |
+| 1:15–1:55 | **Locked test** | Trace the commit → run → result sequence. Point to 7.7% predicted and 7.245% actual, then the two allocation bars. |
+| 1:55–2:15 | **Reproduction** | Point to the 43 checks, then AJ's fresh-download report. |
+| 2:15–2:50 | **Pilot conditions** | Point to the 65% → 85% window change, then ANY ONE and the four review triggers. |
 
-I’d pilot this six-fund process on paper. The mix clears my target, but the allocation depends on how much history I use.
+On **Pilot conditions**, finish the last sentence and stop your recorder before 3:00. Correct a wrong click by selecting the named tab. Use **Reset** between takes.
 
-## 0:27–0:55 · What changed from Lab 15?
+**Evidence** and source-image buttons are optional during rehearsal, not required clicks in the timed take. Close images with **Close image** or Escape; close the evidence list with **Close evidence** or Escape.
 
-**On screen.** Trace ONEQ across the two bars, then point to the inflation trigger.
+## Spoken script and screen cues
 
-**Say**
+### 0:00–0:25 · Decision
 
-In Lab 15 I searched for the lowest-risk mix meeting a 7.49 percent gross target. Project 2 charges for moving from equal weight before testing that target. I’ve also set a ten percent volatility ceiling. The result has 65 percent in BIL, but the equity weights change. The available CPI reading raises my required reserve to ten percent.
+**Click:** Decision. **Point:** Point to Paper pilot, then the 65% BIL allocation.
 
-## 0:55–1:23 · Which mix earns its risk?
+**Say:**
 
-**On screen.** Point to the two baseline failures, then the constrained portfolio’s return cushion.
+I used OpenAI Codex to build, test, and help explain this app. The analysis and decision are mine.
 
-**Say**
+This is an educational project, not financial or investment advice.
 
-Equal weight fails my new risk ceiling. Its estimated volatility is 12.14 percent. Inverse volatility takes less risk, but its return misses the target. The constrained mix passes both with about 7.24 percent volatility. Its net return clears the target by only 0.80 basis points. That’s the thin margin I’d bring to the committee.
+I recommend a paper pilot. My process now includes costs, risk limits, source checks, and a prediction recorded before testing.
 
-## 1:23–1:54 · Does the trading charge add up?
+### 0:25–0:50 · What changed
 
-**On screen.** Follow the dollars switched into the calculator check, then compare gross and net return.
+**Click:** What changed. **Point:** Point to the two failing baselines, then the constrained row.
 
-**Say**
+**Say:**
 
-I checked the fee myself on a hundred-thousand-dollar account. The model switches about 48,333 dollars. Ten basis points is one tenth of one percent, so I multiply the dollars switched by 0.001 and get 48 dollars and 33 cents. That matches the model. Across the whole account the charge is 4.83 basis points, which brings the gross estimate down to 7.498% net.
+Lab 15 found a low-risk mix meeting return and reserve targets. I added switching costs, a ten percent volatility limit, and point-in-time CPI.
 
-## 1:54–2:30 · How stable is the allocation?
+Equal weight fails the risk limit. Inverse volatility misses the return target. My mix passes, with a very thin return cushion.
 
-**On screen.** Compare BIL across all three bars. End on the review trigger and the stop condition.
+### 0:50–1:15 · My checks
 
-**Say**
+**Click:** My checks. **Point:** Point to the two QQQ prices, the calculator result, then the $48.33 check.
 
-With 59 months, BIL gets 65%. Shorten the history to 48 or 36 months and it gets 85%. That 20-point shift is enough for me to call for committee review. There’s also a real stop condition. If I require 90% in BIL, no mix clears the target. I’d keep this on paper and track actual costs and results before asking the committee to fund it.
+**Say:**
+
+I checked the AI-prepared QQQ inputs against Yahoo: 716.01 in August and 739.77 in September. My calculator gave a 3.32 percent monthly return, and both adjusted prices matched to the cent.
+
+My separate trading-cost check also matched: 48 dollars and 33 cents on a hundred-thousand-dollar account. The evidence is saved.
+
+### 1:15–1:55 · Locked test
+
+**Click:** Locked test. **Point:** Trace the commit → run → result sequence. Point to 7.7% predicted and 7.245% actual, then the two allocation bars.
+
+**Say:**
+
+Before the run, I committed my prediction for a cost increase from ten to fifteen basis points. I expected volatility around 7.7 percent.
+
+Actual volatility was 7.245 percent, below my predicted range. The app moved five percentage points from VUG to ONEQ and kept BIL at 65 percent.
+
+The higher gross return offset the extra cost. My direction was right, but I overestimated the risk change. I learned to check the new allocation, not just the higher fee.
+
+### 1:55–2:15 · Reproduction
+
+**Click:** Reproduction. **Point:** Point to the 43 checks, then AJ's fresh-download report.
+
+**Say:**
+
+All forty-three published training checks passed. Independent calculations confirmed the cost test, and the base reset matched.
+
+AJ Chapman reported a fresh download worked in fifteen minutes, with matching results and no problems. His exact commit and changed-control evidence remain unspecified.
+
+### 2:15–2:50 · Pilot conditions
+
+**Click:** Pilot conditions. **Point:** Point to the 65% → 85% window change, then ANY ONE and the four review triggers.
+
+**Say:**
+
+My confidence increased, but I still recommend a paper pilot. Shorter windows move BIL from 65 to 85 percent. The target also comes from the estimation history.
+
+Any one condition makes me reconsider: no mix passes at fifteen basis points, volatility exceeds nine percent, BIL falls below 55 percent, or the base fails after a window change. I want forward evidence before funding.
+
+## Final recording check
+
+- Read both opening disclosures. Keep your face visible throughout.
+- Use the **locked prediction 7.7%**, actual test volatility **7.245%**, and current **55% BIL** review trigger. The original 50% pre-run trigger remains historical evidence; 55% was clarified afterward.
+- The source check samples observations and arithmetic; it does not verify every price or future performance.
+- AJ's fresh-download success is reported. Missing version and changed-control details remain visible.
+- The 55% and 9% levels prompt reconsideration. Existing model hard constraints are unchanged.
+- This dashboard presents saved results. Video 3 separately opens with the Streamlit app running live.
+- After recording, upload to YouTube, correct a transcript from what you actually said, save it as docs/transcript-video-1.txt, and enter the actual URL, runtime, chapters and access status in the manifest. Do not submit this draft as though it were the recorded transcript.
 
 ## Evidence
 
-[Saved committee run](../outputs/committee-run.json) · [Matt’s independent calculation](validation-and-ai-use.md) · [Committee memo](decision-memo.md).
+[Base output](../outputs/committee-run.json) · [Source and calculator evidence](student-evidence.md) · [Locked prediction](prediction-15bp-before-run.md) · [Cost comparison](cost15-prediction-comparison.md) · [Training reconciliation](training-reconciliation.md) · [Partner report](cold-run.md) · [Current conditions](highest-risk-claim.md)
+
+The dashboard is generated from saved results by build_video1.py. Rerunning it changes presentation files, not the financial model or original prediction.

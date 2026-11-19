@@ -66,6 +66,12 @@ analysis.py prints the current base record without writing over saved evidence. 
 
 The source ledger fingerprints the archived inputs. The app refuses an undocumented file change. Review and document legitimate source revisions before updating their fingerprints.
 
+## Record Video 1
+
+Open **Video-1-Dashboard.html** from your downloaded Project 2 folder. It runs locally without additional dependencies and presents saved results. Follow the [324-word script and exact click route](docs/video-1-recording-guide.md): Decision → What changed → My checks → Locked test → Reproduction → Pilot conditions. Use Show script for rehearsal, hide it for recording, and keep your actual webcam visible in the reserved space. Target 2:40–2:50; maximum 3:00. The dashboard timer does not record video. The completed recording and corrected transcript remain pending.
+
+[Dashboard preview](docs/evidence/video1-dashboard-preview.jpg) · [Presentation checks](outputs/video1-review.txt)
+
 ## Submission status
 
 Software and recorded numerical checks are complete for this revision. The [15 bp prediction and result](docs/cost15-prediction-comparison.md) are saved with a pre-run commit and restored baseline. Personal source-verification status, the highest-risk claim and three failures, final video links/transcripts, instructor access and the remaining partner-run metadata and control-change evidence remain tracked in the [manifest](docs/manifest.md). Every video requires a visible webcam image. Video 3 starts with the live app. Record after the mandate and thesis are finalized.

@@ -1,0 +1,15 @@
+AI-use disclosure: OpenAI Codex revised and checked this presentation.
+Educational purposes only. Not financial or investment advice.
+
+Video 1 review — November 19, 2026
+PASS: six scenes; 324 spoken words; each narration paragraph matches the Markdown guide.
+PASS: displayed base and changed results agree with saved output; forecast 7.7%, actual 7.245%, current BIL review threshold 55%.
+PASS: all local image paths exist; original calculator image displayed.
+PASS: browser walkthrough of all six screens at 1366 x 768 with no horizontal or vertical page overflow.
+PASS: webcam reservation stayed at the same vertical position across all six screens.
+PASS: script show/close, timer start/pause/reset, scene controls, source-image modal and Escape, evidence links dialog, and full-screen control.
+PASS: final view returned to Decision with timer 0:00; temporary viewport override removed.
+PASS: no browser console errors observed during tested interactions.
+Preview: docs/evidence/video1-dashboard-preview.jpg (browser screenshot, not a recording).
+Financial model and original locked prediction unchanged.
+Target runtime is a rehearsal estimate; actual video, webcam visibility, audio, duration, transcript and access remain to be checked after recording.
