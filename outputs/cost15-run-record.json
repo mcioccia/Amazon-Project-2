@@ -1,0 +1,214 @@
+{
+  "disclosure": "OpenAI Codex executed the requested scenario and computed this comparison. Educational purposes only; not financial or investment advice.",
+  "prediction_commit": "ed8b8f9829c95249d369d99120ef4b40b47f86b4",
+  "prediction_committed_at": "2026-11-19T00:41:21-05:00",
+  "execution_revision": "6ffd81ad19068e14a797ddd455dc8a0595b85d09",
+  "created_at": "2026-11-19T00:43:54.429314-05:00",
+  "source_sha256": {
+    "prices.csv": "2c93e65a793d2ecc89f704cff078f0bdf92bf2ec3bcb03e57b0ac57214fdc9c6",
+    "cpi-vintages.json": "38fdcd3fabeb45924ee0d8dc34ecf331c56bbb185640917ba5eff340e6476c78"
+  },
+  "runs": [
+    {
+      "output_file": "outputs/cost15-base-before.json",
+      "started_at": "2026-11-19T00:43:52.867541-05:00",
+      "finished_at": "2026-11-19T00:43:53.395026-05:00",
+      "command": [
+        "C:\\Users\\mac10\\finance-ai-work\\Lab_14\\.venv\\Scripts\\python.exe",
+        "-B",
+        "analysis.py",
+        "--target",
+        "7.49",
+        "--reserve",
+        "3",
+        "--window",
+        "59",
+        "--cost-bp",
+        "10",
+        "--qqq-shift",
+        "0",
+        "--lag",
+        "0",
+        "--vol-limit",
+        "10"
+      ],
+      "exit_code": 0,
+      "stderr": ""
+    },
+    {
+      "output_file": "outputs/cost15-changed.json",
+      "started_at": "2026-11-19T00:43:53.395026-05:00",
+      "finished_at": "2026-11-19T00:43:53.903116-05:00",
+      "command": [
+        "C:\\Users\\mac10\\finance-ai-work\\Lab_14\\.venv\\Scripts\\python.exe",
+        "-B",
+        "analysis.py",
+        "--target",
+        "7.49",
+        "--reserve",
+        "3",
+        "--window",
+        "59",
+        "--cost-bp",
+        "15",
+        "--qqq-shift",
+        "0",
+        "--lag",
+        "0",
+        "--vol-limit",
+        "10"
+      ],
+      "exit_code": 0,
+      "stderr": ""
+    },
+    {
+      "output_file": "outputs/cost15-base-restored.json",
+      "started_at": "2026-11-19T00:43:53.903116-05:00",
+      "finished_at": "2026-11-19T00:43:54.396507-05:00",
+      "command": [
+        "C:\\Users\\mac10\\finance-ai-work\\Lab_14\\.venv\\Scripts\\python.exe",
+        "-B",
+        "analysis.py",
+        "--target",
+        "7.49",
+        "--reserve",
+        "3",
+        "--window",
+        "59",
+        "--cost-bp",
+        "10",
+        "--qqq-shift",
+        "0",
+        "--lag",
+        "0",
+        "--vol-limit",
+        "10"
+      ],
+      "exit_code": 0,
+      "stderr": ""
+    }
+  ],
+  "checks": {
+    "prediction_committed_and_remote_verified_before_run": true,
+    "prediction_and_model_unchanged": true,
+    "only_cost_bp_changed": true,
+    "same_source_hashes": true,
+    "saved_baseline_reproduced": true,
+    "base_restored_exactly": true
+  },
+  "base": {
+    "weights": {
+      "QQQ": 0.15,
+      "ONEQ": 0.05,
+      "VUG": 0.15,
+      "BIL": 0.65,
+      "IEF": 0.0,
+      "LQD": 0.0
+    },
+    "gross": 0.07546367503559534,
+    "net": 0.074980341702262,
+    "risk": 0.07240552784237987,
+    "reserve": 0.65,
+    "turnover": 0.48333333333333334,
+    "cost": 0.00048333333333333334,
+    "verdict": "PASS",
+    "rules": []
+  },
+  "changed": {
+    "weights": {
+      "QQQ": 0.15,
+      "ONEQ": 0.1,
+      "VUG": 0.1,
+      "BIL": 0.65,
+      "IEF": 0.0,
+      "LQD": 0.0
+    },
+    "gross": 0.07575849280935562,
+    "net": 0.07503349280935562,
+    "risk": 0.07244615791467035,
+    "reserve": 0.65,
+    "turnover": 0.48333333333333334,
+    "cost": 0.0007250000000000001,
+    "verdict": "PASS",
+    "rules": []
+  },
+  "feasible": {
+    "base": 655,
+    "changed": 636
+  },
+  "signed_changes_percentage_points": {
+    "gross": 0.029481777376028084,
+    "net": 0.005315110709361304,
+    "risk": 0.004063007229047899,
+    "reserve": 0.0,
+    "turnover": 0.0,
+    "cost": 0.024166666666666673
+  },
+  "weight_changes_percentage_points": {
+    "QQQ": 0.0,
+    "ONEQ": 5.0,
+    "VUG": -4.999999999999999,
+    "BIL": 0.0,
+    "IEF": 0.0,
+    "LQD": 0.0
+  },
+  "original_weights_at_15bp": {
+    "net": 0.07473867503559534,
+    "cost": 0.0007250000000000001,
+    "note": "Counterfactual holding original weights fixed; the changed run reoptimizes."
+  },
+  "prediction_comparison": {
+    "volatility_direction_increased": true,
+    "volatility_central_prediction_pct": 7.7,
+    "actual_volatility_pct": 7.2446157914670355,
+    "error_actual_minus_central_percentage_points": -0.4553842085329647,
+    "inside_predicted_7_3_to_8_6_range": false,
+    "feasible_mix_found": true,
+    "bil_below_base_65pct": false,
+    "equity_weights_rearranged": true,
+    "reconsider_no_mix": false,
+    "reconsider_risk_above_9pct": false,
+    "reconsider_bil_below_50pct": false,
+    "note": "One run cannot validate the stated 80% or below-10% probability judgments."
+  },
+  "independent_check": {
+    "method": "Monthly returns and sample covariance computed directly from archived prices with NumPy; separate combinations enumeration of all 53,130 long-only five-point mixes. No production calculation function used.",
+    "status": "PASS",
+    "results": {
+      "base": {
+        "feasible": 655,
+        "selected_weights": [
+          0.15,
+          0.05,
+          0.15,
+          0.65,
+          0.0,
+          0.0
+        ],
+        "net": 0.074980341702262,
+        "risk": 0.07240552784237987
+      },
+      "changed": {
+        "feasible": 636,
+        "selected_weights": [
+          0.15,
+          0.1,
+          0.1,
+          0.65,
+          0.0,
+          0.0
+        ],
+        "net": 0.07503349280935562,
+        "risk": 0.07244615791467035
+      }
+    }
+  },
+  "diagnostic_estimates_percent": {
+    "QQQ": 16.03961659390052,
+    "ONEQ": 14.257756310687775,
+    "VUG": 13.668120763167233,
+    "BIL": 3.6574139760999733,
+    "IEF": -1.7289418812780455,
+    "LQD": -0.9276500649862801
+  }
+}

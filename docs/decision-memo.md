@@ -20,6 +20,10 @@ The selected mix passes the return, risk and reserve rules, with estimated volat
 
 The target originated in the same price history used to estimate returns. The equity funds are highly correlated. The CPI signal raises the required reserve to 10%, while the model independently chooses 65% BIL. This run supplies no evidence of a CPI timing advantage. These limitations support a paper trial.
 
+## Locked cost test — November 19
+
+The prediction was committed before changing switching cost from 10 to 15 bp. The selected portfolio passes with 15% QQQ, 10% ONEQ, 10% VUG and 65% BIL, net estimate 7.503% and annual volatility 7.245%. Risk rises only 0.004063 percentage points, below the predicted range. No pre-run reconsideration trigger fires, supporting continued pilot under Matt's stated rule. The approved base remains 10 bp and was restored. [Prediction, results and diagnosis](cost15-prediction-comparison.md).
+
 ## Range, monitoring and reversal
 
 Across the 59-, 48- and 36-month estimation windows, the feasible mixes hold **65–85% BIL**, paired with **35–15% aggregate equities**. Each complete mix totals 100%. A 20-point move in BIL meets the committee-review trigger. The 90% minimum BIL stress produces no eligible portfolio.

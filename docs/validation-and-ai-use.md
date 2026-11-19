@@ -4,7 +4,7 @@ This is an educational course project. It is not financial or investment advice.
 
 # Validation and AI use
 
-Updated November 18, 2026. This exercise uses an October 30 historical information snapshot under a mandate approved later. The 10% annual volatility ceiling was approved November 18.
+Updated November 19, 2026. This exercise uses an October 30 historical information snapshot under a mandate approved later. The 10% annual volatility ceiling was approved November 18.
 
 ## Executed checks
 
@@ -26,7 +26,7 @@ Historical means are estimates. The target was selected from the original equal-
 
 OpenAI Codex assisted with Lab 15 code reuse, the committee terms initially proposed and approved by Matt, documentation, validation, source retrieval, interface design and recording guides. The November 18 revision was prompted by Project 1 feedback. Matt supplied the 10% risk ceiling and reported his partner’s calculation question and startup commands. Product identification is OpenAI Codex; an exact underlying model build was not exposed in the saved project evidence.
 
-The 25 bp practice prediction below was authored with AI. Matt's own highest-risk claim and three possible failures remain pending. On November 19, Matt supplied the [new 15 bp prediction](prediction-15bp-before-run.md), retained without rewriting; its result remains pending. For the load-bearing source check, Matt supplied two QQQ Yahoo screenshots on November 18. Codex transcribed August 31 Adj Close of 716.01 and September 30 Adj Close of 739.77 (USD per share), which match the archived inputs to the displayed cent precision. Original images and fingerprints are retained in [Personal evidence](student-evidence.md#source-check). Matt then supplied calculator-input and result screenshots: (739.77 / 716.01 - 1) x 100 = 3.31838940797%, or +3.32%. Codex verified this arithmetic; the full-precision archive gives 3.31782706792%, also +3.32% when rounded. The small difference follows from rounding the price inputs. The formula was supplied by Codex and executed by Matt; this is separate from the AI-off prediction. Access-date confirmation and Matt's interpretation remain pending.
+The 25 bp practice prediction below was authored with AI. Matt's own highest-risk claim and three possible failures remain pending. On November 19, Matt supplied the [new 15 bp prediction](prediction-15bp-before-run.md), retained without rewriting and committed before execution. The [15 bp comparison](cost15-prediction-comparison.md) records the November 19 result and diagnosis. For the load-bearing source check, Matt supplied two QQQ Yahoo screenshots on November 18. Codex transcribed August 31 Adj Close of 716.01 and September 30 Adj Close of 739.77 (USD per share), which match the archived inputs to the displayed cent precision. Original images and fingerprints are retained in [Personal evidence](student-evidence.md#source-check). Matt then supplied calculator-input and result screenshots: (739.77 / 716.01 - 1) x 100 = 3.31838940797%, or +3.32%. Codex verified this arithmetic; the full-precision archive gives 3.31782706792%, also +3.32% when rounded. The small difference follows from rounding the price inputs. The formula was supplied by Codex and executed by Matt; this is separate from the AI-off prediction. Access-date confirmation and Matt's interpretation remain pending.
 
 [Personal evidence](student-evidence.md)
 
@@ -45,16 +45,16 @@ The current base is target 7.49% net, volatility ceiling 10%, BIL minimum 3% bef
 | Expected direction for a named numerical output | Matt's exact forecast is retained in [section 3](prediction-15bp-before-run.md) |
 | Expected committee-decision effect | Matt's exact decision and reconsideration conditions are retained in [section 4](prediction-15bp-before-run.md) |
 | My economic reasoning | [Section 5](prediction-15bp-before-run.md), preserved without correcting the prediction |
-| Pre-run commit URL and timestamp | [Locked prediction commit ed8b8f9](https://github.com/mcioccia/Amazon-Project-2/commit/ed8b8f9829c95249d369d99120ef4b40b47f86b4) · 2026-11-19T00:41:21-05:00 (America/New_York); pushed and remote verified before execution. No 15 bp run yet. |
+| Pre-run commit URL and timestamp | [Locked prediction commit ed8b8f9](https://github.com/mcioccia/Amazon-Project-2/commit/ed8b8f9829c95249d369d99120ef4b40b47f86b4) · 2026-11-19T00:41:21-05:00 (America/New_York); pushed and remote verified before the November 19 15 bp execution. |
 
 | After run | Matt’s entry |
 |---|---|
-| Run time and exact command or app settings | Pending |
-| Base and changed output links | Pending |
-| Actual output and signed change, with units | Pending |
-| Did my decision change? | Pending |
-| Why the result matched or differed, or stayed unchanged | Pending |
-| Separate post-run commit URL | Pending |
+| Run time and exact command or app settings | 15 bp run: 2026-11-19T00:43:53.395026-05:00; exact command and fixed settings in [comparison](cost15-prediction-comparison.md) and [run record](../outputs/cost15-run-record.json) |
+| Base and changed output links | [10 bp before](../outputs/cost15-base-before.json), [15 bp after](../outputs/cost15-changed.json), [10 bp restored](../outputs/cost15-base-restored.json) |
+| Actual output and signed change, with units | Annual volatility 7.240553% to 7.244616% (+0.004063 pp); net 7.498034% to 7.503349% (+0.005315 pp); BIL 65% unchanged |
+| Did my decision change? | Applying Matt's pre-run conditions supports continued pilot: a mix exists, volatility is below 9%, and BIL is above 50%. This is the recorded-rule assessment, not an invented personal post-run statement. |
+| Why the result matched or differed, or stayed unchanged | Volatility rose as predicted but below the 7.3–8.6% range. Five points moved from VUG to ONEQ; BIL and turnover stayed fixed. Gross estimate gain exceeded added cost. Full [after-run diagnosis](cost15-prediction-comparison.md) prepared by Codex. |
+| Separate post-run commit URL | Pending creation of the result commit; will be recorded after commit and push. |
 
 The saved standard stresses and the completed 25 bp practice scenario have already been observed. They do not supply a fresh blind prediction.
 
@@ -67,4 +67,4 @@ GitHub contained the [pre-run prediction](https://github.com/mcioccia/Amazon-Pro
 
 The lowest-risk feasible portfolio moved from a first-year net estimate of 7.498034% to 7.505646% (+0.761 bp). The actual result differed from the predicted decline. Gross return changed from 7.54637% to 7.63481%, while modeled trading cost changed from 0.04833% to 0.12917%. The difference between those changes explains the observed net direction after reoptimization.
 
-New weights: QQQ 15%, ONEQ 20%, VUG 0%, BIL 65%, IEF 0%, LQD 0%. The portfolio verdict is **PASS**. The practice result supports keeping the existing paper-pilot decision. This scenario is AI-assisted. The separate November 19 prediction is retained above; its outcome remains pending.
+New weights: QQQ 15%, ONEQ 20%, VUG 0%, BIL 65%, IEF 0%, LQD 0%. The portfolio verdict is **PASS**. The practice result supports keeping the existing paper-pilot decision. This scenario is AI-assisted. The separate November 19 prediction and its executed 15 bp result are retained above.

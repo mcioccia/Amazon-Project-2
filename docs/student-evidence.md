@@ -79,7 +79,7 @@ Complete this section yourself with AI closed, following the instructor’s feed
 | Failure possibility 3 and how I would detect it | Pending |
 | My conclusion and the condition that changes it | Pending |
 
-Complete the [Locked Changed-Input Record](validation-and-ai-use.md) with a genuinely new scenario, commit it before running, and preserve the outcome afterward.
+The [Locked Changed-Input Record](validation-and-ai-use.md) now links the November 19 prediction committed before execution and the [15 bp result and comparison](cost15-prediction-comparison.md). The original prediction is preserved.
 
 ## Recording evidence
 

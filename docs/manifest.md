@@ -4,7 +4,7 @@ This is an educational course project. It is not financial or investment advice.
 
 # Project 2 submission manifest
 
-Updated November 18, 2026. The current decision is a paper pilot under the approved 10% estimated annual volatility ceiling. Brightspace controls the deadline and points.
+Updated November 19, 2026. The current decision is a paper pilot under the approved 10% estimated annual volatility ceiling. Brightspace controls the deadline and points.
 
 | Item | Repository evidence | Status |
 |---|---|---|
@@ -15,7 +15,7 @@ Updated November 18, 2026. The current decision is a paper pilot under the appro
 | Validation and AI use | [Validation record](https://github.com/mcioccia/Amazon-Project-2/blob/main/docs/validation-and-ai-use.md), [executed checks](https://github.com/mcioccia/Amazon-Project-2/blob/main/outputs/verification.txt) | Numerical and software checks complete |
 | Published training case | [Reconciliation](https://github.com/mcioccia/Amazon-Project-2/blob/main/docs/training-reconciliation.md) | 43 comparisons passed |
 | Personal claim, three failures and source check | [Student evidence](https://github.com/mcioccia/Amazon-Project-2/blob/main/docs/student-evidence.md) | QQQ source and calculator screenshots received; access-date confirmation, interpretation, claim and failures pending |
-| Locked Changed-Input Record | [Before/after record](https://github.com/mcioccia/Amazon-Project-2/blob/main/docs/validation-and-ai-use.md) | New AI-off prediction, pre-run commit and later result pending |
+| Locked Changed-Input Record | [Before/after record](https://github.com/mcioccia/Amazon-Project-2/blob/main/docs/validation-and-ai-use.md) | [15 bp prediction](prediction-15bp-before-run.md) committed before execution; [before/after comparison](cost15-prediction-comparison.md), diagnosis and restored base saved |
 | Partner / cold run | [Reproduction record](https://github.com/mcioccia/Amazon-Project-2/blob/main/docs/cold-run.md), [automated clean run](https://github.com/mcioccia/Amazon-Project-2/blob/main/outputs/cold-run.txt) | Partner use reported; command supplied; time/error details and revised partner rerun unconfirmed |
 | Video 1 · Process and verification | [Recording guide](https://github.com/mcioccia/Amazon-Project-2/blob/main/docs/video-1-recording-guide.md) | Draft ready; ≤3:00; face visible throughout |
 | Video 2 · Code walkthrough | [Recording guide](https://github.com/mcioccia/Amazon-Project-2/blob/main/docs/video-2-recording-guide.md) | Draft ready; ≤5:00; face visible throughout |
@@ -34,7 +34,7 @@ Enter the actual title, runtime, chapter timestamps and URL after recording. Cor
 
 ## Final hand-in
 
-Complete the pending personal evidence, commit the prediction before running, and preserve the result in a separate commit. Record against the final app and thesis. Verify instructor access to the private repository and each unlisted video. Attach the same decision-memo.md and validation-and-ai-use.md to Brightspace and save the submission receipt.
+Complete the remaining personal evidence. The November 19 prediction was committed before its 15 bp run; preserve its original text and the separate result history. Record against the final app and thesis. Verify instructor access to the private repository and each unlisted video. Attach the same decision-memo.md and validation-and-ai-use.md to Brightspace and save the submission receipt.
 
 Follow the Project 2-specific checklist directions that use Markdown and skip the Before AI and research-evolution submission items. Editions A and B remain personal comparisons.
 
