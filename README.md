@@ -74,7 +74,7 @@ Open **Video-1-Dashboard.html** from your downloaded Project 2 folder. It runs l
 
 ## Record Video 2
 
-Open **Video-2-Dashboard.html** from the Project 2 folder, click **Reset → Full screen**, and record the code walkthrough with your webcam visible. Read the [527-word spoken script](docs/video-2-word-for-word-script.md) and follow the [exact click guide](docs/video-2-recording-guide.md): **Inputs → Returns → Risk → CPI cutoff → Costs → Search → Verdict**. Aim for 4:25–4:45; maximum 5:00. The dashboard shows source excerpts from the current code, saved results, a rehearsal timer, line highlighting and the same narration. It runs locally and does not execute a new financial scenario. The actual recording, YouTube link and corrected transcript remain pending.
+Open **Video-2-Dashboard.html** from the Project 2 folder, click **Reset → Full screen**, and record the code walkthrough with your webcam visible. Read the [527-word spoken script](docs/video-2-word-for-word-script.md) and follow the [exact click guide](docs/video-2-recording-guide.md): **Inputs → Returns → Risk → CPI cutoff → Costs → Search → Verdict**. Aim for 4:25–4:45; maximum 5:00. The dashboard shows source excerpts from the current code, saved results, a rehearsal timer, line highlighting and the same narration. It runs locally and does not execute a new financial scenario. Matt supplied Video 2 captions. The [caption review](docs/video-2-caption-review.md) and proposed corrections are saved; three material passages need playback confirmation before the final transcript and YouTube caption upload. The YouTube link and full-video checks remain pending.
 
 [Dashboard preview](docs/evidence/video2-dashboard-preview.jpg) · [Presentation checks](outputs/video2-review.txt)
 

@@ -81,3 +81,8 @@ On November 19, Codex checked the [published Video 1](https://youtu.be/e79Ix9xr7
 ## Video 2 preparation — November 19, 2026
 
 OpenAI Codex prepared the [word-for-word draft](video-2-word-for-word-script.md), [click guide](video-2-recording-guide.md) and source-code recording dashboard. The generator reads actual source lines and saved outputs; all displayed excerpts were checked against their files. The approved base rerun matched its archive, and a 90% BIL floor returned no eligible mix. [Presentation review](../outputs/video2-review.txt) records UI checks and limitations; [source fingerprints](../outputs/video2-presentation-sources.json) identify the code displayed. No model inputs, archived results or locked prediction text changed. This draft is not an actual recording transcript; the actual video and corrected transcript remain pending.
+
+
+## Video 2 caption review — November 19, 2026
+
+Codex compared the supplied SRT with the script and saved results and prepared [review drafts](video-2-caption-review.md). Original cues and timings are retained, and the source SRT is archived unchanged. Three possible spoken-versus-caption errors (decision date, basis-point conversion and passing-mix count) require Matt’s playback confirmation. Drafts use the correct script/model values but are not certified transcripts. No model inputs or archived results were changed.

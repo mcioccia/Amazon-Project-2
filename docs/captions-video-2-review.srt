@@ -1,0 +1,411 @@
+1
+00:00:00,371 --> 00:00:02,694
+Hi, before we begin, I use OpenAI Codex
+
+2
+00:00:02,694 --> 00:00:04,376
+to build, test, and help explain this
+
+3
+00:00:04,376 --> 00:00:06,139
+app. The analysis and decision are mine.
+
+4
+00:00:06,459 --> 00:00:08,382
+This is for educational purposes only.
+
+5
+00:00:08,862 --> 00:00:10,625
+Not for financial or investment
+
+6
+00:00:10,625 --> 00:00:13,388
+advice. Now, to begin. I'll trace the
+
+7
+00:00:13,388 --> 00:00:15,671
+actual code from prices to the portfolio
+
+8
+00:00:15,751 --> 00:00:18,034
+verdict. These six funds are the
+
+9
+00:00:18,555 --> 00:00:20,798
+universe. The base sets
+
+10
+00:00:21,679 --> 00:00:24,663
+a 7.49% net return target and a
+
+11
+00:00:24,823 --> 00:00:27,026
+10% volatility ceiling. The information
+
+12
+00:00:27,026 --> 00:00:29,509
+cutoff is October 30th. The mandate
+
+13
+00:00:29,509 --> 00:00:31,552
+approval came later. This is a
+
+14
+00:00:31,552 --> 00:00:33,554
+retrospective paper exercise.
+
+15
+00:00:34,676 --> 00:00:37,319
+The fingerprint check refuses an
+
+16
+00:00:37,319 --> 00:00:39,963
+undocumented change to saved data. Now,
+
+17
+00:00:39,963 --> 00:00:41,805
+going into returns.
+
+18
+00:00:45,810 --> 00:00:48,053
+Here, current price divided by prior
+
+19
+00:00:48,053 --> 00:00:50,536
+price, minus one, gives a monthly return.
+
+20
+00:00:51,147 --> 00:00:53,791
+My checked QQQ example goes from
+
+21
+00:00:53,791 --> 00:00:56,034
+716.01 to
+
+22
+00:00:56,034 --> 00:00:57,275
+739.77,
+
+23
+00:00:58,196 --> 00:01:00,519
+about 3.32%.
+
+24
+00:01:01,401 --> 00:01:04,324
+Sixty prices give 59 returns. The
+
+25
+00:01:04,364 --> 00:01:06,487
+code annualizes the average by multiplying
+
+26
+00:01:06,527 --> 00:01:09,010
+by twelve, and sample standard deviation
+by the
+
+27
+00:01:09,010 --> 00:01:11,093
+square root of twelve. It estimates
+
+28
+00:01:11,333 --> 00:01:13,817
+correlations over the same months. These
+
+29
+00:01:13,817 --> 00:01:16,620
+are historical estimates, not promised
+
+30
+00:01:16,620 --> 00:01:19,264
+returns. Now, going into
+
+31
+00:01:19,264 --> 00:01:21,747
+risk. Correlation times both
+
+32
+00:01:22,268 --> 00:01:24,831
+volatilities gives covariance. The next
+
+33
+00:01:24,831 --> 00:01:26,954
+block multiplies every covariance by both
+
+34
+00:01:26,954 --> 00:01:28,956
+portfolio weights and adds all the pairs,
+
+35
+00:01:28,956 --> 00:01:30,919
+including each fund with itself. The
+
+36
+00:01:30,919 --> 00:01:33,042
+square root gives portfolio volatility.
+
+37
+00:01:33,362 --> 00:01:35,445
+Funds that move together can add similar
+
+38
+00:01:35,445 --> 00:01:37,327
+risk, even with different tickers. The
+
+39
+00:01:37,327 --> 00:01:39,931
+base is 7.241%. The 10%
+
+40
+00:01:40,011 --> 00:01:42,414
+ceiling limits this estimate. It does not
+
+41
+00:01:42,414 --> 00:01:45,298
+guarantee a maximum loss. Now, going to
+
+42
+00:01:45,298 --> 00:01:48,181
+the CPI cutoff. The CPI function
+
+43
+00:01:48,181 --> 00:01:50,665
+first removes archived vintages after the
+
+44
+00:01:50,665 --> 00:01:52,747
+cutoff, then selects the latest eligible
+
+45
+00:01:52,747 --> 00:01:55,271
+one. Both index levels come from the same
+
+46
+00:01:55,271 --> 00:01:57,634
+vintage. September inflation is 3.72%.
+
+47
+00:01:57,674 --> 00:02:00,437
+That activates a 10%
+
+48
+00:02:00,437 --> 00:02:03,281
+BIL floor instead of the normal
+
+49
+00:02:03,281 --> 00:02:06,205
+3% minimum. Missing eligible evidence
+
+50
+00:02:06,205 --> 00:02:08,678
+pauses the search. The date
+
+51
+00:02:09,639 --> 00:02:12,563
+is the archived vintage, not a claim about
+
+52
+00:02:12,563 --> 00:02:15,166
+the first release time. At base,
+
+53
+00:02:15,247 --> 00:02:17,890
+65% BIL already exceeds the
+
+54
+00:02:17,890 --> 00:02:20,333
+floor. Now, going into
+
+55
+00:02:20,694 --> 00:02:23,097
+costs. Starting
+
+56
+00:02:23,337 --> 00:02:26,141
+holdings are equal weight. One-way
+
+57
+00:02:26,141 --> 00:02:28,023
+turnover is half the sum of the
+
+58
+00:02:28,023 --> 00:02:30,987
+absolute weight changes, so the buy and
+
+59
+00:02:30,987 --> 00:02:33,510
+sell sides are not counted twice. The base
+
+60
+00:02:33,510 --> 00:02:36,094
+switches 48.33%. Ten
+
+61
+00:02:36,574 --> 00:02:38,737
+basis points becomes 0.001.
+
+62
+00:02:39,538 --> 00:02:41,501
+Multiply turnover by that rate and a
+
+63
+00:02:41,501 --> 00:02:43,463
+$100,000 account:
+
+64
+00:02:43,704 --> 00:02:46,667
+$48.33. Subtract
+
+65
+00:02:46,667 --> 00:02:49,311
+the cost from gross expected return. This
+
+66
+00:02:49,311 --> 00:02:51,634
+is the initial switch. It does not cover
+
+67
+00:02:51,634 --> 00:02:52,996
+every future expense.
+
+68
+00:02:56,020 --> 00:02:58,623
+Now, going into search. The loop
+distributes
+
+69
+00:02:58,623 --> 00:03:01,387
+twenty units across six funds. Each unit
+is
+
+70
+00:03:01,387 --> 00:03:03,710
+five percentage points, so weights add to
+
+71
+00:03:03,710 --> 00:03:06,193
+100% without shorting. For each
+
+72
+00:03:06,193 --> 00:03:08,676
+candidate, it calculates return, reserve,
+
+73
+00:03:09,077 --> 00:03:11,800
+costs, and risk. Continue skips a
+
+74
+00:03:11,800 --> 00:03:14,524
+failing mix. The best variable changes
+
+75
+00:03:14,524 --> 00:03:16,767
+only when an eligible mix has lower
+
+76
+00:03:16,767 --> 00:03:18,769
+volatility. Of—
+
+77
+00:03:19,590 --> 00:03:22,474
+53,130 candidates, 655
+
+78
+00:03:22,474 --> 00:03:25,438
+pass at base. This is the best mix
+
+79
+00:03:25,438 --> 00:03:27,480
+on the grid, not every possible
+
+80
+00:03:27,480 --> 00:03:30,244
+allocation. My fifteen-basis-point
+
+81
+00:03:30,244 --> 00:03:32,968
+test reran this whole search. It
+
+82
+00:03:32,968 --> 00:03:35,331
+moved five points from VUG to
+
+83
+00:03:35,331 --> 00:03:38,295
+ONEQ and produced 7.245%
+
+84
+00:03:38,295 --> 00:03:40,577
+volatility. Now,
+
+85
+00:03:41,058 --> 00:03:43,942
+going into... going
+
+86
+00:03:43,942 --> 00:03:44,863
+into the verdict.
+
+87
+00:03:47,667 --> 00:03:50,230
+The app displays that—sorry.
+
+88
+00:03:54,235 --> 00:03:56,839
+The app
+
+89
+00:03:56,839 --> 00:03:58,801
+displays the engine's results and exports
+
+90
+00:03:58,801 --> 00:04:00,283
+the actual settings with the output.
+
+91
+00:04:00,563 --> 00:04:02,726
+Equal weight fails the risk ceiling;
+
+92
+00:04:02,726 --> 00:04:05,209
+inverse volatility misses the return
+target. The
+
+93
+00:04:05,209 --> 00:04:08,033
+constrained mix passes, but its
+
+94
+00:04:08,193 --> 00:04:10,837
+return cushion is thin. Requiring 90%
+
+95
+00:04:11,558 --> 00:04:14,201
+BIL leaves no eligible mix, so the app
+
+96
+00:04:14,201 --> 00:04:16,845
+says pause. Invalid input evidence also
+
+97
+00:04:16,845 --> 00:04:19,808
+stops the app. Forty-three published
+
+98
+00:04:19,808 --> 00:04:22,532
+training checks passed, and the cost test
+
+99
+00:04:22,532 --> 00:04:25,376
+was independently recalculated. I still
+
+100
+00:04:25,376 --> 00:04:27,058
+recommend a paper pilot, with forward
+
+101
+00:04:27,058 --> 00:04:29,821
+results and stated review triggers before
+
+102
+00:04:29,821 --> 00:04:30,863
+actual funding.
