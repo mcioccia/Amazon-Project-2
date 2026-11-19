@@ -14,8 +14,8 @@ Matt supplied the following report attributed to **Aj Chapman**. This is partner
 | Start | November 19, 2026, 9:00 AM; time zone not specified |
 | Repository supplied | https://github.com/mcioccia/Amazon-Project-2 |
 | Exact version / commit | Not supplied; the repository URL does not identify the tested commit |
-| Fresh copy used | **No** |
-| First problem | **"No problems"** |
+| Fresh copy used | **Yes — fresh download**, confirmed by Matt in a follow-up clarification |
+| First problem | **"No problems"**; Matt confirmed that the fresh download worked |
 | Elapsed time | **15 minutes** |
 | App tab or result location | Not specified |
 | Selected fund weights | Not supplied |
@@ -42,7 +42,7 @@ The app-launch command was not included in this report. An earlier report suppli
 
 **Codex comparison:** all six displayed numerical values and the three verdicts match the saved base output at the reported precision. The report does not establish the exact software version used.
 
-**Status:** partner app check recorded. Because the reviewer answered "No" to using a fresh copy, this does not establish a clean-copy partner reproduction. No fix was identified by the reported attempt; a fresh-copy run following only the README is still needed. Retain that run's exact commit, commands (including app launch), time, first-error outcome, result location and one changed-control observation.
+**Status:** successful fresh-download partner run recorded: Aj Chapman, November 19, 9:00 AM, 15 minutes, no problems. **No fix was needed for this reported run.** Matt clarified: "It was a fresh download and it worked with no problems." This supersedes the earlier "No" recorded for the fresh-copy field. The exact tested commit, app-launch command, result location, README-only confirmation and changed-control observation remain unspecified; the clarification does not fill those details.
 
 ## Earlier partner report — November 18, 2026
 
