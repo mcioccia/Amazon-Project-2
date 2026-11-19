@@ -45,7 +45,7 @@ The current base is target 7.49% net, volatility ceiling 10%, BIL minimum 3% bef
 | Expected direction for a named numerical output | Matt's exact forecast is retained in [section 3](prediction-15bp-before-run.md) |
 | Expected committee-decision effect | Matt's exact decision and reconsideration conditions are retained in [section 4](prediction-15bp-before-run.md) |
 | My economic reasoning | [Section 5](prediction-15bp-before-run.md), preserved without correcting the prediction |
-| Pre-run commit URL and timestamp | Pending creation of the commit containing this prediction; no run yet |
+| Pre-run commit URL and timestamp | [Locked prediction commit ed8b8f9](https://github.com/mcioccia/Amazon-Project-2/commit/ed8b8f9829c95249d369d99120ef4b40b47f86b4) · 2026-11-19T00:41:21-05:00 (America/New_York); pushed and remote verified before execution. No 15 bp run yet. |
 
 | After run | Matt’s entry |
 |---|---|
