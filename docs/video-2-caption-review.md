@@ -4,7 +4,7 @@ Educational purposes only; not financial or investment advice.
 
 # Video 2 caption review — November 19, 2026
 
-**Review draft, not yet the final submission transcript.** Matt supplied the recorded video's SRT. The [original](evidence/video-2-original.srt) is preserved unchanged. [Proposed corrected captions](captions-video-2-review.srt) and [proposed readable transcript](transcript-video-2-review.txt) retain all 102 original cue numbers and timestamps. The last cue ends at 00:04:30,863; this does not establish the full video runtime.
+**Review draft, not yet the final submission transcript. Matt confirmed that he misspoke on at least one of the three values below.** Matt supplied the recorded video's SRT. The [original](evidence/video-2-original.srt) is preserved unchanged. [Proposed corrected captions](captions-video-2-review.srt) and [proposed readable transcript](transcript-video-2-review.txt) retain all 102 original cue numbers and timestamps. The last cue ends at 00:04:30,863; this does not establish the full video runtime.
 
 Finance terms corrected include annualizes, covariance, archived vintages, one-way turnover, search, inverse volatility and constrained mix. The recorded opening and transitions, two-decimal turnover of 48.33%, the brief restart before the verdict, and final funding wording are retained. Grammar and punctuation were lightly cleaned, without replacing the entire recording with the rehearsal script.
 
@@ -16,7 +16,7 @@ Finance terms corrected include annualizes, covariance, archived vintages, one-w
 | 02:36 / 61 | 10 basis points becomes 0.001% | 10 basis points = 0.001 as a decimal = 0.1% | Proposed correction; confirm what was spoken |
 | 03:19 / 77 | 65 passing candidates | 655 passing candidates out of 53,130 | Proposed correction; confirm what was spoken |
 
-The review drafts use the script/model values in this table. They are **not ready for upload** until Matt confirms whether these are caption recognition errors or spoken mistakes. If a value was spoken incorrectly, keep an honest record of the spoken error and record/edit an audible correction rather than silently making the transcript claim different speech. Any video edit may require new caption timings.
+The review drafts use the script/model values in this table. They are **not ready for upload** until the recording is corrected and the resulting captions are checked. Matt confirmed at least one spoken mistake; the exact affected passages remain unspecified. If a value was spoken incorrectly, keep an honest record of the spoken error and record/edit an audible correction rather than silently making the transcript claim different speech. Any video edit may require new caption timings.
 
 ## Numerical evidence
 
@@ -31,3 +31,8 @@ The review drafts use the script/model values in this table. They are **not read
 Sources: [base output](../outputs/committee-run.json), [15 bp output](../outputs/cost15-changed.json), [calculation code](../analysis.py), [word-for-word rehearsal script](video-2-word-for-word-script.md).
 
 No audio or video was supplied for this review. Playback, webcam visibility, synchronization, complete runtime, YouTube access and published captions remain unverified. Final filenames after resolution: captions-video-2-corrected.srt and transcript-video-2.txt.
+
+
+## Matt's confirmation and correction plan
+
+On November 19, Matt answered: **I misspoke on at least one**. Do not certify the proposed script-corrected wording as a verbatim transcript of the current recording. The original SRT remains preserved. Use the [short correction guide](video-2-recording-corrections.md) to repair the spoken values, then export the revised SRT so its wording and timings can be checked. No audio correction or revised recording is claimed to have been completed.
