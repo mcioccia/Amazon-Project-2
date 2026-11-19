@@ -13,3 +13,5 @@ PASS: no browser console errors observed during tested interactions.
 Preview: docs/evidence/video1-dashboard-preview.jpg (browser screenshot, not a recording).
 Financial model and original locked prediction unchanged.
 Target runtime is a rehearsal estimate; actual video, webcam visibility, audio, duration, transcript and access remain to be checked after recording.
+
+PASS: dedicated word-for-word script contains exactly the dashboard narration, 324 words, with no unspoken headings or cues; all six Say exactly passages match. Dashboard unchanged.

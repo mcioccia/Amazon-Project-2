@@ -68,7 +68,7 @@ The source ledger fingerprints the archived inputs. The app refuses an undocumen
 
 ## Record Video 1
 
-Open **Video-1-Dashboard.html** from your downloaded Project 2 folder. It runs locally without additional dependencies and presents saved results. Follow the [324-word script and exact click route](docs/video-1-recording-guide.md): Decision → What changed → My checks → Locked test → Reproduction → Pilot conditions. Use Show script for rehearsal, hide it for recording, and keep your actual webcam visible in the reserved space. Target 2:40–2:50; maximum 3:00. The dashboard timer does not record video. The completed recording and corrected transcript remain pending.
+Open **Video-1-Dashboard.html** from your downloaded Project 2 folder. It runs locally without additional dependencies and presents saved results. Read the [324-word, word-for-word spoken script](docs/video-1-word-for-word-script.md). Keep the [separate click guide](docs/video-1-recording-guide.md) beside it: Decision → What changed → My checks → Locked test → Reproduction → Pilot conditions. Use Show script for rehearsal, hide it for recording, and keep your actual webcam visible in the reserved space. Target 2:40–2:50; maximum 3:00. The dashboard timer does not record video. The completed recording and corrected transcript remain pending.
 
 [Dashboard preview](docs/evidence/video1-dashboard-preview.jpg) · [Presentation checks](outputs/video1-review.txt)
 

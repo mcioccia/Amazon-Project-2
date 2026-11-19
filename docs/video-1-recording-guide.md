@@ -6,6 +6,8 @@ This is an educational project, not financial or investment advice.
 
 Updated November 19, 2026. **Draft script, not a transcript of a recorded video.** 324 spoken words; aim for **2:40–2:50**, with a hard limit of **3:00**. The subject follows the [Project 2 Video 1 directions](https://github.com/CinderZhang/FIN43900-Fall2026/blob/main/projects/project-2-investment-management-application.md): how the system and thinking changed, and an AI output checked. [Length checklist](https://github.com/CinderZhang/FIN43900-Fall2026/blob/main/projects/major-project-student-checklist.md).
 
+Read every word in the [word-for-word spoken script](video-1-word-for-word-script.md). That file contains only what you say aloud, with no headings or click instructions to read. The same words appear under **Say exactly** below and in the dashboard's **Show script** panel. Use this guide separately for when to click.
+
 ## Before recording
 
 1. Open **Video-1-Dashboard.html** from the Project 2 folder in a browser. It runs directly from the extracted folder, with no server or internet needed for the dashboard and local screenshots. GitHub's file page shows its source; download the repository first.
@@ -43,7 +45,7 @@ On **Pilot conditions**, finish the last sentence and stop your recorder before 
 
 **Click:** Decision. **Point:** Point to Paper pilot, then the 65% BIL allocation.
 
-**Say:**
+**Say exactly:**
 
 I used OpenAI Codex to build, test, and help explain this app. The analysis and decision are mine.
 
@@ -55,7 +57,7 @@ I recommend a paper pilot. My process now includes costs, risk limits, source ch
 
 **Click:** What changed. **Point:** Point to the two failing baselines, then the constrained row.
 
-**Say:**
+**Say exactly:**
 
 Lab 15 found a low-risk mix meeting return and reserve targets. I added switching costs, a ten percent volatility limit, and point-in-time CPI.
 
@@ -65,7 +67,7 @@ Equal weight fails the risk limit. Inverse volatility misses the return target. 
 
 **Click:** My checks. **Point:** Point to the two QQQ prices, the calculator result, then the $48.33 check.
 
-**Say:**
+**Say exactly:**
 
 I checked the AI-prepared QQQ inputs against Yahoo: 716.01 in August and 739.77 in September. My calculator gave a 3.32 percent monthly return, and both adjusted prices matched to the cent.
 
@@ -75,7 +77,7 @@ My separate trading-cost check also matched: 48 dollars and 33 cents on a hundre
 
 **Click:** Locked test. **Point:** Trace the commit → run → result sequence. Point to 7.7% predicted and 7.245% actual, then the two allocation bars.
 
-**Say:**
+**Say exactly:**
 
 Before the run, I committed my prediction for a cost increase from ten to fifteen basis points. I expected volatility around 7.7 percent.
 
@@ -87,7 +89,7 @@ The higher gross return offset the extra cost. My direction was right, but I ove
 
 **Click:** Reproduction. **Point:** Point to the 43 checks, then AJ's fresh-download report.
 
-**Say:**
+**Say exactly:**
 
 All forty-three published training checks passed. Independent calculations confirmed the cost test, and the base reset matched.
 
@@ -97,7 +99,7 @@ AJ Chapman reported a fresh download worked in fifteen minutes, with matching re
 
 **Click:** Pilot conditions. **Point:** Point to the 65% → 85% window change, then ANY ONE and the four review triggers.
 
-**Say:**
+**Say exactly:**
 
 My confidence increased, but I still recommend a paper pilot. Shorter windows move BIL from 65 to 85 percent. The target also comes from the estimation history.
 

@@ -61,6 +61,8 @@ out=f'''<!doctype html><html lang="en"><head><meta charset="utf-8"><meta name="v
 <div class="sr-only" id="screen-status" aria-live="polite"></div><script id="scene-data" type="application/json">{data}</script><script>{JS}</script></body></html>'''
 (ROOT/'Video-1-Dashboard.html').write_text(out,encoding='utf-8')
 words=len(' '.join(p for s in SCENES for p in s['speech']).split())
+spoken='\n\n'.join(p for s in SCENES for p in s['speech'])+'\n'
+(ROOT/'docs/video-1-word-for-word-script.md').write_text(spoken,encoding='utf-8')
 guide=f"""I used OpenAI Codex to build, test, and help explain this app and prepare this recording guide. The analysis and decision are mine.
 
 This is an educational project, not financial or investment advice.
@@ -68,6 +70,8 @@ This is an educational project, not financial or investment advice.
 # Video 1 — How my process and thinking changed
 
 Updated November 19, 2026. **Draft script, not a transcript of a recorded video.** {words} spoken words; aim for **2:40–2:50**, with a hard limit of **3:00**. The subject follows the [Project 2 Video 1 directions](https://github.com/CinderZhang/FIN43900-Fall2026/blob/main/projects/project-2-investment-management-application.md): how the system and thinking changed, and an AI output checked. [Length checklist](https://github.com/CinderZhang/FIN43900-Fall2026/blob/main/projects/major-project-student-checklist.md).
+
+Read every word in the [word-for-word spoken script](video-1-word-for-word-script.md). That file contains only what you say aloud, with no headings or click instructions to read. The same words appear under **Say exactly** below and in the dashboard's **Show script** panel. Use this guide separately for when to click.
 
 ## Before recording
 
@@ -101,7 +105,7 @@ On **Pilot conditions**, finish the last sentence and stop your recorder before 
 
 """
 for s in SCENES:
-    guide+=f'### {s["range"]} · {s["nav"]}\n\n**Click:** {s["nav"]}. **Point:** {s["cue"]}\n\n**Say:**\n\n'+'\n\n'.join(s['speech'])+'\n\n'
+    guide+=f'### {s["range"]} · {s["nav"]}\n\n**Click:** {s["nav"]}. **Point:** {s["cue"]}\n\n**Say exactly:**\n\n'+'\n\n'.join(s['speech'])+'\n\n'
 guide+="""## Final recording check
 
 - Read both opening disclosures. Keep your face visible throughout.
@@ -120,4 +124,4 @@ The dashboard is generated from saved results by build_video1.py. Rerunning it c
 """
 (ROOT/'docs/video-1-recording-guide.md').write_text(guide,encoding='utf-8')
 print(NOTICE)
-print(f"Built six-screen dashboard and matching guide; {words} spoken words.")
+print(f"Built six-screen dashboard and matching guide and word-for-word script; {words} spoken words.")
